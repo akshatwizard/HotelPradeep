@@ -19,7 +19,7 @@
     "dayjs": "^1.11.13",
     "dotenv": "^16.4.7",
     "jquery": "^3.7.1",
-    "next": "15.1.7",
+    "next": "15.1.11",
     "postcss": "^8.5.3",
     "react": "^19.0.0",
     "react-datepicker": "^8.1.0",
