@@ -1,24 +1,50 @@
-import React from 'react'
-import Album from './album'
+import { photos } from "@/lib/photos";
+import Link from "next/link";
+import { galleries } from "@/lib/content";
+import { PageIntro, Photo } from "@/components/ui";
+import Icon from "@/components/Icon";
 
-export default function page() {
-    return (
-        <>
-            <section className="banner-header valign bg-img bg-fixed" >
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-12 text-center">
-                            {/* <div className="subtitle">Hotel Pradeep</div> */}
-                            <div className="title">Hotel Gallery Album</div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <Album/>
-        </>
-    )
-}
 export const metadata = {
-    title: 'Hotel Pradeep Photo Gallery | Best Hotel in Varanasi',
-    description: 'Explore Hotel Pradeep’s gallery and see our rooms, dining, and facilities. Get a glimpse of the best hotel experience in Varanasi.'
+  title: "Photo Gallery",
+  description:
+    "Explore Hotel Pradeep’s gallery and see our rooms, dining, and facilities. Get a glimpse of the hotel experience in Varanasi.",
+  alternates: { canonical: "/gallery" },
+};
+export default function GalleryPage() {
+  return (
+    <>
+      <PageIntro
+        eyebrow="Gallery"
+        title="A little closer to your next stay."
+        description="Explore Hotel Pradeep, one photograph at a time."
+        image={photos.lobbyWide}
+        imageAlt="Inside Hotel Pradeep"
+      />
+      <section className="section shell gallery-albums">
+        {galleries.map((gallery, index) => (
+          <Link
+            className={`album album-${index}`}
+            href={`/gallery/${gallery.slug}`}
+            key={gallery.slug}
+          >
+            <Photo
+              src={gallery.cover}
+              alt={gallery.title}
+              sizes="(max-width: 650px) 100vw, 50vw"
+            />
+            <div className="album-description">
+              <span className="album-number">
+                0{index + 1} / {gallery.images.length} PHOTOGRAPHS
+              </span>
+              <h2>{gallery.title}</h2>
+              <p>{gallery.description}</p>
+              <span className="round-arrow">
+                <Icon name="diagonal" />
+              </span>
+            </div>
+          </Link>
+        ))}
+      </section>
+    </>
+  );
 }
