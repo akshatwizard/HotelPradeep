@@ -1,3 +1,4 @@
+import { photos } from "@/lib/photos";
 import { facilities, serviceDetails } from "@/lib/content";
 import { Eyebrow, PageIntro, Photo } from "@/components/ui";
 import Icon from "@/components/Icon";
@@ -39,7 +40,7 @@ export default function FacilitiesPage() {
         eyebrow="Facilities"
         title="Every little comfort, taken care of."
         description="The Hotel Pradeep offers elegance and comfort, blending modern luxury with warm hospitality for a truly refined experience."
-        image="/img/banner/home_banner-03.jpg"
+        image={photos.receptionWelcome}
         imageAlt="The reception and guest services at Hotel Pradeep"
       />
       <section className="section shell">
@@ -87,7 +88,7 @@ export default function FacilitiesPage() {
               <article key={service.title}>
                 <Photo
                   src={service.image}
-                  alt={service.title + " at Hotel Pradeep"}
+                  alt={service.imageAlt}
                 />
                 <h3>{service.title}</h3>
                 <p>{service.description}</p>

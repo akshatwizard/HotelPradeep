@@ -1,3 +1,4 @@
+import { photos } from "@/lib/photos";
 import Link from "next/link";
 import { rooms } from "@/lib/content";
 import { BookButton } from "@/components/BookingProvider";
@@ -18,8 +19,8 @@ export default function RoomsPage() {
         eyebrow="Rooms & suites"
         title="Rest well. Wake up in Varanasi."
         description="Well-appointed rooms with modern amenities and the warmth of Banarasi hospitality."
-        image="/img/banner/home_banner-02.jpg"
-        imageAlt="An Executive room at Hotel Pradeep"
+        image={photos.roomCarpetWindows}
+        imageAlt="A guest room at Hotel Pradeep"
       />
       <nav className="room-jump shell" aria-label="Room categories">
         {rooms.map((room) => (

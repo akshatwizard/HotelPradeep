@@ -1,3 +1,4 @@
+import { photos } from "@/lib/photos";
 import Link from "next/link";
 import { facilities, galleries, introParagraphs, rooms } from "@/lib/content";
 import { BookButton } from "@/components/BookingProvider";
@@ -47,8 +48,8 @@ export default function Home() {
         </div>
         <div className="hero-visual">
           <Photo
-            src="/img/banner/home_banner-02.jpg"
-            alt="Sunlight through the arched windows of a room at Hotel Pradeep"
+            src={photos.facadeDusk}
+            alt="The illuminated facade of Hotel Pradeep at dusk"
             priority
             sizes="(max-width: 800px) 100vw, 60vw"
           />
@@ -65,12 +66,12 @@ export default function Home() {
       <section className="section shell intro-section">
         <div className="intro-photos">
           <Photo
-            src="/img/about/about-banner-03.jpg"
+            src={photos.facadeDaylight}
             alt="The exterior of Hotel Pradeep in Jagatganj"
             className="intro-photo-main"
           />
           <Photo
-            src="/img/about/abt-02.jpg"
+            src={photos.diningTables}
             alt="Dining at Hotel Pradeep"
             className="intro-photo-small"
           />
@@ -115,8 +116,8 @@ export default function Home() {
             </div>
           </div>
           <div className="room-card-grid">
-            {rooms.map((room, index) => (
-              <RoomCard room={room} index={index} key={room.id} />
+            {rooms.map((room) => (
+              <RoomCard room={room} key={room.id} />
             ))}
           </div>
           <p className="tariff-note">
@@ -141,7 +142,7 @@ export default function Home() {
         <div className="dining-editorial">
           <Link href="/dining#poonam" className="dining-feature">
             <Photo
-              src="/img/gallery/restaurant.jpg"
+              src={photos.diningRoom}
               alt="Poonam Restaurant at Hotel Pradeep"
             />
             <div className="dining-feature-caption">
@@ -154,7 +155,7 @@ export default function Home() {
           </Link>
           <div className="dining-secondary">
             <Photo
-              src="/img/banner/home_banner-old-04.jpg"
+              src={photos.terraceEvening}
               alt="The open-air garden dining setting at Hotel Pradeep"
             />
             <div>
@@ -215,26 +216,29 @@ export default function Home() {
         <div className="experience-grid">
           {[
             {
-              image: "/img/gallery/kashi.jpg",
+              image: photos.citySkyline,
+              imageAlt: "An aerial view of Varanasi and its streets",
               title: "Kashi Vishwanath Temple",
               description:
                 "A sacred shrine dedicated to Lord Shiva, drawing devotees from around the world.",
             },
             {
-              image: "/img/gallery/aarti.jpg",
+              image: photos.gangesRiverfront,
+              imageAlt: "The Ganges riverfront and ghats in Varanasi",
               title: "Ganga Aarti",
               description:
                 "A mesmerizing evening ritual on the banks of the Ganges, filled with divine chants and lights.",
             },
             {
-              image: "/img/gallery/ghat.jpg",
+              image: photos.gangesPanorama,
+              imageAlt: "Panoramic view of the Ganges and Varanasi ghats",
               title: "Ganga Ghats",
               description:
                 "Historic riverfront steps where spirituality, culture, and traditions come alive.",
             },
           ].map((place, index) => (
             <article key={place.title}>
-              <Photo src={place.image} alt={place.title} />
+              <Photo src={place.image} alt={place.imageAlt} />
               <span className="experience-number">0{index + 1}</span>
               <h3>{place.title}</h3>
               <p>{place.description}</p>

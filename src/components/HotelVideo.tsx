@@ -1,6 +1,7 @@
 "use client";
+import { photos } from "@/lib/photos";
 import { useState } from "react";
-import Image from "next/image";
+import ResponsiveImage from "./ResponsiveImage";
 import Icon from "./Icon";
 
 export default function HotelVideo() {
@@ -20,8 +21,8 @@ export default function HotelVideo() {
           aria-label="Play the Hotel Pradeep film"
           onClick={() => setPlaying(true)}
         >
-          <Image
-            src="/img/banner/home_banner-03.jpg"
+          <ResponsiveImage
+            src={photos.lobbyArrival}
             alt="Hotel Pradeep reception"
             fill
             sizes="(max-width: 800px) 100vw, 80vw"

@@ -1,3 +1,4 @@
+import { photos, photoAlbums } from "@/lib/photos";
 import { diningParagraphs } from "@/lib/content";
 import { Eyebrow, PageIntro, Photo } from "@/components/ui";
 import PhotoGallery from "@/components/PhotoGallery";
@@ -16,7 +17,7 @@ export default function DiningPage() {
         eyebrow="Dining"
         title="A taste of Banaras. A table to remember."
         description="Discover Poonam Restaurant and Eden Rooftop Restaurant at Hotel Pradeep."
-        image="/img/gallery/restaurant.jpg"
+        image={photos.diningRoom}
         imageAlt="Dining at Poonam Restaurant"
       />
       <section className="section shell restaurant-detail" id="poonam">
@@ -41,14 +42,14 @@ export default function DiningPage() {
           </div>
         </div>
         <Photo
-          src="/img/about/abt-02.jpg"
+          src={photos.diningTables}
           alt="The interiors of Poonam Restaurant"
         />
       </section>
       <section className="section section-navy" id="eden">
         <div className="shell eden-detail">
           <Photo
-            src="/img/banner/home_banner-old-04.jpg"
+            src={photos.terraceGarden}
             alt="The open-air garden setting at Hotel Pradeep"
           />
           <div>
@@ -77,13 +78,7 @@ export default function DiningPage() {
         </div>
         <PhotoGallery
           title="Restaurant"
-          images={[
-            "/img/restaurant/1.jpg",
-            "/img/restaurant/2.jpg",
-            "/img/restaurant/3.jpg",
-            "/img/restaurant/4.jpg",
-            "/img/restaurant/5.jpg",
-          ]}
+          images={photoAlbums.dining}
         />
       </section>
     </>

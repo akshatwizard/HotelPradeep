@@ -1,3 +1,4 @@
+import { photos } from "@/lib/photos";
 import { aboutOffers, aboutParagraphs, hotel } from "@/lib/content";
 import { BookButton } from "@/components/BookingProvider";
 import { Eyebrow, PageIntro, Photo } from "@/components/ui";
@@ -16,7 +17,7 @@ export default function AboutPage() {
         eyebrow="About us"
         title="A place of light. A warm welcome."
         description="Hotel Pradeep — a comfortable stay in the heart of Varanasi."
-        image="/img/about/about-banner-03.jpg"
+        image={photos.facadeNight}
         imageAlt="The historic-style facade of Hotel Pradeep"
       />
       <section className="section shell about-story">
@@ -32,7 +33,7 @@ export default function AboutPage() {
             <span>Elegantly appointed rooms</span>
           </div>
           <Photo
-            src="/img/about/abt-01.jpg"
+            src={photos.roomArchedWindows}
             alt="Arched windows of Hotel Pradeep"
             className="about-story-photo"
           />
@@ -51,7 +52,7 @@ export default function AboutPage() {
       <section className="section section-tinted">
         <div className="shell about-offers">
           <Photo
-            src="/img/about/abt-02.jpg"
+            src={photos.diningDaylight}
             alt="The hotel's restaurant and gathering space"
           />
           <div>

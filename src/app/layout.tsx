@@ -1,3 +1,4 @@
+import { photos } from "@/lib/photos";
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
 import BookingProvider from "@/components/BookingProvider";
@@ -19,9 +20,9 @@ export const metadata: Metadata = {
     locale: "en_IN",
     images: [
       {
-        url: "/img/banner/home_banner-02.jpg",
-        width: 1200,
-        height: 800,
+        url: photos.facadeStreet,
+        width: 1920,
+        height: 1280,
         alt: "Hotel Pradeep, Varanasi",
       },
     ],

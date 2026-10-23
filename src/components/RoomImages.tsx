@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import Image from "next/image";
+import ResponsiveImage from "./ResponsiveImage";
 import Icon from "./Icon";
 
 export default function RoomImages({
@@ -16,7 +16,7 @@ export default function RoomImages({
   return (
     <div className="room-images">
       <div className="room-feature-photo">
-        <Image
+        <ResponsiveImage
           src={source(images[index])}
           alt={`${title} at Hotel Pradeep, view ${index + 1}`}
           fill
@@ -54,7 +54,7 @@ export default function RoomImages({
             aria-pressed={item === index}
             onClick={() => setIndex(item)}
           >
-            <Image src={source(image)} alt="" fill sizes="120px" />
+            <ResponsiveImage src={source(image)} alt="" fill sizes="120px" />
           </button>
         ))}
       </div>

@@ -1,3 +1,4 @@
+import { photos } from "@/lib/photos";
 import Link from "next/link";
 import { Photo } from "@/components/ui";
 import Icon from "@/components/Icon";
@@ -22,7 +23,7 @@ export default function NotFound() {
           <Icon name="arrow" />
         </Link>
       </div>
-      <Photo src="/img/about/abt-01.jpg" alt="Hotel Pradeep" />
+      <Photo src={photos.facadeDaylight} alt="Hotel Pradeep" />
     </section>
   );
 }

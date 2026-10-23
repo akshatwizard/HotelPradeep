@@ -1,3 +1,4 @@
+import { photos } from "@/lib/photos";
 import { hotel } from "@/lib/content";
 import { PageIntro } from "@/components/ui";
 import EnquiryForm from "@/components/EnquiryForm";
@@ -16,7 +17,7 @@ export default function ContactPage() {
         eyebrow="Contact"
         title="A warm welcome starts with hello."
         description="Get in touch with Hotel Pradeep for your stay, dining, and enquiries."
-        image="/img/about/about-banner-03.jpg"
+        image={photos.entranceEvening}
         imageAlt="Hotel Pradeep in Jagatganj, Varanasi"
       />
       <section className="section shell contact-layout">

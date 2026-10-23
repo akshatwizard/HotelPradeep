@@ -1,4 +1,4 @@
-import Image from "next/image";
+import ResponsiveImage from "./ResponsiveImage";
 import Link from "next/link";
 import type { ReactNode } from "react";
 import Icon from "./Icon";
@@ -18,7 +18,7 @@ export function Photo({
 }) {
   return (
     <div className={`photo ${className}`}>
-      <Image
+      <ResponsiveImage
         src={src.startsWith("/") ? src : `/${src}`}
         alt={alt}
         fill

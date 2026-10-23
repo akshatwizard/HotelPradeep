@@ -1,3 +1,4 @@
+import { roomPhotoAssignments } from "@/lib/photos";
 import { rooms } from "@/lib/content";
 import { BookButton } from "@/components/BookingProvider";
 import { Eyebrow, PageIntro } from "@/components/ui";
@@ -16,8 +17,8 @@ export default function TariffPage() {
         eyebrow="Room tariff"
         title="Your stay, thoughtfully priced."
         description="Affordable luxury in Varanasi with Hotel Pradeep."
-        image="/img/rooms/executive.jpg"
-        imageAlt="An Executive room at Hotel Pradeep"
+        image={roomPhotoAssignments.executive[1]}
+        imageAlt="A guest room at Hotel Pradeep"
       />
       <section className="section shell">
         <div className="section-heading">

@@ -1,3 +1,5 @@
+import { photos, photoAlbums, roomPhotoAssignments } from "./photos";
+
 export const rooms = [
   {
     title: "Deluxe Rooms",
@@ -10,12 +12,7 @@ export const rooms = [
       { icon: "fa-thin fa-wifi", text: "Free WiFi" },
     ],
     price: 4000,
-    image: [
-      "/img/rooms/delux/delux-01.jpg",
-      "/img/rooms/delux/delux-02.jpg",
-      "/img/rooms/delux/delux-03.jpg",
-      "/img/rooms/delux/delux-04.jpg",
-    ],
+    image: roomPhotoAssignments.delux,
     left: true,
     id: "delux",
   },
@@ -30,12 +27,7 @@ export const rooms = [
       { icon: "fa-thin fa-bed-front", text: "Spacious & Stylish Interiors" },
     ],
     price: 5000,
-    image: [
-      "/img/rooms/super/super-01.jpg",
-      "/img/rooms/super/super-02.jpg",
-      "/img/rooms/super/super-03.jpg",
-      "/img/rooms/super/super-04.jpg",
-    ],
+    image: roomPhotoAssignments["super-delux"],
     left: false,
     id: "super-delux",
   },
@@ -50,12 +42,7 @@ export const rooms = [
       { icon: "fa-thin fa-bed-front", text: "Spacious & Stylish Interiors" },
     ],
     price: 6000,
-    image: [
-      "img/rooms/executive/1.jpg",
-      "img/rooms/executive/2.jpg",
-      "img/rooms/executive/3.jpg",
-      "img/rooms/executive/4.jpg",
-    ],
+    image: roomPhotoAssignments.executive,
     left: true,
     id: "executive",
   },
@@ -205,93 +192,42 @@ export const galleries = [
   {
     slug: "front-view-gallery",
     title: "Front View",
-    cover: "/img/gallery/front-view/5.jpg",
+    cover: photos.facadeDusk,
     description:
       "Experience the grand entrance and stunning architecture that welcomes you to our hotel.",
-    images: [
-      "/img/gallery/front-view/1.jpg",
-      "/img/gallery/front-view/3.jpg",
-      "/img/gallery/front-view/5.jpg",
-      "/img/gallery/front-view/6.jpg",
-    ],
+    images: photoAlbums.front,
   },
   {
     slug: "resturant-gallery",
     title: "Restaurant",
-    cover: "/img/gallery/resturant/1.jpg",
+    cover: photos.diningRoom,
     description:
       "Indulge in a delightful dining experience with exquisite cuisine and a cozy ambiance.",
-    images: [
-      "/img/gallery/resturant/1.jpg",
-      "/img/gallery/resturant/2.jpg",
-      "/img/gallery/resturant/3.jpg",
-      "/img/gallery/resturant/4.jpg",
-      "/img/gallery/resturant/5.jpg",
-      "/img/gallery/resturant/6.jpg",
-      "/img/gallery/resturant/7.jpg",
-      "/img/gallery/resturant/8.jpg",
-      "/img/gallery/resturant/9.jpg",
-      "/img/gallery/resturant/10.jpg",
-    ],
+    images: photoAlbums.dining,
   },
   {
     slug: "reception-gallery",
     title: "Reception & Common Area",
-    cover: "/img/gallery/reception/1.jpg",
+    cover: photos.receptionDesk,
     description:
       "A warm and inviting reception area designed to provide a seamless check-in experience.",
-    images: [
-      "/img/gallery/reception/1.jpg",
-      "/img/gallery/reception/2.jpg",
-      "/img/gallery/reception/5.jpg",
-      "/img/gallery/reception/8.jpg",
-      "/img/gallery/reception/9.jpg",
-      "/img/gallery/reception/10.jpg",
-      "/img/gallery/reception/12.jpg",
-      "/img/gallery/reception/14.jpg",
-      "/img/gallery/reception/15.jpg",
-    ],
+    images: photoAlbums.reception,
   },
   {
     slug: "rooms-gallery",
     title: "Rooms",
-    cover: "/img/gallery/rooms/1.jpg",
+    cover: photos.roomCarpetWide,
     description:
       "Enjoy luxurious and comfortable rooms with modern amenities for a relaxing stay.",
-    images: [
-      "/img/gallery/rooms/1.jpg",
-      "/img/gallery/rooms/2.jpg",
-      "/img/gallery/rooms/3.jpg",
-      "/img/gallery/rooms/4.jpg",
-      "/img/gallery/rooms/5.jpg",
-      "/img/gallery/rooms/6.jpg",
-      "/img/gallery/rooms/7.jpg",
-      "/img/gallery/rooms/9.jpg",
-      "/img/gallery/rooms/10.jpg",
-      "/img/gallery/rooms/11.jpg",
-      "/img/gallery/rooms/12.jpg",
-      "/img/gallery/rooms/13.jpg",
-      "/img/gallery/rooms/14.jpg",
-      "/img/gallery/rooms/15.jpg",
-      "/img/gallery/rooms/16.jpg",
-    ],
+    images: photoAlbums.rooms,
   },
   {
     slug: "parking-gallery",
     title: "Parking",
-    cover: "/img/gallery/parking/1.jpg",
+    cover: photos.courtyardWide,
     description:
       "Secure and spacious parking available for the convenience of our guests.",
-    images: [
-      "/img/gallery/parking/1.jpg",
-      "/img/gallery/parking/2.jpg",
-      "/img/gallery/parking/3.jpg",
-      "/img/gallery/parking/4.jpg",
-      "/img/gallery/parking/5.jpg",
-      "/img/gallery/parking/6.jpg",
-      "/img/gallery/parking/7.jpg",
-      "/img/gallery/parking/8.jpg",
-    ],
+    images: photoAlbums.parking,
   },
 ];
 
@@ -337,21 +273,24 @@ export const navigation = [
 export const serviceDetails = [
   {
     title: "Bar",
-    image: "/img/gallery/bar.jpg",
+    image: photos.barLounge,
+    imageAlt: "The bar and lounge at Hotel Pradeep",
     description:
       "Relax and enjoy a refreshing drink at our Bar. We offer a selection of soft drinks, fine spirits, and tasty snacks in a cozy and comfortable setting. Whether you want to unwind after a long day or have a quick bite, our Bar is the perfect place to sit back and enjoy.",
     hours: "Opening Hours: 5.00 pm – 11.00 pm (daily)",
   },
   {
     title: "Parking Facility",
-    image: "/img/gallery/parking.jpg",
+    image: photos.courtyardWide,
+    imageAlt: "The courtyard and grounds in the hotel parking album",
     description:
       "Spacious and secure parking is available for guests. Park your vehicle with ease and enjoy a stress-free stay.",
     hours: "Availability: 24/7",
   },
   {
     title: "In House Laundry",
-    image: "/img/gallery/laundry.jpg",
+    image: photos.roomKingBed,
+    imageAlt: "Freshly prepared bed linen in a Hotel Pradeep guest room",
     description:
       "Quick and convenient laundry service for fresh and clean clothes. Enjoy a comfortable stay without any worries.",
     hours: "Service Hours: 7.00 am – 8.00 pm (daily)",

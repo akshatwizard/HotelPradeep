@@ -5,21 +5,14 @@ import Icon from "./Icon";
 
 export default function RoomCard({
   room,
-  index,
 }: {
   room: (typeof rooms)[number];
-  index: number;
 }) {
-  const covers = [
-    "/img/rooms/delux.jpg",
-    "/img/rooms/super-delux.jpg",
-    "/img/rooms/executive.jpg",
-  ];
   return (
     <article className="room-card">
       <Link href={`/rooms#${room.id}`} className="room-card-image">
         <Photo
-          src={covers[index]}
+          src={room.image[0]}
           alt={room.title}
           sizes="(max-width: 650px) 100vw, (max-width: 1000px) 50vw, 33vw"
         />

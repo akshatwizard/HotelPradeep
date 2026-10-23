@@ -1,6 +1,6 @@
 # Hotel Pradeep
 
-A complete Next.js App Router and Tailwind CSS redesign of hotelpradeep.com. The original hotel identity, photographs, room prices, amenities, contact details, restaurant descriptions, reviews, and integrations are retained.
+A complete Next.js App Router and Tailwind CSS redesign of hotelpradeep.com. The original hotel identity, room prices, amenities, contact details, restaurant descriptions, reviews, and integrations are retained. Website photographs now come from the owner's October 2026 photo archive.
 
 ## Development
 
@@ -45,7 +45,19 @@ The `/restaurant` URL redirects permanently to `/dining`. A custom 404, sitemap,
 
 ## Content and assets
 
-`src/lib/content.ts` holds shared room, amenity, gallery, review, restaurant, and contact content. All original assets remain under `public/`. New pages use `next/image`; legacy Bootstrap and jQuery assets are retained on disk but are not loaded by the redesign.
+`src/lib/content.ts` holds shared room, amenity, gallery, review, restaurant, and contact content. `src/lib/photos.ts` assigns the owner-supplied photographs to rooms and albums. The 57 selected photographs have 57 separate mobile crops under `public/images/hotel/`; branding, associate logos, and icons are unchanged. Legacy assets remain on disk but the redesigned pages no longer display the old photographs or load Bootstrap and jQuery.
+
+`ResponsiveImage` uses a native `<picture>` source below 768px, with Next.js image optimization for both sources. Mobile users receive a dedicated crop of the same photograph, rather than downloading a desktop photo hidden with CSS. Gallery lightboxes retain the complete original composition when enlarged. Hero photos load eagerly with high fetch priority; other photos load lazily.
+
+Room category assignments are **provisional**, as requested, pending identification with the client. Update the three lists in `roomPhotoAssignments` in `src/lib/photos.ts`; room cards and carousels use those same lists. `scripts/hotel-photo-plan.json` records original archive filenames, contact-sheet photo IDs, and mobile crop focal points. Category assignment does not imply the client has verified the photographed room type.
+
+To regenerate the assets after changing a crop, install Pillow locally and run:
+
+```bash
+python scripts/prepare-hotel-photos.py /path/to/HotelPradeep_webp.zip
+```
+
+The archive is not committed. The generator produces optimized WebP photographs and `src/lib/photo-sources.ts`. This step is not required during deployment. The source archive has no laundry-service photograph or exact temple/Aarti shots; fresh guest-room linen illustrates laundry service, and supplied city/river views accompany the Varanasi descriptions with accurate alternative text.
 
 The shared booking provider mounts an accessible native dialog across every page. Gallery lightboxes support Escape and arrow keys. Room galleries, guest reviews, mobile navigation, and the on-demand YouTube player use React. Forms retain no personal information in browser storage.
 

@@ -1,3 +1,4 @@
+import { photos } from "@/lib/photos";
 import Link from "next/link";
 import { galleries } from "@/lib/content";
 import { PageIntro, Photo } from "@/components/ui";
@@ -16,7 +17,7 @@ export default function GalleryPage() {
         eyebrow="Gallery"
         title="A little closer to your next stay."
         description="Explore Hotel Pradeep, one photograph at a time."
-        image="/img/gallery/reception/1.jpg"
+        image={photos.lobbyWide}
         imageAlt="Inside Hotel Pradeep"
       />
       <section className="section shell gallery-albums">

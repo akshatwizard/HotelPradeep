@@ -1,5 +1,5 @@
 "use client";
-import Image from "next/image";
+import ResponsiveImage from "./ResponsiveImage";
 import { useState, useRef, useEffect } from "react";
 import Icon from "./Icon";
 
@@ -42,7 +42,7 @@ export default function PhotoGallery({
             aria-label={`View ${title} photo ${index + 1}`}
             onClick={() => setSelected(index)}
           >
-            <Image
+            <ResponsiveImage
               src={src.startsWith("/") ? src : `/${src}`}
               alt={`${title} at Hotel Pradeep, photograph ${index + 1}`}
               fill
@@ -98,7 +98,7 @@ export default function PhotoGallery({
               <Icon name="chevron" className="rotate-180" />
             </button>
             <div className="lightbox-image">
-              <Image
+              <ResponsiveImage
                 src={
                   images[selected].startsWith("/")
                     ? images[selected]
@@ -107,6 +107,7 @@ export default function PhotoGallery({
                 alt={`${title} at Hotel Pradeep, photograph ${selected + 1}`}
                 fill
                 sizes="90vw"
+                cropOnMobile={false}
                 className="object-contain"
               />
             </div>
