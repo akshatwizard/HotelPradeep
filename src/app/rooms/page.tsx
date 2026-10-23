@@ -1,25 +1,87 @@
-import React from 'react'
-import Rooms from './rooms'
-
-export default function page() {
-    return (
-        <>
-            <section className="banner-header valign bg-img bg-fixed">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-md-12 text-center">
-                            {/* <div className="subtitle">Hotel Pradeep</div> */}
-                            <div className="title">Rooms & Suites</div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-           <Rooms/>
-        </>
-    )
-}
+import Link from "next/link";
+import { rooms } from "@/lib/content";
+import { BookButton } from "@/components/BookingProvider";
+import RoomImages from "@/components/RoomImages";
+import Icon from "@/components/Icon";
+import { Eyebrow, PageIntro } from "@/components/ui";
 
 export const metadata = {
-    title: 'Rooms at Hotel Pradeep | Luxury & Comfort in Varanasi',
-    description: 'Hotel Pradeep offers comfortable rooms in Varanasi. Enjoy a relaxing stay with good service and modern facilities. Perfect for all travelers!'
+  title: "Rooms & Suites",
+  description:
+    "Hotel Pradeep offers comfortable rooms in Varanasi. Enjoy a relaxing stay with good service and modern facilities. Perfect for all travelers!",
+  alternates: { canonical: "/rooms" },
+};
+export default function RoomsPage() {
+  return (
+    <>
+      <PageIntro
+        eyebrow="Rooms & suites"
+        title="Rest well. Wake up in Varanasi."
+        description="Well-appointed rooms with modern amenities and the warmth of Banarasi hospitality."
+        image="/img/banner/home_banner-02.jpg"
+        imageAlt="An Executive room at Hotel Pradeep"
+      />
+      <nav className="room-jump shell" aria-label="Room categories">
+        {rooms.map((room) => (
+          <a key={room.id} href={`#${room.id}`}>
+            {room.title}
+            <Icon name="diagonal" />
+          </a>
+        ))}
+        <Link href="/tariff">
+          View room tariff
+          <Icon name="arrow" />
+        </Link>
+      </nav>
+      <div className="shell room-detail-list">
+        {rooms.map((room, index) => (
+          <section
+            id={room.id}
+            className={`room-detail ${index % 2 ? "reverse" : ""}`}
+            key={room.id}
+          >
+            <RoomImages title={room.title} images={room.image} />
+            <div className="room-detail-copy">
+              <Eyebrow>0{index + 1} / Rooms &amp; suites</Eyebrow>
+              <h2>{room.title}</h2>
+              <p>{room.description}</p>
+              <ul className="room-amenities">
+                {room.features.map((feature, i) => (
+                  <li key={feature.text}>
+                    <Icon
+                      name={
+                        i === 0
+                          ? "people"
+                          : i === 1
+                            ? "clock"
+                            : feature.text.includes("WiFi")
+                              ? "wifi"
+                              : "bed"
+                      }
+                    />
+                    {feature.text}
+                  </li>
+                ))}
+              </ul>
+              <div className="room-rate">
+                <span>
+                  ₹{room.price.toLocaleString("en-IN")}
+                  <small> / night</small>
+                </span>
+                <Link href="/tariff">
+                  Tariff details
+                  <Icon name="diagonal" width="14" height="14" />
+                </Link>
+              </div>
+              <BookButton
+                roomType={["Delux", "Super Delux", "Executives"][index]}
+              >
+                Enquire about this room
+              </BookButton>
+            </div>
+          </section>
+        ))}
+      </div>
+    </>
+  );
 }

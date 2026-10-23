@@ -1,8 +1,9 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  eslint: {
-    ignoreDuringBuilds: true,
+  poweredByHeader: false,
+  async redirects() {
+    return [{ source: "/restaurant", destination: "/dining", permanent: true }];
   },
 };
 
