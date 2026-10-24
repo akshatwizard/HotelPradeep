@@ -95,4 +95,4 @@ All eight destinations have a statically generated `/varanasi/[slug]` page, link
 
 Review visitor facts and the `guideReviewed` date before updating schedules. The Sarnath museum timetable is visibly provisional because a current ASI timetable could not be confirmed. Namo Ghat has no asserted fixed opening window. Temple and tourism links are provided on each page for current access rules; opening hours are separate from ceremony times.
 
-The header and mobile navigation use self-hosted Manrope under the included SIL Open Font License in `public/fonts/manrope/`. The original hotel wordmark retains its serif type. Homepage location cards link directly to their guides and use the existing dedicated mobile destination crops.
+The header and mobile navigation use self-hosted Marcellus under the included SIL Open Font License in `public/fonts/marcellus/`. The original hotel wordmark retains its serif type. Homepage location cards link directly to their guides and use the existing dedicated mobile destination crops.
