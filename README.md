@@ -1,6 +1,6 @@
 # Hotel Pradeep
 
-A complete Next.js App Router and Tailwind CSS redesign of hotelpradeep.com. The original hotel identity, room prices, amenities, contact details, restaurant descriptions, reviews, and integrations are retained. Website photographs now come from the owner's October 2026 photo archive.
+A complete Next.js App Router and Tailwind CSS redesign of hotelpradeep.com. The original hotel identity, room prices, amenities, contact details, restaurant descriptions, reviews, and integrations are retained. Hotel photographs come from the owner's October 2026 photo archive; the Varanasi guide adds credited, licensed destination photography.
 
 ## Development
 
@@ -40,6 +40,7 @@ Tests cover date handling, booking validation, input bounds, escaped email conte
 - `/gallery/parking-gallery`
 - `/tariff`
 - `/contact`
+- `/varanasi` (eight destinations with photographs, visitor information, map links, and photo credits)
 
 The `/restaurant` URL redirects permanently to `/dining`. A custom 404, sitemap, and robots file are included.
 
@@ -81,3 +82,9 @@ The original Google Analytics property, Tawk.to widget, YouTube film, Google Map
 ## Review
 
 Internal browser checks covered desktop, mobile, and tablet layouts. All 13 content pages were visited. The 375px mobile and 768px tablet frames were checked for horizontal overflow. Booking on the Facilities page, the mobile menu, room selection, photo carousels, and gallery viewer navigation were exercised. Live email delivery still requires configuration and an intentional delivery check.
+
+## Header, hero, and Varanasi guide
+
+The header uses 16px desktop navigation and a larger logo, with mobile navigation below 1100px to avoid crowding. The homepage hero has three slides: the hotel facade, Varanasi ghats, and the hotel drone view. Previous/next buttons, direct slide selection, play/pause, keyboard arrows, reduced-motion preferences, hover/focus pausing, and page visibility are supported.
+
+`src/lib/varanasi.ts` holds eight destination introductions and visit tips. Licensed photographs and dedicated mobile crops are in `public/images/varanasi/`. The page includes visible photo credits and license links, and `scripts/varanasi-photo-plan.json` records sources and crop focal points. To regenerate these assets locally, run `python scripts/prepare-varanasi-photos.py` with Pillow installed. Deployment uses the committed WebP files and makes no external image downloads.

@@ -1,3 +1,4 @@
+import HeroCarousel from "@/components/HeroCarousel";
 import { photos } from "@/lib/photos";
 import Link from "next/link";
 import { facilities, galleries, introParagraphs, rooms } from "@/lib/content";
@@ -46,18 +47,7 @@ export default function Home() {
             </span>
           </div>
         </div>
-        <div className="hero-visual">
-          <Photo
-            src={photos.facadeDusk}
-            alt="The illuminated facade of Hotel Pradeep at dusk"
-            priority
-            sizes="(max-width: 800px) 100vw, 60vw"
-          />
-          <span className="hero-photo-caption">
-            YOUR ADDRESS IN THE HEART OF VARANASI
-          </span>
-          <span className="hero-photo-index">01 — HOTEL PRADEEP</span>
-        </div>
+        <HeroCarousel />
         <div className="hero-side-label" aria-hidden="true">
           STAY · DINE · DISCOVER
         </div>
@@ -245,6 +235,7 @@ export default function Home() {
             </article>
           ))}
         </div>
+        <div className="city-guide-link"><TextLink href="/varanasi">Explore our Varanasi guide</TextLink></div>
         <p className="city-description">
           Varanasi, one of the oldest continuously inhabited cities in the
           world, is a spiritual and cultural hub nestled along the banks of the

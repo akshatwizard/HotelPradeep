@@ -1,5 +1,6 @@
 import Image, { getImageProps, type ImageProps } from "next/image";
 import { mobilePhotoSources } from "@/lib/photo-sources";
+import { varanasiMobileSources } from "@/lib/varanasi-photo-sources";
 
 type ResponsiveImageProps = ImageProps & { cropOnMobile?: boolean };
 
@@ -13,7 +14,7 @@ export default function ResponsiveImage({
 }: ResponsiveImageProps) {
   const source = typeof src === "string" && !src.startsWith("/") ? `/${src}` : src;
   const mobile = typeof source === "string" && cropOnMobile
-    ? mobilePhotoSources[source]
+    ? mobilePhotoSources[source] || varanasiMobileSources[source]
     : undefined;
   const mobileProps = mobile
     ? getImageProps({ ...props, src: mobile, alt }).props

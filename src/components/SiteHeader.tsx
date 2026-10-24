@@ -39,8 +39,8 @@ export default function SiteHeader() {
         <Link href="/" className="brand" aria-label="Hotel Pradeep home">
           <Image
             src="/img/logo/logo_trans.png"
-            width={58}
-            height={58}
+            width={76}
+            height={84}
             alt=""
             priority
           />
