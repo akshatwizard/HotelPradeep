@@ -206,36 +206,41 @@ export default function Home() {
         <div className="experience-grid">
           {[
             {
-              image: photos.citySkyline,
-              imageAlt: "An aerial view of Varanasi and its streets",
+              image: "/images/varanasi/kashi-vishwanath.webp",
+              imageAlt: "Ganga Dwar entrance to Kashi Vishwanath Dham",
+              href: "/varanasi/kashi-vishwanath",
               title: "Kashi Vishwanath Temple",
               description:
                 "A sacred shrine dedicated to Lord Shiva, drawing devotees from around the world.",
             },
             {
-              image: photos.gangesRiverfront,
-              imageAlt: "The Ganges riverfront and ghats in Varanasi",
-              title: "Ganga Aarti",
+              image: "/images/varanasi/assi.webp",
+              imageAlt: "Priests performing morning aarti at Assi Ghat",
+              title: "Assi Ghat & Morning Aarti",
+              href: "/varanasi/assi",
               description:
-                "A mesmerizing evening ritual on the banks of the Ganges, filled with divine chants and lights.",
+                "Welcome the day beside the Ganges, with morning prayers and the gentle rhythm of Assi Ghat.",
             },
             {
-              image: photos.gangesPanorama,
-              imageAlt: "Panoramic view of the Ganges and Varanasi ghats",
-              title: "Ganga Ghats",
+              image: "/images/varanasi/dashashwamedh.webp",
+              imageAlt: "The riverfront steps and boats at Dashashwamedh Ghat",
+              title: "Dashashwamedh Ghat",
+              href: "/varanasi/dashashwamedh",
               description:
                 "Historic riverfront steps where spirituality, culture, and traditions come alive.",
             },
           ].map((place, index) => (
             <article key={place.title}>
-              <Photo src={place.image} alt={place.imageAlt} />
+              <Link href={place.href} aria-label={`Explore ${place.title}`}><Photo src={place.image} alt={place.imageAlt} /></Link>
               <span className="experience-number">0{index + 1}</span>
-              <h3>{place.title}</h3>
+              <h3><Link href={place.href}>{place.title}</Link></h3>
               <p>{place.description}</p>
+              <TextLink href={place.href}>Plan your visit</TextLink>
             </article>
           ))}
         </div>
         <div className="city-guide-link"><TextLink href="/varanasi">Explore our Varanasi guide</TextLink></div>
+        <p className="experience-credit">Destination photographs: Ashvin Kaitabhya / Abhishek Pandey and Sulagna Halder (CC BY-SA 4.0); Titodutta (CC0). Resized and cropped. <Link href="/varanasi#photo-credits">Sources &amp; licences</Link>.</p>
         <p className="city-description">
           Varanasi, one of the oldest continuously inhabited cities in the
           world, is a spiritual and cultural hub nestled along the banks of the
