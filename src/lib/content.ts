@@ -267,6 +267,7 @@ export const navigation = [
   { label: "Dining", href: "/dining" },
   { label: "Facilities", href: "/facilities" },
   { label: "Gallery", href: "/gallery" },
+  { label: "Varanasi", href: "/varanasi" },
   { label: "Contact", href: "/contact" },
 ];
 
