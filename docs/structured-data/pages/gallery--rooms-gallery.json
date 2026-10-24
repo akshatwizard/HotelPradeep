@@ -1,0 +1,497 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Hotel",
+      "@id": "https://hotelpradeep.com/#hotel",
+      "name": "Hotel Pradeep",
+      "url": "https://hotelpradeep.com/",
+      "description": "Hotel Pradeep in Jagatganj, Varanasi offers guest rooms, Poonam Restaurant, Eden Rooftop Restaurant and hotel facilities for leisure and business travellers.",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://hotelpradeep.com/#logo",
+        "contentUrl": "https://hotelpradeep.com/img/logo/logo_trans.png",
+        "url": "https://hotelpradeep.com/img/logo/logo_trans.png"
+      },
+      "image": [
+        "https://hotelpradeep.com/images/hotel/facade-dusk.webp",
+        "https://hotelpradeep.com/images/hotel/facade-daylight.webp",
+        "https://hotelpradeep.com/images/hotel/lobby-wide.webp"
+      ],
+      "telephone": "+917408423503",
+      "email": "info@hotelpradeep.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jagatganj",
+        "addressLocality": "Varanasi",
+        "addressRegion": "Uttar Pradesh",
+        "postalCode": "221002",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 25.3252605,
+        "longitude": 82.9996762
+      },
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=Hotel+Pradeep+Jagatganj+Varanasi",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "General enquiries",
+          "telephone": "+917408423503",
+          "email": "info@hotelpradeep.com"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "Reservations",
+          "telephone": "+917408423504",
+          "email": "reservation@hotelpradeep.com"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "Hotel reception",
+          "telephone": "+915422204963"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "Hotel reception",
+          "telephone": "+915422207231"
+        }
+      ],
+      "numberOfRooms": 36,
+      "currenciesAccepted": "INR",
+      "checkoutTime": "12:00:00+05:30",
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "24-Hour Room Service",
+          "value": true,
+          "description": "Enjoy round-the-clock in-room dining."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Refrigerator",
+          "value": true,
+          "description": "Keep your drinks and snacks chilled anytime."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "WiFi",
+          "value": true,
+          "description": "Stay connected with high-speed internet access."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Bar",
+          "value": true,
+          "description": "Relax with a drink at our in-house bar."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Lift",
+          "value": true,
+          "description": "Easy access to all floors with our elevator service."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Multi cuisine Restaurant",
+          "value": true,
+          "description": "Enjoy delicious vegetarian meals at our restaurant."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Air Conditioning",
+          "value": true,
+          "description": "Stay cool and comfortable with air-conditioned rooms."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Telephone",
+          "value": true,
+          "description": "Stay connected with in-room calling service."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Email and Xerox facilities",
+          "value": true,
+          "description": "Convenient document copying and fax services."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Laundry Service",
+          "value": true,
+          "description": "Quick and professional garment cleaning service."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Doctor on Call",
+          "value": true,
+          "description": "Medical assistance available anytime for emergencies."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Parking Facilities",
+          "value": true,
+          "description": "Secure parking for your vehicle."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Travel Desk",
+          "value": true,
+          "description": "Expert assistance with local travel arrangements and bookings."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Safe Deposit Locker",
+          "value": true,
+          "description": "Every room has a secure storage facility for your valuables."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Attached Bathrooms",
+          "value": true,
+          "description": "Private and convenient for every room."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Hot & Cold Running Water",
+          "value": true,
+          "description": "Available round the clock for your comfort."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Conference Facilities",
+          "value": true,
+          "description": "Ideal for meetings and events."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Soundproof Hotel",
+          "value": true,
+          "description": "Enjoy a peaceful stay in the heart of Varanasi."
+        }
+      ],
+      "subjectOf": [
+        {
+          "@id": "https://hotelpradeep.com/about#webpage"
+        },
+        {
+          "@id": "https://hotelpradeep.com/contact#webpage"
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://hotelpradeep.com/#website",
+      "url": "https://hotelpradeep.com/",
+      "name": "Hotel Pradeep",
+      "inLanguage": "en-IN",
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageGallery",
+      "@id": "https://hotelpradeep.com/gallery/rooms-gallery#webpage",
+      "url": "https://hotelpradeep.com/gallery/rooms-gallery",
+      "name": "Rooms Gallery",
+      "description": "Enjoy luxurious and comfortable rooms with modern amenities for a relaxing stay.",
+      "inLanguage": "en-IN",
+      "isPartOf": {
+        "@id": "https://hotelpradeep.com/#website"
+      },
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://hotelpradeep.com/gallery/rooms-gallery#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://hotelpradeep.com/gallery/rooms-gallery#breadcrumb"
+      },
+      "image": [
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/room-carpet-wide.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/room-carpet-windows.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/room-carpet-bed.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/room-carpet-seating.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/bathroom-modern.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/bathroom-vanity.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/room-king-wide.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/room-king-bed.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/room-king-desk.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/bathroom-pattern.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/room-arched-wide.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/room-arched-bed.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/room-arched-windows.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/room-arched-desk.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/room-twin-wide.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/room-twin-beds.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/bathroom-classic.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/room-classic-wide.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/room-classic-bed.webp#image"
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://hotelpradeep.com/gallery/rooms-gallery#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://hotelpradeep.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Gallery",
+          "item": "https://hotelpradeep.com/gallery"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Rooms",
+          "item": "https://hotelpradeep.com/gallery/rooms-gallery"
+        }
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/gallery/rooms-gallery#primaryimage",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/room-carpet-wide.webp",
+      "url": "https://hotelpradeep.com/images/hotel/room-carpet-wide.webp",
+      "caption": "Rooms Gallery"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/room-carpet-wide.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/room-carpet-wide.webp",
+      "url": "https://hotelpradeep.com/images/hotel/room-carpet-wide.webp",
+      "name": "Rooms photograph 1",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/room-carpet-windows.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/room-carpet-windows.webp",
+      "url": "https://hotelpradeep.com/images/hotel/room-carpet-windows.webp",
+      "name": "Rooms photograph 2",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/room-carpet-bed.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/room-carpet-bed.webp",
+      "url": "https://hotelpradeep.com/images/hotel/room-carpet-bed.webp",
+      "name": "Rooms photograph 3",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/room-carpet-seating.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/room-carpet-seating.webp",
+      "url": "https://hotelpradeep.com/images/hotel/room-carpet-seating.webp",
+      "name": "Rooms photograph 4",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/bathroom-modern.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/bathroom-modern.webp",
+      "url": "https://hotelpradeep.com/images/hotel/bathroom-modern.webp",
+      "name": "Rooms photograph 5",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/bathroom-vanity.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/bathroom-vanity.webp",
+      "url": "https://hotelpradeep.com/images/hotel/bathroom-vanity.webp",
+      "name": "Rooms photograph 6",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/room-king-wide.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/room-king-wide.webp",
+      "url": "https://hotelpradeep.com/images/hotel/room-king-wide.webp",
+      "name": "Rooms photograph 7",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/room-king-bed.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/room-king-bed.webp",
+      "url": "https://hotelpradeep.com/images/hotel/room-king-bed.webp",
+      "name": "Rooms photograph 8",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/room-king-desk.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/room-king-desk.webp",
+      "url": "https://hotelpradeep.com/images/hotel/room-king-desk.webp",
+      "name": "Rooms photograph 9",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/bathroom-pattern.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/bathroom-pattern.webp",
+      "url": "https://hotelpradeep.com/images/hotel/bathroom-pattern.webp",
+      "name": "Rooms photograph 10",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/room-arched-wide.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/room-arched-wide.webp",
+      "url": "https://hotelpradeep.com/images/hotel/room-arched-wide.webp",
+      "name": "Rooms photograph 11",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/room-arched-bed.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/room-arched-bed.webp",
+      "url": "https://hotelpradeep.com/images/hotel/room-arched-bed.webp",
+      "name": "Rooms photograph 12",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/room-arched-windows.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/room-arched-windows.webp",
+      "url": "https://hotelpradeep.com/images/hotel/room-arched-windows.webp",
+      "name": "Rooms photograph 13",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/room-arched-desk.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/room-arched-desk.webp",
+      "url": "https://hotelpradeep.com/images/hotel/room-arched-desk.webp",
+      "name": "Rooms photograph 14",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/room-twin-wide.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/room-twin-wide.webp",
+      "url": "https://hotelpradeep.com/images/hotel/room-twin-wide.webp",
+      "name": "Rooms photograph 15",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/room-twin-beds.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/room-twin-beds.webp",
+      "url": "https://hotelpradeep.com/images/hotel/room-twin-beds.webp",
+      "name": "Rooms photograph 16",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/bathroom-classic.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/bathroom-classic.webp",
+      "url": "https://hotelpradeep.com/images/hotel/bathroom-classic.webp",
+      "name": "Rooms photograph 17",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/room-classic-wide.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/room-classic-wide.webp",
+      "url": "https://hotelpradeep.com/images/hotel/room-classic-wide.webp",
+      "name": "Rooms photograph 18",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/room-classic-bed.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/room-classic-bed.webp",
+      "url": "https://hotelpradeep.com/images/hotel/room-classic-bed.webp",
+      "name": "Rooms photograph 19",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    }
+  ]
+}

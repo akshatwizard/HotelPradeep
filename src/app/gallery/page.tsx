@@ -1,3 +1,4 @@
+import { PageStructuredData } from "@/components/StructuredData";
 import { photos } from "@/lib/photos";
 import Link from "next/link";
 import { galleries } from "@/lib/content";
@@ -13,6 +14,7 @@ export const metadata = {
 export default function GalleryPage() {
   return (
     <>
+      <PageStructuredData path="/gallery" />
       <PageIntro
         eyebrow="Gallery"
         title="A little closer to your next stay."

@@ -1,3 +1,4 @@
+import { PageStructuredData } from "@/components/StructuredData";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { notFound } from "next/navigation";
@@ -29,6 +30,7 @@ export default async function DestinationPage({ params }: Props) {
   const credit = photoCredits.find((item) => item.id === slug);
   const nearby = destinations.filter((item) => guide.nearby.includes(item.id));
   return <>
+    <PageStructuredData path={`/varanasi/${slug}`} />
     <section className="destination-hero">
       <div className="destination-hero-copy">
         <nav className="breadcrumb" aria-label="Breadcrumb"><Link href="/">Home</Link><span>/</span><Link href="/varanasi">Varanasi</Link><span>/</span><span aria-current="page">{place.name}</span></nav>

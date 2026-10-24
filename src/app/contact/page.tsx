@@ -1,3 +1,4 @@
+import { PageStructuredData } from "@/components/StructuredData";
 import { photos } from "@/lib/photos";
 import { hotel } from "@/lib/content";
 import { PageIntro } from "@/components/ui";
@@ -13,6 +14,7 @@ export const metadata = {
 export default function ContactPage() {
   return (
     <>
+      <PageStructuredData path="/contact" />
       <PageIntro
         eyebrow="Contact"
         title="A warm welcome starts with hello."

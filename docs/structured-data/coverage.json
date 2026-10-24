@@ -1,0 +1,307 @@
+{
+  "pages": 22,
+  "entities": 151,
+  "coverage": [
+    {
+      "path": "/",
+      "file": "pages/home.json",
+      "nodes": 4,
+      "types": [
+        "Hotel",
+        "WebSite",
+        "WebPage",
+        "ImageObject"
+      ]
+    },
+    {
+      "path": "/about",
+      "file": "pages/about.json",
+      "nodes": 5,
+      "types": [
+        "Hotel",
+        "WebSite",
+        "AboutPage",
+        "BreadcrumbList",
+        "ImageObject"
+      ]
+    },
+    {
+      "path": "/rooms",
+      "file": "pages/rooms.json",
+      "nodes": 12,
+      "types": [
+        "Hotel",
+        "WebSite",
+        "CollectionPage",
+        "BreadcrumbList",
+        "ImageObject",
+        "ItemList",
+        "HotelRoom",
+        "Product",
+        "Offer"
+      ]
+    },
+    {
+      "path": "/dining",
+      "file": "pages/dining.json",
+      "nodes": 8,
+      "types": [
+        "Hotel",
+        "WebSite",
+        "CollectionPage",
+        "BreadcrumbList",
+        "ImageObject",
+        "ItemList",
+        "Restaurant"
+      ]
+    },
+    {
+      "path": "/facilities",
+      "file": "pages/facilities.json",
+      "nodes": 5,
+      "types": [
+        "Hotel",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "ImageObject"
+      ]
+    },
+    {
+      "path": "/gallery",
+      "file": "pages/gallery.json",
+      "nodes": 6,
+      "types": [
+        "Hotel",
+        "WebSite",
+        "CollectionPage",
+        "BreadcrumbList",
+        "ImageObject",
+        "ItemList"
+      ]
+    },
+    {
+      "path": "/varanasi",
+      "file": "pages/varanasi.json",
+      "nodes": 23,
+      "types": [
+        "Hotel",
+        "WebSite",
+        "CollectionPage",
+        "BreadcrumbList",
+        "ImageObject",
+        "City",
+        "ItemList",
+        "TouristAttraction"
+      ]
+    },
+    {
+      "path": "/contact",
+      "file": "pages/contact.json",
+      "nodes": 5,
+      "types": [
+        "Hotel",
+        "WebSite",
+        "ContactPage",
+        "BreadcrumbList",
+        "ImageObject"
+      ]
+    },
+    {
+      "path": "/tariff",
+      "file": "pages/tariff.json",
+      "nodes": 12,
+      "types": [
+        "Hotel",
+        "WebSite",
+        "CollectionPage",
+        "BreadcrumbList",
+        "ImageObject",
+        "ItemList",
+        "HotelRoom",
+        "Product",
+        "Offer"
+      ]
+    },
+    {
+      "path": "/varanasi/kashi-vishwanath",
+      "file": "pages/varanasi--kashi-vishwanath.json",
+      "nodes": 8,
+      "types": [
+        "Hotel",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "City",
+        "TouristAttraction",
+        "ImageObject",
+        "Article"
+      ]
+    },
+    {
+      "path": "/varanasi/dashashwamedh",
+      "file": "pages/varanasi--dashashwamedh.json",
+      "nodes": 8,
+      "types": [
+        "Hotel",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "City",
+        "TouristAttraction",
+        "ImageObject",
+        "Article"
+      ]
+    },
+    {
+      "path": "/varanasi/assi",
+      "file": "pages/varanasi--assi.json",
+      "nodes": 8,
+      "types": [
+        "Hotel",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "City",
+        "TouristAttraction",
+        "ImageObject",
+        "Article"
+      ]
+    },
+    {
+      "path": "/varanasi/sarnath",
+      "file": "pages/varanasi--sarnath.json",
+      "nodes": 8,
+      "types": [
+        "Hotel",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "City",
+        "TouristAttraction",
+        "ImageObject",
+        "Article"
+      ]
+    },
+    {
+      "path": "/varanasi/ramnagar",
+      "file": "pages/varanasi--ramnagar.json",
+      "nodes": 8,
+      "types": [
+        "Hotel",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "City",
+        "TouristAttraction",
+        "ImageObject",
+        "Article"
+      ]
+    },
+    {
+      "path": "/varanasi/bhu",
+      "file": "pages/varanasi--bhu.json",
+      "nodes": 8,
+      "types": [
+        "Hotel",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "City",
+        "TouristAttraction",
+        "ImageObject",
+        "Article"
+      ]
+    },
+    {
+      "path": "/varanasi/durga",
+      "file": "pages/varanasi--durga.json",
+      "nodes": 8,
+      "types": [
+        "Hotel",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "City",
+        "TouristAttraction",
+        "ImageObject",
+        "Article"
+      ]
+    },
+    {
+      "path": "/varanasi/namo",
+      "file": "pages/varanasi--namo.json",
+      "nodes": 8,
+      "types": [
+        "Hotel",
+        "WebSite",
+        "WebPage",
+        "BreadcrumbList",
+        "City",
+        "TouristAttraction",
+        "ImageObject",
+        "Article"
+      ]
+    },
+    {
+      "path": "/gallery/front-view-gallery",
+      "file": "pages/gallery--front-view-gallery.json",
+      "nodes": 11,
+      "types": [
+        "Hotel",
+        "WebSite",
+        "ImageGallery",
+        "BreadcrumbList",
+        "ImageObject"
+      ]
+    },
+    {
+      "path": "/gallery/resturant-gallery",
+      "file": "pages/gallery--resturant-gallery.json",
+      "nodes": 20,
+      "types": [
+        "Hotel",
+        "WebSite",
+        "ImageGallery",
+        "BreadcrumbList",
+        "ImageObject"
+      ]
+    },
+    {
+      "path": "/gallery/reception-gallery",
+      "file": "pages/gallery--reception-gallery.json",
+      "nodes": 14,
+      "types": [
+        "Hotel",
+        "WebSite",
+        "ImageGallery",
+        "BreadcrumbList",
+        "ImageObject"
+      ]
+    },
+    {
+      "path": "/gallery/rooms-gallery",
+      "file": "pages/gallery--rooms-gallery.json",
+      "nodes": 24,
+      "types": [
+        "Hotel",
+        "WebSite",
+        "ImageGallery",
+        "BreadcrumbList",
+        "ImageObject"
+      ]
+    },
+    {
+      "path": "/gallery/parking-gallery",
+      "file": "pages/gallery--parking-gallery.json",
+      "nodes": 10,
+      "types": [
+        "Hotel",
+        "WebSite",
+        "ImageGallery",
+        "BreadcrumbList",
+        "ImageObject"
+      ]
+    }
+  ]
+}

@@ -1,3 +1,4 @@
+import { PageStructuredData } from "./StructuredData";
 import Link from "next/link";
 import { galleries } from "@/lib/content";
 import PhotoGallery from "./PhotoGallery";
@@ -8,6 +9,7 @@ export default function GalleryPage({ slug }: { slug: string }) {
   const gallery = galleries.find((item) => item.slug === slug)!;
   return (
     <>
+      <PageStructuredData path={`/gallery/${slug}`} />
       <PageIntro
         eyebrow="Gallery"
         title={gallery.title}

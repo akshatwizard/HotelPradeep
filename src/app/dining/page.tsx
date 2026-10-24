@@ -1,3 +1,4 @@
+import { PageStructuredData } from "@/components/StructuredData";
 import { photos, photoAlbums } from "@/lib/photos";
 import { diningParagraphs } from "@/lib/content";
 import { Eyebrow, PageIntro, Photo } from "@/components/ui";
@@ -13,6 +14,7 @@ export const metadata = {
 export default function DiningPage() {
   return (
     <>
+      <PageStructuredData path="/dining" />
       <PageIntro
         eyebrow="Dining"
         title="A taste of Banaras. A table to remember."

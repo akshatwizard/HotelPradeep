@@ -1,3 +1,4 @@
+import { PageStructuredData } from "@/components/StructuredData";
 import type { Metadata } from "next";
 import Link from "next/link";
 import { destinations, cityExperiences } from "@/lib/varanasi";
@@ -16,6 +17,7 @@ export const metadata: Metadata = {
 export default function VaranasiPage() {
   return (
     <>
+      <PageStructuredData path="/varanasi" />
       <PageIntro eyebrow="Varanasi" title="An ancient city. A thousand living stories." description="Discover the ghats, sacred spaces, and everyday magic of Kashi, with Hotel Pradeep as your address in the city." image={photos.gangesPanorama} imageAlt="A panorama of Varanasi's ghats and the Ganges" />
       <section className="section shell city-introduction">
         <div>

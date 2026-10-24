@@ -1,3 +1,4 @@
+import { PageStructuredData } from "@/components/StructuredData";
 import { photos } from "@/lib/photos";
 import { facilities, serviceDetails } from "@/lib/content";
 import { Eyebrow, PageIntro, Photo } from "@/components/ui";
@@ -36,6 +37,7 @@ const icons: IconName[] = [
 export default function FacilitiesPage() {
   return (
     <>
+      <PageStructuredData path="/facilities" />
       <PageIntro
         eyebrow="Facilities"
         title="Every little comfort, taken care of."

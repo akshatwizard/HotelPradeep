@@ -1,0 +1,495 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Hotel",
+      "@id": "https://hotelpradeep.com/#hotel",
+      "name": "Hotel Pradeep",
+      "url": "https://hotelpradeep.com/",
+      "description": "Hotel Pradeep in Jagatganj, Varanasi offers guest rooms, Poonam Restaurant, Eden Rooftop Restaurant and hotel facilities for leisure and business travellers.",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://hotelpradeep.com/#logo",
+        "contentUrl": "https://hotelpradeep.com/img/logo/logo_trans.png",
+        "url": "https://hotelpradeep.com/img/logo/logo_trans.png"
+      },
+      "image": [
+        "https://hotelpradeep.com/images/hotel/facade-dusk.webp",
+        "https://hotelpradeep.com/images/hotel/facade-daylight.webp",
+        "https://hotelpradeep.com/images/hotel/lobby-wide.webp"
+      ],
+      "telephone": "+917408423503",
+      "email": "info@hotelpradeep.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jagatganj",
+        "addressLocality": "Varanasi",
+        "addressRegion": "Uttar Pradesh",
+        "postalCode": "221002",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 25.3252605,
+        "longitude": 82.9996762
+      },
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=Hotel+Pradeep+Jagatganj+Varanasi",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "General enquiries",
+          "telephone": "+917408423503",
+          "email": "info@hotelpradeep.com"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "Reservations",
+          "telephone": "+917408423504",
+          "email": "reservation@hotelpradeep.com"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "Hotel reception",
+          "telephone": "+915422204963"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "Hotel reception",
+          "telephone": "+915422207231"
+        }
+      ],
+      "numberOfRooms": 36,
+      "currenciesAccepted": "INR",
+      "checkoutTime": "12:00:00+05:30",
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "24-Hour Room Service",
+          "value": true,
+          "description": "Enjoy round-the-clock in-room dining."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Refrigerator",
+          "value": true,
+          "description": "Keep your drinks and snacks chilled anytime."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "WiFi",
+          "value": true,
+          "description": "Stay connected with high-speed internet access."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Bar",
+          "value": true,
+          "description": "Relax with a drink at our in-house bar."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Lift",
+          "value": true,
+          "description": "Easy access to all floors with our elevator service."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Multi cuisine Restaurant",
+          "value": true,
+          "description": "Enjoy delicious vegetarian meals at our restaurant."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Air Conditioning",
+          "value": true,
+          "description": "Stay cool and comfortable with air-conditioned rooms."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Telephone",
+          "value": true,
+          "description": "Stay connected with in-room calling service."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Email and Xerox facilities",
+          "value": true,
+          "description": "Convenient document copying and fax services."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Laundry Service",
+          "value": true,
+          "description": "Quick and professional garment cleaning service."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Doctor on Call",
+          "value": true,
+          "description": "Medical assistance available anytime for emergencies."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Parking Facilities",
+          "value": true,
+          "description": "Secure parking for your vehicle."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Travel Desk",
+          "value": true,
+          "description": "Expert assistance with local travel arrangements and bookings."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Safe Deposit Locker",
+          "value": true,
+          "description": "Every room has a secure storage facility for your valuables."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Attached Bathrooms",
+          "value": true,
+          "description": "Private and convenient for every room."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Hot & Cold Running Water",
+          "value": true,
+          "description": "Available round the clock for your comfort."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Conference Facilities",
+          "value": true,
+          "description": "Ideal for meetings and events."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Soundproof Hotel",
+          "value": true,
+          "description": "Enjoy a peaceful stay in the heart of Varanasi."
+        }
+      ],
+      "subjectOf": [
+        {
+          "@id": "https://hotelpradeep.com/about#webpage"
+        },
+        {
+          "@id": "https://hotelpradeep.com/contact#webpage"
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://hotelpradeep.com/#website",
+      "url": "https://hotelpradeep.com/",
+      "name": "Hotel Pradeep",
+      "inLanguage": "en-IN",
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://hotelpradeep.com/tariff#webpage",
+      "url": "https://hotelpradeep.com/tariff",
+      "name": "Hotel Pradeep Room Tariff",
+      "description": "Published room tariffs and booking information for Hotel Pradeep, Varanasi.",
+      "inLanguage": "en-IN",
+      "isPartOf": {
+        "@id": "https://hotelpradeep.com/#website"
+      },
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://hotelpradeep.com/tariff#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://hotelpradeep.com/tariff#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://hotelpradeep.com/tariff#rooms"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://hotelpradeep.com/tariff#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://hotelpradeep.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Hotel Pradeep Room Tariff",
+          "item": "https://hotelpradeep.com/tariff"
+        }
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/tariff#primaryimage",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/room-carpet-wide.webp",
+      "url": "https://hotelpradeep.com/images/hotel/room-carpet-wide.webp",
+      "caption": "Hotel Pradeep Room Tariff"
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://hotelpradeep.com/tariff#rooms",
+      "name": "Room categories at Hotel Pradeep",
+      "numberOfItems": 3,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://hotelpradeep.com/rooms#delux",
+            "name": "Deluxe Rooms",
+            "url": "https://hotelpradeep.com/rooms#delux"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://hotelpradeep.com/rooms#super-delux",
+            "name": "Super Deluxe Room",
+            "url": "https://hotelpradeep.com/rooms#super-delux"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@id": "https://hotelpradeep.com/rooms#executive",
+            "name": "Executive Rooms",
+            "url": "https://hotelpradeep.com/rooms#executive"
+          }
+        }
+      ]
+    },
+    {
+      "@type": [
+        "HotelRoom",
+        "Product"
+      ],
+      "@id": "https://hotelpradeep.com/rooms#delux",
+      "name": "Deluxe Rooms",
+      "description": "Relax in our Deluxe Room, designed for comfort with stylish décor and a cozy atmosphere. Enjoy a peaceful stay with all modern amenities and a warm touch of Banarasi hospitality.",
+      "url": "https://hotelpradeep.com/rooms#delux",
+      "image": [
+        "https://hotelpradeep.com/images/hotel/room-king-wide.webp",
+        "https://hotelpradeep.com/images/hotel/room-king-bed.webp",
+        "https://hotelpradeep.com/images/hotel/room-king-desk.webp",
+        "https://hotelpradeep.com/images/hotel/bathroom-pattern.webp"
+      ],
+      "containedInPlace": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "occupancy": {
+        "@type": "QuantitativeValue",
+        "minValue": 1,
+        "maxValue": 2,
+        "unitCode": "C62",
+        "unitText": "guests"
+      },
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "24-Hour Room Service",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "King Size Bed",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Free WiFi",
+          "value": true
+        }
+      ],
+      "offers": {
+        "@id": "https://hotelpradeep.com/tariff#offer-delux"
+      }
+    },
+    {
+      "@type": "Offer",
+      "@id": "https://hotelpradeep.com/tariff#offer-delux",
+      "name": "Deluxe Rooms — published nightly tariff",
+      "url": "https://hotelpradeep.com/tariff",
+      "itemOffered": {
+        "@id": "https://hotelpradeep.com/rooms#delux"
+      },
+      "offeredBy": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "businessFunction": "http://purl.org/goodrelations/v1#LeaseOut",
+      "price": 4000,
+      "priceCurrency": "INR",
+      "priceSpecification": {
+        "@type": "UnitPriceSpecification",
+        "price": 4000,
+        "priceCurrency": "INR",
+        "unitCode": "DAY",
+        "unitText": "night",
+        "referenceQuantity": {
+          "@type": "QuantitativeValue",
+          "value": 1,
+          "unitCode": "DAY",
+          "unitText": "night"
+        }
+      },
+      "description": "Published room tariff per night. Refer to the tariff page for taxes and terms. Confirm dates, final charges and availability directly with the hotel; an enquiry is not a confirmed reservation."
+    },
+    {
+      "@type": [
+        "HotelRoom",
+        "Product"
+      ],
+      "@id": "https://hotelpradeep.com/rooms#super-delux",
+      "name": "Super Deluxe Room",
+      "description": "Stay in style and comfort with our Super Deluxe Room, designed for a luxurious and relaxing experience. With spacious interiors, elegant furnishings, and modern amenities, enjoy the perfect blend of convenience and Banarasi charm.",
+      "url": "https://hotelpradeep.com/rooms#super-delux",
+      "image": [
+        "https://hotelpradeep.com/images/hotel/room-arched-wide.webp",
+        "https://hotelpradeep.com/images/hotel/room-arched-bed.webp",
+        "https://hotelpradeep.com/images/hotel/room-arched-windows.webp",
+        "https://hotelpradeep.com/images/hotel/room-arched-desk.webp"
+      ],
+      "containedInPlace": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "occupancy": {
+        "@type": "QuantitativeValue",
+        "minValue": 1,
+        "maxValue": 2,
+        "unitCode": "C62",
+        "unitText": "guests"
+      },
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "24-Hour Room Service",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Free WiFi",
+          "value": true
+        }
+      ],
+      "offers": {
+        "@id": "https://hotelpradeep.com/tariff#offer-super-delux"
+      }
+    },
+    {
+      "@type": "Offer",
+      "@id": "https://hotelpradeep.com/tariff#offer-super-delux",
+      "name": "Super Deluxe Room — published nightly tariff",
+      "url": "https://hotelpradeep.com/tariff",
+      "itemOffered": {
+        "@id": "https://hotelpradeep.com/rooms#super-delux"
+      },
+      "offeredBy": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "businessFunction": "http://purl.org/goodrelations/v1#LeaseOut",
+      "price": 5000,
+      "priceCurrency": "INR",
+      "priceSpecification": {
+        "@type": "UnitPriceSpecification",
+        "price": 5000,
+        "priceCurrency": "INR",
+        "unitCode": "DAY",
+        "unitText": "night",
+        "referenceQuantity": {
+          "@type": "QuantitativeValue",
+          "value": 1,
+          "unitCode": "DAY",
+          "unitText": "night"
+        }
+      },
+      "description": "Published room tariff per night. Refer to the tariff page for taxes and terms. Confirm dates, final charges and availability directly with the hotel; an enquiry is not a confirmed reservation."
+    },
+    {
+      "@type": [
+        "HotelRoom",
+        "Product"
+      ],
+      "@id": "https://hotelpradeep.com/rooms#executive",
+      "name": "Executive Rooms",
+      "description": "Experience a perfect mix of luxury and comfort in our Executive Room, designed for a relaxing and premium stay. With spacious and stylish interiors, modern amenities, and a touch of Banarasi hospitality, this room offers everything you need for a memorable stay.",
+      "url": "https://hotelpradeep.com/rooms#executive",
+      "image": [
+        "https://hotelpradeep.com/images/hotel/room-carpet-wide.webp",
+        "https://hotelpradeep.com/images/hotel/room-carpet-bed.webp",
+        "https://hotelpradeep.com/images/hotel/room-carpet-seating.webp",
+        "https://hotelpradeep.com/images/hotel/bathroom-modern.webp"
+      ],
+      "containedInPlace": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "occupancy": {
+        "@type": "QuantitativeValue",
+        "minValue": 2,
+        "maxValue": 3,
+        "unitCode": "C62",
+        "unitText": "guests"
+      },
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "24-Hour Room Service",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Free WiFi",
+          "value": true
+        }
+      ],
+      "offers": {
+        "@id": "https://hotelpradeep.com/tariff#offer-executive"
+      }
+    },
+    {
+      "@type": "Offer",
+      "@id": "https://hotelpradeep.com/tariff#offer-executive",
+      "name": "Executive Rooms — published nightly tariff",
+      "url": "https://hotelpradeep.com/tariff",
+      "itemOffered": {
+        "@id": "https://hotelpradeep.com/rooms#executive"
+      },
+      "offeredBy": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "businessFunction": "http://purl.org/goodrelations/v1#LeaseOut",
+      "price": 6000,
+      "priceCurrency": "INR",
+      "priceSpecification": {
+        "@type": "UnitPriceSpecification",
+        "price": 6000,
+        "priceCurrency": "INR",
+        "unitCode": "DAY",
+        "unitText": "night",
+        "referenceQuantity": {
+          "@type": "QuantitativeValue",
+          "value": 1,
+          "unitCode": "DAY",
+          "unitText": "night"
+        }
+      },
+      "description": "Published room tariff per night. Refer to the tariff page for taxes and terms. Confirm dates, final charges and availability directly with the hotel; an enquiry is not a confirmed reservation."
+    }
+  ]
+}
