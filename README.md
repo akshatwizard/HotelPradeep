@@ -58,7 +58,7 @@ To regenerate the assets after changing a crop, install Pillow locally and run:
 python scripts/prepare-hotel-photos.py /path/to/HotelPradeep_webp.zip
 ```
 
-The archive is not committed. The generator produces optimized WebP photographs and `src/lib/photo-sources.ts`. This step is not required during deployment. The source archive has no laundry-service photograph or exact temple/Aarti shots; fresh guest-room linen illustrates laundry service, and supplied city/river views accompany the Varanasi descriptions with accurate alternative text.
+The archive is not committed. The generator produces optimized WebP photographs and `src/lib/photo-sources.ts`. This step is not required during deployment. The source archive has no laundry-service photograph; fresh guest-room linen illustrates laundry service. Destination-specific photographs supplement the owner collection, with licences and crop changes credited on the city index, homepage and detailed guides.
 
 The shared booking provider mounts an accessible native dialog across every page. Gallery lightboxes support Escape and arrow keys. Room galleries, guest reviews, mobile navigation, and the on-demand YouTube player use React. Forms retain no personal information in browser storage.
 
@@ -88,3 +88,11 @@ Internal browser checks covered desktop, mobile, and tablet layouts. All 13 cont
 The header uses 16px desktop navigation and a larger logo, with mobile navigation below 1100px to avoid crowding. The homepage hero has three slides: the hotel facade, Varanasi ghats, and the hotel drone view. Previous/next buttons, direct slide selection, play/pause, keyboard arrows, reduced-motion preferences, hover/focus pausing, and page visibility are supported.
 
 `src/lib/varanasi.ts` holds eight destination introductions and visit tips. Licensed photographs and dedicated mobile crops are in `public/images/varanasi/`. The page includes visible photo credits and license links, and `scripts/varanasi-photo-plan.json` records sources and crop focal points. To regenerate these assets locally, run `python scripts/prepare-varanasi-photos.py` with Pillow installed. Deployment uses the committed WebP files and makes no external image downloads.
+
+## Detailed destination guides
+
+All eight destinations have a statically generated `/varanasi/[slug]` page, linked from the city index and included in the sitemap. `src/lib/destination-guides.ts` holds opening windows, practical advice, suggested visit durations, related destinations and approximate hotel-origin journeys by car, auto/e-rickshaw and walking. Shared transport and boat arrangements are explained separately. Road estimates exclude the explicitly listed final walk, queues and transfer delays; these are editorial planning ranges, not live navigation data. Google Maps links use the hotel's name and neighbourhood as origin, and driving links for autos are labelled as route references.
+
+Review visitor facts and the `guideReviewed` date before updating schedules. The Sarnath museum timetable is visibly provisional because a current ASI timetable could not be confirmed. Namo Ghat has no asserted fixed opening window. Temple and tourism links are provided on each page for current access rules; opening hours are separate from ceremony times.
+
+The header and mobile navigation use self-hosted Manrope under the included SIL Open Font License in `public/fonts/manrope/`. The original hotel wordmark retains its serif type. Homepage location cards link directly to their guides and use the existing dedicated mobile destination crops.

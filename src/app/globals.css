@@ -3137,3 +3137,104 @@ a:hover > .photo img,
   #destinations { scroll-margin-top: 125px; }
 }
 @media (prefers-reduced-motion: reduce) { .hero-slide { transition: none; } }
+
+/* Self-hosted navigation type and detailed destination guides. */
+@font-face { font-family: "Manrope"; src: url("/fonts/manrope/Manrope-Variable.ttf") format("truetype"); font-style: normal; font-weight: 200 800; font-display: swap; }
+.site-header { font-family: "Manrope", Arial, sans-serif; }
+.desktop-nav a { font-weight: 600; letter-spacing: -.015em; }
+.header-top { font-size: 11px; font-weight: 500; }
+.experience-grid > article > a:first-child { display: block; }
+.experience-grid .text-link { margin-top: 10px; font-size: 12px; }
+.experience-credit { margin: 20px 0 0; font-size: 11px; color: var(--muted); max-width: 850px; }
+.experience-credit a { text-decoration: underline; text-underline-offset: 3px; }
+.destination-hero { display: grid; grid-template-columns: 1fr 1.1fr; min-height: 560px; background: var(--sand); }
+.destination-hero-copy { padding: 40px clamp(28px, 4.7vw, 84px) 58px; align-self: center; }
+.destination-hero .breadcrumb { flex-wrap: wrap; margin-bottom: 48px; gap: 9px; line-height: 1.6; }
+.destination-hero h1 { font-size: clamp(42px, 4.6vw, 76px); line-height: 1.07; margin: 24px 0; text-wrap: balance; overflow-wrap: break-word; }
+.destination-tagline { font-size: 16px; margin-bottom: 30px; }
+.destination-hero > .photo { min-height: 560px; }
+.guide-navigation { display: flex; flex-wrap: wrap; gap: 12px 32px; padding-block: 24px; border-bottom: 1px solid var(--line); }
+.guide-navigation a { font-family: "Manrope", Arial, sans-serif; font-size: 12px; font-weight: 600; }
+.guide-navigation a:hover { color: var(--gold); }
+.guide-overview { display: grid; grid-template-columns: .85fr 1.15fr; gap: 80px; }
+.guide-description { font-size: 17px; line-height: 1.9; margin-top: 0; }
+.guide-highlights { padding-left: 20px; color: var(--muted); }
+.guide-highlights li { margin-top: 13px; padding-left: 5px; }
+.guide-planner { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
+.guide-hours, .guide-planner-side > article { background: var(--paper); padding: 35px; border-top: 2px solid var(--gold); }
+.guide-label { font-size: 10px; text-transform: uppercase; letter-spacing: .14em; color: var(--gold); font-weight: 600; display: block; }
+.guide-hours h3 { font-size: 27px; margin: 24px 0 10px; }
+.guide-hours p, .guide-planner p { font-size: 14px; margin-bottom: 0; }
+.guide-planner-side { display: flex; flex-direction: column; gap: 25px; }
+.guide-duration { display: flex; align-items: flex-start; gap: 18px; }
+.guide-duration > svg { color: var(--gold); flex-shrink: 0; }
+.guide-duration p { margin: 10px 0 0; }
+.guide-estimate-note { display: flex; gap: 16px; background: var(--sand); padding: 22px 25px; margin-bottom: 32px; }
+.guide-estimate-note > svg { flex-shrink: 0; color: var(--gold); margin-top: 4px; }
+.guide-estimate-note p { margin: 0; font-size: 12px; line-height: 1.8; }
+.guide-estimate-note strong { display: block; font-weight: 600; color: var(--ink); margin-bottom: 4px; }
+.journey-row { display: grid; grid-template-columns: 220px 1fr 165px; gap: 30px; padding-block: 30px; border-bottom: 1px solid var(--line); align-items: start; }
+.journey-row:first-child { border-top: 1px solid var(--line); }
+.journey-mode h3 { font-size: 25px; line-height: 1.2; margin: 0 0 12px; }
+.journey-mode p { font-size: 15px; font-weight: 600; margin: 0; color: var(--ink); }
+.journey-mode > span { display: block; font-size: 12px; color: var(--muted); margin-top: 5px; }
+.journey-directions { margin: 0; font-size: 14px; }
+.journey-map { display: flex; align-items: center; gap: 9px; font-size: 12px; padding-block: 6px; text-decoration: underline; text-underline-offset: 4px; }
+.journey-map svg { flex-shrink: 0; }
+.journey-unavailable { font-size: 12px; color: var(--muted); }
+.guide-transport-note { padding: 28px 0 6px; max-width: 900px; }
+.guide-transport-note h3, .guide-access h3 { font-size: 25px; margin: 0 0 12px; }
+.guide-transport-note p, .guide-access p { font-size: 13px; }
+.guide-access { display: flex; gap: 20px; border-left: 2px solid var(--gold); padding: 24px 28px; margin-top: 22px; background: var(--sand); }
+.guide-access > svg { color: var(--gold); flex-shrink: 0; margin-top: 4px; }
+.guide-access p { margin-bottom: 0; }
+.guide-advice { display: grid; grid-template-columns: 1.1fr 1fr 1fr; gap: 50px; }
+.guide-advice h2 { font-size: clamp(36px, 3.5vw, 54px); }
+.guide-advice h3 { font-size: 29px; margin: 5px 0 24px; }
+.guide-advice p, .guide-advice li { color: #dedee5; font-size: 14px; }
+.guide-advice ul { padding-left: 18px; }
+.guide-advice li { padding-left: 5px; margin-bottom: 20px; }
+.guide-related { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 30px; }
+.guide-related .photo { aspect-ratio: 1.4; margin-bottom: 22px; }
+.guide-related h3 { font-size: 28px; line-height: 1.2; margin: 14px 0 18px; }
+.guide-related .text-link { font-size: 12px; }
+.guide-hotel-help { padding-block: 60px; }
+.guide-hotel-help > div { display: flex; align-items: center; justify-content: space-between; gap: 50px; }
+.guide-hotel-help h2 { font-size: 46px; }
+.guide-hotel-help p { max-width: 650px; font-size: 14px; }
+.guide-hotel-help .text-link { flex-shrink: 0; }
+.guide-resources details { scroll-margin-top: 160px; }
+@media (max-width: 1150px) { .journey-row { grid-template-columns: 190px 1fr; gap: 15px 30px; } .journey-map, .journey-unavailable { grid-column: 2; } .guide-advice { gap: 30px; } }
+@media (max-width: 800px) {
+  .destination-hero { grid-template-columns: 1fr; }
+  .destination-hero-copy { padding: 28px 28px 40px; }
+  .destination-hero .breadcrumb { margin-bottom: 30px; }
+  .destination-hero h1 { font-size: clamp(40px, 7vw, 62px); max-width: 650px; }
+  .destination-hero > .photo { min-height: 0; aspect-ratio: 1.7; }
+  .guide-overview, .guide-planner { grid-template-columns: 1fr; gap: 30px; }
+  .guide-advice { grid-template-columns: 1fr 1fr; }
+  .guide-advice > div { grid-column: 1 / -1; max-width: 550px; }
+  .guide-related { gap: 20px; }
+  .guide-related h3 { font-size: 24px; }
+}
+@media (max-width: 650px) {
+  .header-top { font-size: 10px; }
+  .destination-hero-copy { padding-inline: 22px; }
+  .destination-hero > .photo { aspect-ratio: 1.25; }
+  .guide-navigation { gap: 13px 22px; padding-block: 22px; }
+  .guide-navigation a { font-size: 11px; }
+  .guide-description { font-size: 15px; }
+  .guide-hours, .guide-planner-side > article { padding: 25px; }
+  .guide-estimate-note { padding: 20px; gap: 12px; }
+  .journey-row { grid-template-columns: 1fr; gap: 18px; padding-block: 25px; }
+  .journey-map, .journey-unavailable { grid-column: auto; }
+  .journey-mode h3 { font-size: 27px; margin-bottom: 9px; }
+  .guide-access { padding: 22px 20px; gap: 13px; }
+  .guide-advice, .guide-related { grid-template-columns: 1fr; }
+  .guide-advice h3 { margin-top: 12px; }
+  .guide-related { gap: 40px; }
+  .guide-related .photo { aspect-ratio: 1.4; }
+  .guide-related h3 { font-size: 29px; }
+  .guide-hotel-help > div { flex-direction: column; gap: 20px; align-items: flex-start; }
+  .guide-hotel-help h2 { font-size: 37px; }
+}

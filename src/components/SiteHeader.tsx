@@ -99,7 +99,7 @@ export default function SiteHeader() {
             <Link
               href={item.href}
               key={item.href}
-              aria-current={pathname === item.href ? "page" : undefined}
+              aria-current={pathname === item.href || (item.href !== "/" && pathname.startsWith(`${item.href}/`)) ? "page" : undefined}
             >
               {item.label}
               <Icon name="arrow" />

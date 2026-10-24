@@ -43,12 +43,12 @@ export default function VaranasiPage() {
                 <Photo src={`/images/varanasi/${place.id}.webp`} alt={place.imageAlt} sizes="(max-width: 800px) 100vw, 50vw" />
                 <div className="destination-copy">
                   <div className="destination-kicker"><span>{String(index + 1).padStart(2, "0")}</span><span>{place.category}</span></div>
-                  <h3>{place.name}</h3>
+                  <h3><Link href={`/varanasi/${place.id}`}>{place.name}</Link></h3>
                   <p>{place.description}</p>
                   <div className="destination-tip"><Icon name="pin" width="18" height="18" /><p>{place.tip}</p></div>
                   <div className="destination-links">
-                    <a className="text-link" aria-label={`View ${place.name} on Google Maps`} href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(place.mapQuery)}`} target="_blank" rel="noreferrer">View on map <Icon name="diagonal" /></a>
-                    <a href={place.source} target="_blank" rel="noreferrer">Visitor information <span className="sr-only">for {place.name}</span><Icon name="diagonal" width="14" height="14" /></a>
+                    <TextLink href={`/varanasi/${place.id}`}>Full visitor guide <span className="sr-only">to {place.name}</span></TextLink>
+                    <a aria-label={`View ${place.name} on Google Maps`} href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(place.mapQuery)}`} target="_blank" rel="noreferrer">View on map <Icon name="diagonal" width="14" height="14" /></a>
                   </div>
                 </div>
               </article>
@@ -70,7 +70,7 @@ export default function VaranasiPage() {
       </section>
       <section className="shell city-resources">
         <p>For the latest opening hours, entry arrangements, and local conditions, check the linked visitor information or speak with our team before setting out.</p>
-        <details><summary>Photo credits &amp; visitor resources</summary>
+        <details id="photo-credits"><summary>Photo credits &amp; visitor resources</summary>
           <p>Hotel and panoramic city photographs are supplied by Hotel Pradeep. Destination photographs are credited below; WebP resizing and mobile crops have been applied.</p>
           <ul>{photoCredits.map((credit) => <li key={credit.id}><a href={credit.sourceUrl} target="_blank" rel="noreferrer">{destinations.find((place) => place.id === credit.id)?.name}</a> — {credit.author}. <a href={credit.licenseUrl || credit.sourceUrl} target="_blank" rel="noreferrer">{credit.license}</a>.</li>)}</ul>
           <p>Destination information is based on <a href="https://varanasi.nic.in/tourist-places/" target="_blank" rel="noreferrer">District Varanasi</a>, <a href="https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi" target="_blank" rel="noreferrer">Incredible India</a>, and the <a href="https://kashi.gov.in/" target="_blank" rel="noreferrer">Kashi official portal</a>.</p>
