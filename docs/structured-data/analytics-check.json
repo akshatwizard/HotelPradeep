@@ -1,0 +1,14 @@
+{
+  "measurementId": "G-9FXDWDJ45Z",
+  "sourceFile": "src/components/Integrations.tsx",
+  "integrationMountedIn": "src/app/layout.tsx",
+  "strategy": "lazyOnload",
+  "gtagLoaderCountInSource": 1,
+  "configInitializationCountInSource": 1,
+  "replacementIdApplied": false,
+  "authenticatedAnalyticsReceiptVerified": false,
+  "finding": "Existing GA4 ID is globally installed. A build check verifies its presence on all 22 content pages; actual event receipt and property configuration require Analytics Realtime or DebugView verification.",
+  "spaSettingToVerify": "Enhanced measurement: Page views > Page changes based on browser history events",
+  "browserTagInstallationVerified": true,
+  "browserCheck": "One gtag.js script element with G-9FXDWDJ45Z and one matching configuration observed in the browser; the loader remains singular after Next.js navigation to Rooms. This does not verify event receipt."
+}

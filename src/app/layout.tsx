@@ -1,3 +1,4 @@
+import { SiteStructuredData } from "@/components/StructuredData";
 import { photos } from "@/lib/photos";
 import type { Metadata, Viewport } from "next";
 import "./globals.css";
@@ -38,6 +39,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
+        <SiteStructuredData />
         <a className="skip-link" href="#main-content">
           Skip to content
         </a>

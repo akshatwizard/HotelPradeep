@@ -1,0 +1,318 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Hotel",
+      "@id": "https://hotelpradeep.com/#hotel",
+      "name": "Hotel Pradeep",
+      "url": "https://hotelpradeep.com/",
+      "description": "Hotel Pradeep in Jagatganj, Varanasi offers guest rooms, Poonam Restaurant, Eden Rooftop Restaurant and hotel facilities for leisure and business travellers.",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://hotelpradeep.com/#logo",
+        "contentUrl": "https://hotelpradeep.com/img/logo/logo_trans.png",
+        "url": "https://hotelpradeep.com/img/logo/logo_trans.png"
+      },
+      "image": [
+        "https://hotelpradeep.com/images/hotel/facade-dusk.webp",
+        "https://hotelpradeep.com/images/hotel/facade-daylight.webp",
+        "https://hotelpradeep.com/images/hotel/lobby-wide.webp"
+      ],
+      "telephone": "+917408423503",
+      "email": "info@hotelpradeep.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jagatganj",
+        "addressLocality": "Varanasi",
+        "addressRegion": "Uttar Pradesh",
+        "postalCode": "221002",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 25.3252605,
+        "longitude": 82.9996762
+      },
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=Hotel+Pradeep+Jagatganj+Varanasi",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "General enquiries",
+          "telephone": "+917408423503",
+          "email": "info@hotelpradeep.com"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "Reservations",
+          "telephone": "+917408423504",
+          "email": "reservation@hotelpradeep.com"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "Hotel reception",
+          "telephone": "+915422204963"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "Hotel reception",
+          "telephone": "+915422207231"
+        }
+      ],
+      "numberOfRooms": 36,
+      "currenciesAccepted": "INR",
+      "checkoutTime": "12:00:00+05:30",
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "24-Hour Room Service",
+          "value": true,
+          "description": "Enjoy round-the-clock in-room dining."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Refrigerator",
+          "value": true,
+          "description": "Keep your drinks and snacks chilled anytime."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "WiFi",
+          "value": true,
+          "description": "Stay connected with high-speed internet access."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Bar",
+          "value": true,
+          "description": "Relax with a drink at our in-house bar."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Lift",
+          "value": true,
+          "description": "Easy access to all floors with our elevator service."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Multi cuisine Restaurant",
+          "value": true,
+          "description": "Enjoy delicious vegetarian meals at our restaurant."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Air Conditioning",
+          "value": true,
+          "description": "Stay cool and comfortable with air-conditioned rooms."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Telephone",
+          "value": true,
+          "description": "Stay connected with in-room calling service."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Email and Xerox facilities",
+          "value": true,
+          "description": "Convenient document copying and fax services."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Laundry Service",
+          "value": true,
+          "description": "Quick and professional garment cleaning service."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Doctor on Call",
+          "value": true,
+          "description": "Medical assistance available anytime for emergencies."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Parking Facilities",
+          "value": true,
+          "description": "Secure parking for your vehicle."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Travel Desk",
+          "value": true,
+          "description": "Expert assistance with local travel arrangements and bookings."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Safe Deposit Locker",
+          "value": true,
+          "description": "Every room has a secure storage facility for your valuables."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Attached Bathrooms",
+          "value": true,
+          "description": "Private and convenient for every room."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Hot & Cold Running Water",
+          "value": true,
+          "description": "Available round the clock for your comfort."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Conference Facilities",
+          "value": true,
+          "description": "Ideal for meetings and events."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Soundproof Hotel",
+          "value": true,
+          "description": "Enjoy a peaceful stay in the heart of Varanasi."
+        }
+      ],
+      "subjectOf": [
+        {
+          "@id": "https://hotelpradeep.com/about#webpage"
+        },
+        {
+          "@id": "https://hotelpradeep.com/contact#webpage"
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://hotelpradeep.com/#website",
+      "url": "https://hotelpradeep.com/",
+      "name": "Hotel Pradeep",
+      "inLanguage": "en-IN",
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://hotelpradeep.com/varanasi/bhu#webpage",
+      "url": "https://hotelpradeep.com/varanasi/bhu",
+      "name": "New Vishwanath Temple, BHU Visitor Guide",
+      "description": "Set within Banaras Hindu University, the New Vishwanath Temple is a distinctive landmark dedicated to Lord Shiva. Its tall spire and campus setting offer an experience quite different from the narrow lanes around Kashi Vishwanath. A visit can be combined with a gentle exploration of the university's tree-lined surroundings.",
+      "inLanguage": "en-IN",
+      "isPartOf": {
+        "@id": "https://hotelpradeep.com/#website"
+      },
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "about": {
+        "@id": "https://hotelpradeep.com/varanasi/bhu#place"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://hotelpradeep.com/varanasi/bhu#photo"
+      },
+      "breadcrumb": {
+        "@id": "https://hotelpradeep.com/varanasi/bhu#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://hotelpradeep.com/varanasi/bhu#guide"
+      },
+      "lastReviewed": "2026-10-24"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://hotelpradeep.com/varanasi/bhu#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://hotelpradeep.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Varanasi",
+          "item": "https://hotelpradeep.com/varanasi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "New Vishwanath Temple, BHU",
+          "item": "https://hotelpradeep.com/varanasi/bhu"
+        }
+      ]
+    },
+    {
+      "@type": "City",
+      "@id": "https://hotelpradeep.com/varanasi#city",
+      "name": "Varanasi",
+      "alternateName": [
+        "Kashi",
+        "Banaras"
+      ],
+      "containedInPlace": {
+        "@type": "State",
+        "name": "Uttar Pradesh",
+        "containedInPlace": {
+          "@type": "Country",
+          "name": "India"
+        }
+      }
+    },
+    {
+      "@type": "TouristAttraction",
+      "@id": "https://hotelpradeep.com/varanasi/bhu#place",
+      "name": "New Vishwanath Temple, BHU",
+      "description": "Set within Banaras Hindu University, the New Vishwanath Temple is a distinctive landmark dedicated to Lord Shiva. Its tall spire and campus setting offer an experience quite different from the narrow lanes around Kashi Vishwanath. A visit can be combined with a gentle exploration of the university's tree-lined surroundings.",
+      "url": "https://hotelpradeep.com/varanasi/bhu",
+      "image": {
+        "@id": "https://hotelpradeep.com/varanasi/bhu#photo"
+      },
+      "containedInPlace": {
+        "@id": "https://hotelpradeep.com/varanasi#city"
+      },
+      "sameAs": "https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi/new-vishwanath-temple",
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=New%20Vishwanath%20Temple%20Banaras%20Hindu%20University%20Varanasi"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/varanasi/bhu#photo",
+      "contentUrl": "https://hotelpradeep.com/images/varanasi/bhu.webp",
+      "url": "https://hotelpradeep.com/images/varanasi/bhu.webp",
+      "caption": "The New Vishwanath Temple on the Banaras Hindu University campus",
+      "creditText": "Heliophilous",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0",
+      "isBasedOn": "https://commons.wikimedia.org/wiki/File:New_Vishwanath_Temple_(BHU).jpg",
+      "description": "WebP resizing and dedicated mobile crops applied to the credited source photograph."
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hotelpradeep.com/varanasi/bhu#guide",
+      "headline": "New Vishwanath Temple, BHU Visitor Guide",
+      "description": "Set within Banaras Hindu University, the New Vishwanath Temple is a distinctive landmark dedicated to Lord Shiva. Its tall spire and campus setting offer an experience quite different from the narrow lanes around Kashi Vishwanath. A visit can be combined with a gentle exploration of the university's tree-lined surroundings.",
+      "url": "https://hotelpradeep.com/varanasi/bhu",
+      "inLanguage": "en-IN",
+      "mainEntityOfPage": {
+        "@id": "https://hotelpradeep.com/varanasi/bhu#webpage"
+      },
+      "about": {
+        "@id": "https://hotelpradeep.com/varanasi/bhu#place"
+      },
+      "author": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "image": {
+        "@id": "https://hotelpradeep.com/varanasi/bhu#photo"
+      },
+      "articleSection": [
+        "The experience",
+        "Timings and best time to visit",
+        "Travel from Hotel Pradeep",
+        "What to carry",
+        "What to avoid"
+      ]
+    }
+  ]
+}

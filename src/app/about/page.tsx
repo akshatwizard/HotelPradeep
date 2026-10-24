@@ -1,3 +1,4 @@
+import { PageStructuredData } from "@/components/StructuredData";
 import { photos } from "@/lib/photos";
 import { aboutOffers, aboutParagraphs, hotel } from "@/lib/content";
 import { BookButton } from "@/components/BookingProvider";
@@ -13,6 +14,7 @@ export const metadata = {
 export default function AboutPage() {
   return (
     <>
+      <PageStructuredData path="/about" />
       <PageIntro
         eyebrow="About us"
         title="A place of light. A warm welcome."

@@ -1,0 +1,2983 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Hotel",
+      "@id": "https://hotelpradeep.com/#hotel",
+      "name": "Hotel Pradeep",
+      "url": "https://hotelpradeep.com/",
+      "description": "Hotel Pradeep in Jagatganj, Varanasi offers guest rooms, Poonam Restaurant, Eden Rooftop Restaurant and hotel facilities for leisure and business travellers.",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://hotelpradeep.com/#logo",
+        "contentUrl": "https://hotelpradeep.com/img/logo/logo_trans.png",
+        "url": "https://hotelpradeep.com/img/logo/logo_trans.png"
+      },
+      "image": [
+        "https://hotelpradeep.com/images/hotel/facade-dusk.webp",
+        "https://hotelpradeep.com/images/hotel/facade-daylight.webp",
+        "https://hotelpradeep.com/images/hotel/lobby-wide.webp"
+      ],
+      "telephone": "+917408423503",
+      "email": "info@hotelpradeep.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jagatganj",
+        "addressLocality": "Varanasi",
+        "addressRegion": "Uttar Pradesh",
+        "postalCode": "221002",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 25.3252605,
+        "longitude": 82.9996762
+      },
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=Hotel+Pradeep+Jagatganj+Varanasi",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "General enquiries",
+          "telephone": "+917408423503",
+          "email": "info@hotelpradeep.com"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "Reservations",
+          "telephone": "+917408423504",
+          "email": "reservation@hotelpradeep.com"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "Hotel reception",
+          "telephone": "+915422204963"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "Hotel reception",
+          "telephone": "+915422207231"
+        }
+      ],
+      "numberOfRooms": 36,
+      "currenciesAccepted": "INR",
+      "checkoutTime": "12:00:00+05:30",
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "24-Hour Room Service",
+          "value": true,
+          "description": "Enjoy round-the-clock in-room dining."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Refrigerator",
+          "value": true,
+          "description": "Keep your drinks and snacks chilled anytime."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "WiFi",
+          "value": true,
+          "description": "Stay connected with high-speed internet access."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Bar",
+          "value": true,
+          "description": "Relax with a drink at our in-house bar."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Lift",
+          "value": true,
+          "description": "Easy access to all floors with our elevator service."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Multi cuisine Restaurant",
+          "value": true,
+          "description": "Enjoy delicious vegetarian meals at our restaurant."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Air Conditioning",
+          "value": true,
+          "description": "Stay cool and comfortable with air-conditioned rooms."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Telephone",
+          "value": true,
+          "description": "Stay connected with in-room calling service."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Email and Xerox facilities",
+          "value": true,
+          "description": "Convenient document copying and fax services."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Laundry Service",
+          "value": true,
+          "description": "Quick and professional garment cleaning service."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Doctor on Call",
+          "value": true,
+          "description": "Medical assistance available anytime for emergencies."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Parking Facilities",
+          "value": true,
+          "description": "Secure parking for your vehicle."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Travel Desk",
+          "value": true,
+          "description": "Expert assistance with local travel arrangements and bookings."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Safe Deposit Locker",
+          "value": true,
+          "description": "Every room has a secure storage facility for your valuables."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Attached Bathrooms",
+          "value": true,
+          "description": "Private and convenient for every room."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Hot & Cold Running Water",
+          "value": true,
+          "description": "Available round the clock for your comfort."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Conference Facilities",
+          "value": true,
+          "description": "Ideal for meetings and events."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Soundproof Hotel",
+          "value": true,
+          "description": "Enjoy a peaceful stay in the heart of Varanasi."
+        }
+      ],
+      "subjectOf": [
+        {
+          "@id": "https://hotelpradeep.com/about#webpage"
+        },
+        {
+          "@id": "https://hotelpradeep.com/contact#webpage"
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://hotelpradeep.com/#website",
+      "url": "https://hotelpradeep.com/",
+      "name": "Hotel Pradeep",
+      "inLanguage": "en-IN",
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://hotelpradeep.com/#webpage",
+      "url": "https://hotelpradeep.com/",
+      "name": "Hotel Pradeep | Stay & Dining in Varanasi",
+      "description": "Comfortable rooms, Poonam Restaurant, Eden Rooftop Restaurant and Banarasi hospitality at Hotel Pradeep in Jagatganj, Varanasi.",
+      "inLanguage": "en-IN",
+      "isPartOf": {
+        "@id": "https://hotelpradeep.com/#website"
+      },
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://hotelpradeep.com/#primaryimage"
+      },
+      "mainEntity": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/#primaryimage",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/facade-dusk.webp",
+      "url": "https://hotelpradeep.com/images/hotel/facade-dusk.webp",
+      "caption": "Hotel Pradeep | Stay & Dining in Varanasi"
+    },
+    {
+      "@type": "AboutPage",
+      "@id": "https://hotelpradeep.com/about#webpage",
+      "url": "https://hotelpradeep.com/about",
+      "name": "About Hotel Pradeep",
+      "description": "With its prime location, excellent dining, and warm hospitality, Hotel Pradeep ensures a pleasant and memorable stay in the holy city of Varanasi.",
+      "inLanguage": "en-IN",
+      "isPartOf": {
+        "@id": "https://hotelpradeep.com/#website"
+      },
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://hotelpradeep.com/about#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://hotelpradeep.com/about#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://hotelpradeep.com/about#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://hotelpradeep.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "About Hotel Pradeep",
+          "item": "https://hotelpradeep.com/about"
+        }
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/about#primaryimage",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/facade-night.webp",
+      "url": "https://hotelpradeep.com/images/hotel/facade-night.webp",
+      "caption": "About Hotel Pradeep"
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://hotelpradeep.com/rooms#webpage",
+      "url": "https://hotelpradeep.com/rooms",
+      "name": "Rooms at Hotel Pradeep",
+      "description": "Explore Deluxe, Super Deluxe and Executive room categories, facilities and published nightly tariffs at Hotel Pradeep.",
+      "inLanguage": "en-IN",
+      "isPartOf": {
+        "@id": "https://hotelpradeep.com/#website"
+      },
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://hotelpradeep.com/rooms#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://hotelpradeep.com/rooms#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://hotelpradeep.com/rooms#rooms"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://hotelpradeep.com/rooms#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://hotelpradeep.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Rooms at Hotel Pradeep",
+          "item": "https://hotelpradeep.com/rooms"
+        }
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/rooms#primaryimage",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/room-carpet-windows.webp",
+      "url": "https://hotelpradeep.com/images/hotel/room-carpet-windows.webp",
+      "caption": "Rooms at Hotel Pradeep"
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://hotelpradeep.com/rooms#rooms",
+      "name": "Room categories at Hotel Pradeep",
+      "numberOfItems": 3,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://hotelpradeep.com/rooms#delux",
+            "name": "Deluxe Rooms",
+            "url": "https://hotelpradeep.com/rooms#delux"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://hotelpradeep.com/rooms#super-delux",
+            "name": "Super Deluxe Room",
+            "url": "https://hotelpradeep.com/rooms#super-delux"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@id": "https://hotelpradeep.com/rooms#executive",
+            "name": "Executive Rooms",
+            "url": "https://hotelpradeep.com/rooms#executive"
+          }
+        }
+      ]
+    },
+    {
+      "@type": [
+        "HotelRoom",
+        "Product"
+      ],
+      "@id": "https://hotelpradeep.com/rooms#delux",
+      "name": "Deluxe Rooms",
+      "description": "Relax in our Deluxe Room, designed for comfort with stylish décor and a cozy atmosphere. Enjoy a peaceful stay with all modern amenities and a warm touch of Banarasi hospitality.",
+      "url": "https://hotelpradeep.com/rooms#delux",
+      "image": [
+        "https://hotelpradeep.com/images/hotel/room-king-wide.webp",
+        "https://hotelpradeep.com/images/hotel/room-king-bed.webp",
+        "https://hotelpradeep.com/images/hotel/room-king-desk.webp",
+        "https://hotelpradeep.com/images/hotel/bathroom-pattern.webp"
+      ],
+      "containedInPlace": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "occupancy": {
+        "@type": "QuantitativeValue",
+        "minValue": 1,
+        "maxValue": 2,
+        "unitCode": "C62",
+        "unitText": "guests"
+      },
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "24-Hour Room Service",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "King Size Bed",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Free WiFi",
+          "value": true
+        }
+      ],
+      "offers": {
+        "@id": "https://hotelpradeep.com/tariff#offer-delux"
+      }
+    },
+    {
+      "@type": "Offer",
+      "@id": "https://hotelpradeep.com/tariff#offer-delux",
+      "name": "Deluxe Rooms — published nightly tariff",
+      "url": "https://hotelpradeep.com/tariff",
+      "itemOffered": {
+        "@id": "https://hotelpradeep.com/rooms#delux"
+      },
+      "offeredBy": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "businessFunction": "http://purl.org/goodrelations/v1#LeaseOut",
+      "price": 4000,
+      "priceCurrency": "INR",
+      "priceSpecification": {
+        "@type": "UnitPriceSpecification",
+        "price": 4000,
+        "priceCurrency": "INR",
+        "unitCode": "DAY",
+        "unitText": "night",
+        "referenceQuantity": {
+          "@type": "QuantitativeValue",
+          "value": 1,
+          "unitCode": "DAY",
+          "unitText": "night"
+        }
+      },
+      "description": "Published room tariff per night. Refer to the tariff page for taxes and terms. Confirm dates, final charges and availability directly with the hotel; an enquiry is not a confirmed reservation."
+    },
+    {
+      "@type": [
+        "HotelRoom",
+        "Product"
+      ],
+      "@id": "https://hotelpradeep.com/rooms#super-delux",
+      "name": "Super Deluxe Room",
+      "description": "Stay in style and comfort with our Super Deluxe Room, designed for a luxurious and relaxing experience. With spacious interiors, elegant furnishings, and modern amenities, enjoy the perfect blend of convenience and Banarasi charm.",
+      "url": "https://hotelpradeep.com/rooms#super-delux",
+      "image": [
+        "https://hotelpradeep.com/images/hotel/room-arched-wide.webp",
+        "https://hotelpradeep.com/images/hotel/room-arched-bed.webp",
+        "https://hotelpradeep.com/images/hotel/room-arched-windows.webp",
+        "https://hotelpradeep.com/images/hotel/room-arched-desk.webp"
+      ],
+      "containedInPlace": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "occupancy": {
+        "@type": "QuantitativeValue",
+        "minValue": 1,
+        "maxValue": 2,
+        "unitCode": "C62",
+        "unitText": "guests"
+      },
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "24-Hour Room Service",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Free WiFi",
+          "value": true
+        }
+      ],
+      "offers": {
+        "@id": "https://hotelpradeep.com/tariff#offer-super-delux"
+      }
+    },
+    {
+      "@type": "Offer",
+      "@id": "https://hotelpradeep.com/tariff#offer-super-delux",
+      "name": "Super Deluxe Room — published nightly tariff",
+      "url": "https://hotelpradeep.com/tariff",
+      "itemOffered": {
+        "@id": "https://hotelpradeep.com/rooms#super-delux"
+      },
+      "offeredBy": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "businessFunction": "http://purl.org/goodrelations/v1#LeaseOut",
+      "price": 5000,
+      "priceCurrency": "INR",
+      "priceSpecification": {
+        "@type": "UnitPriceSpecification",
+        "price": 5000,
+        "priceCurrency": "INR",
+        "unitCode": "DAY",
+        "unitText": "night",
+        "referenceQuantity": {
+          "@type": "QuantitativeValue",
+          "value": 1,
+          "unitCode": "DAY",
+          "unitText": "night"
+        }
+      },
+      "description": "Published room tariff per night. Refer to the tariff page for taxes and terms. Confirm dates, final charges and availability directly with the hotel; an enquiry is not a confirmed reservation."
+    },
+    {
+      "@type": [
+        "HotelRoom",
+        "Product"
+      ],
+      "@id": "https://hotelpradeep.com/rooms#executive",
+      "name": "Executive Rooms",
+      "description": "Experience a perfect mix of luxury and comfort in our Executive Room, designed for a relaxing and premium stay. With spacious and stylish interiors, modern amenities, and a touch of Banarasi hospitality, this room offers everything you need for a memorable stay.",
+      "url": "https://hotelpradeep.com/rooms#executive",
+      "image": [
+        "https://hotelpradeep.com/images/hotel/room-carpet-wide.webp",
+        "https://hotelpradeep.com/images/hotel/room-carpet-bed.webp",
+        "https://hotelpradeep.com/images/hotel/room-carpet-seating.webp",
+        "https://hotelpradeep.com/images/hotel/bathroom-modern.webp"
+      ],
+      "containedInPlace": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "occupancy": {
+        "@type": "QuantitativeValue",
+        "minValue": 2,
+        "maxValue": 3,
+        "unitCode": "C62",
+        "unitText": "guests"
+      },
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "24-Hour Room Service",
+          "value": true
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Free WiFi",
+          "value": true
+        }
+      ],
+      "offers": {
+        "@id": "https://hotelpradeep.com/tariff#offer-executive"
+      }
+    },
+    {
+      "@type": "Offer",
+      "@id": "https://hotelpradeep.com/tariff#offer-executive",
+      "name": "Executive Rooms — published nightly tariff",
+      "url": "https://hotelpradeep.com/tariff",
+      "itemOffered": {
+        "@id": "https://hotelpradeep.com/rooms#executive"
+      },
+      "offeredBy": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "businessFunction": "http://purl.org/goodrelations/v1#LeaseOut",
+      "price": 6000,
+      "priceCurrency": "INR",
+      "priceSpecification": {
+        "@type": "UnitPriceSpecification",
+        "price": 6000,
+        "priceCurrency": "INR",
+        "unitCode": "DAY",
+        "unitText": "night",
+        "referenceQuantity": {
+          "@type": "QuantitativeValue",
+          "value": 1,
+          "unitCode": "DAY",
+          "unitText": "night"
+        }
+      },
+      "description": "Published room tariff per night. Refer to the tariff page for taxes and terms. Confirm dates, final charges and availability directly with the hotel; an enquiry is not a confirmed reservation."
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://hotelpradeep.com/dining#webpage",
+      "url": "https://hotelpradeep.com/dining",
+      "name": "Poonam & Eden Dining",
+      "description": "Discover Poonam Restaurant and Eden Rooftop Restaurant at Hotel Pradeep.",
+      "inLanguage": "en-IN",
+      "isPartOf": {
+        "@id": "https://hotelpradeep.com/#website"
+      },
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://hotelpradeep.com/dining#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://hotelpradeep.com/dining#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://hotelpradeep.com/dining#restaurants"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://hotelpradeep.com/dining#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://hotelpradeep.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Poonam & Eden Dining",
+          "item": "https://hotelpradeep.com/dining"
+        }
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/dining#primaryimage",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/dining-room.webp",
+      "url": "https://hotelpradeep.com/images/hotel/dining-room.webp",
+      "caption": "Poonam & Eden Dining"
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://hotelpradeep.com/dining#restaurants",
+      "name": "Dining at Hotel Pradeep",
+      "numberOfItems": 2,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://hotelpradeep.com/dining#poonam",
+            "name": "Poonam Restaurant",
+            "url": "https://hotelpradeep.com/dining#poonam"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://hotelpradeep.com/dining#eden",
+            "name": "Eden Rooftop Restaurant",
+            "url": "https://hotelpradeep.com/dining#eden"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Restaurant",
+      "@id": "https://hotelpradeep.com/dining#poonam",
+      "name": "Poonam Restaurant",
+      "url": "https://hotelpradeep.com/dining#poonam",
+      "description": "Welcome to Poonam Restaurant, where we serve delicious food with the warmth of Banarasi hospitality. Our menu includes a variety of dishes, from traditional Banarasi flavors to popular Indian and international meals. Every dish is prepared with fresh ingredients to give you the best taste and quality. Whether you are craving local favorites or looking to try something new, we have something for everyone. Breakfast: 7.30 am – 10.30 am (daily). Lunch: 12.00 noon – 3.00 pm (daily). Dinner: open from 6.30 pm, last order at 10.30 pm (daily)",
+      "image": [
+        "https://hotelpradeep.com/images/hotel/dining-room.webp",
+        "https://hotelpradeep.com/images/hotel/dining-tables.webp"
+      ],
+      "servesCuisine": [
+        "Indian",
+        "Continental",
+        "Chinese"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jagatganj",
+        "addressLocality": "Varanasi",
+        "addressRegion": "Uttar Pradesh",
+        "postalCode": "221002",
+        "addressCountry": "IN"
+      },
+      "telephone": "+917408423503",
+      "containedInPlace": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "Restaurant",
+      "@id": "https://hotelpradeep.com/dining#eden",
+      "name": "Eden Rooftop Restaurant",
+      "url": "https://hotelpradeep.com/dining#eden",
+      "description": "Eden Rooftop Restaurant at Hotel Pradeep is a wonderful place to enjoy authentic Indian cuisine. With its peaceful atmosphere and beautiful garden view, it provides a relaxing dining experience for guests. The restaurant's open-air setting adds to the charm, whether you are looking for a quiet meal or a special evening with family and friends.",
+      "image": [
+        "https://hotelpradeep.com/images/hotel/terrace-garden.webp",
+        "https://hotelpradeep.com/images/hotel/terrace-evening.webp"
+      ],
+      "servesCuisine": "Indian",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jagatganj",
+        "addressLocality": "Varanasi",
+        "addressRegion": "Uttar Pradesh",
+        "postalCode": "221002",
+        "addressCountry": "IN"
+      },
+      "telephone": "+917408423503",
+      "containedInPlace": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://hotelpradeep.com/facilities#webpage",
+      "url": "https://hotelpradeep.com/facilities",
+      "name": "Hotel Pradeep Facilities",
+      "description": "Explore the amenities and services at Hotel Pradeep, Varanasi.",
+      "inLanguage": "en-IN",
+      "isPartOf": {
+        "@id": "https://hotelpradeep.com/#website"
+      },
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://hotelpradeep.com/facilities#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://hotelpradeep.com/facilities#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://hotelpradeep.com/facilities#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://hotelpradeep.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Hotel Pradeep Facilities",
+          "item": "https://hotelpradeep.com/facilities"
+        }
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/facilities#primaryimage",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/bar-lounge.webp",
+      "url": "https://hotelpradeep.com/images/hotel/bar-lounge.webp",
+      "caption": "Hotel Pradeep Facilities"
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://hotelpradeep.com/gallery#webpage",
+      "url": "https://hotelpradeep.com/gallery",
+      "name": "Hotel Pradeep Photo Gallery",
+      "description": "Photographs of the hotel exterior, rooms, restaurant, reception and parking areas.",
+      "inLanguage": "en-IN",
+      "isPartOf": {
+        "@id": "https://hotelpradeep.com/#website"
+      },
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://hotelpradeep.com/gallery#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://hotelpradeep.com/gallery#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://hotelpradeep.com/gallery#albums"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://hotelpradeep.com/gallery#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://hotelpradeep.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Hotel Pradeep Photo Gallery",
+          "item": "https://hotelpradeep.com/gallery"
+        }
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/gallery#primaryimage",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/lobby-wide.webp",
+      "url": "https://hotelpradeep.com/images/hotel/lobby-wide.webp",
+      "caption": "Hotel Pradeep Photo Gallery"
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://hotelpradeep.com/gallery#albums",
+      "name": "Hotel Pradeep photo albums",
+      "numberOfItems": 5,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://hotelpradeep.com/gallery/front-view-gallery#webpage",
+            "name": "Front View",
+            "url": "https://hotelpradeep.com/gallery/front-view-gallery"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://hotelpradeep.com/gallery/resturant-gallery#webpage",
+            "name": "Restaurant",
+            "url": "https://hotelpradeep.com/gallery/resturant-gallery"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@id": "https://hotelpradeep.com/gallery/reception-gallery#webpage",
+            "name": "Reception & Common Area",
+            "url": "https://hotelpradeep.com/gallery/reception-gallery"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@id": "https://hotelpradeep.com/gallery/rooms-gallery#webpage",
+            "name": "Rooms",
+            "url": "https://hotelpradeep.com/gallery/rooms-gallery"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@id": "https://hotelpradeep.com/gallery/parking-gallery#webpage",
+            "name": "Parking",
+            "url": "https://hotelpradeep.com/gallery/parking-gallery"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://hotelpradeep.com/varanasi#webpage",
+      "url": "https://hotelpradeep.com/varanasi",
+      "name": "Explore Varanasi with Hotel Pradeep",
+      "description": "Discover Varanasi's temples, ghats and heritage sites, with practical destination guides from Hotel Pradeep.",
+      "inLanguage": "en-IN",
+      "isPartOf": {
+        "@id": "https://hotelpradeep.com/#website"
+      },
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "about": {
+        "@id": "https://hotelpradeep.com/varanasi#city"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://hotelpradeep.com/varanasi#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://hotelpradeep.com/varanasi#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://hotelpradeep.com/varanasi#destinations"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://hotelpradeep.com/varanasi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://hotelpradeep.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Explore Varanasi with Hotel Pradeep",
+          "item": "https://hotelpradeep.com/varanasi"
+        }
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/varanasi#primaryimage",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/ganges-panorama.webp",
+      "url": "https://hotelpradeep.com/images/hotel/ganges-panorama.webp",
+      "caption": "Explore Varanasi with Hotel Pradeep"
+    },
+    {
+      "@type": "City",
+      "@id": "https://hotelpradeep.com/varanasi#city",
+      "name": "Varanasi",
+      "alternateName": [
+        "Kashi",
+        "Banaras"
+      ],
+      "containedInPlace": {
+        "@type": "State",
+        "name": "Uttar Pradesh",
+        "containedInPlace": {
+          "@type": "Country",
+          "name": "India"
+        }
+      }
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://hotelpradeep.com/varanasi#destinations",
+      "name": "Places to visit in Varanasi",
+      "numberOfItems": 8,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://hotelpradeep.com/varanasi/kashi-vishwanath#place",
+            "name": "Shri Kashi Vishwanath Temple",
+            "url": "https://hotelpradeep.com/varanasi/kashi-vishwanath"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://hotelpradeep.com/varanasi/dashashwamedh#place",
+            "name": "Dashashwamedh Ghat",
+            "url": "https://hotelpradeep.com/varanasi/dashashwamedh"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@id": "https://hotelpradeep.com/varanasi/assi#place",
+            "name": "Assi Ghat",
+            "url": "https://hotelpradeep.com/varanasi/assi"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@id": "https://hotelpradeep.com/varanasi/sarnath#place",
+            "name": "Sarnath",
+            "url": "https://hotelpradeep.com/varanasi/sarnath"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@id": "https://hotelpradeep.com/varanasi/ramnagar#place",
+            "name": "Ramnagar Fort",
+            "url": "https://hotelpradeep.com/varanasi/ramnagar"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 6,
+          "item": {
+            "@id": "https://hotelpradeep.com/varanasi/bhu#place",
+            "name": "New Vishwanath Temple, BHU",
+            "url": "https://hotelpradeep.com/varanasi/bhu"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 7,
+          "item": {
+            "@id": "https://hotelpradeep.com/varanasi/durga#place",
+            "name": "Durga Kund Temple",
+            "url": "https://hotelpradeep.com/varanasi/durga"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 8,
+          "item": {
+            "@id": "https://hotelpradeep.com/varanasi/namo#place",
+            "name": "Namo Ghat",
+            "url": "https://hotelpradeep.com/varanasi/namo"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "TouristAttraction",
+      "@id": "https://hotelpradeep.com/varanasi/kashi-vishwanath#place",
+      "name": "Shri Kashi Vishwanath Temple",
+      "description": "Dedicated to Lord Shiva, Kashi Vishwanath is one of the twelve Jyotirlinga shrines and a spiritual centre of the city. Its golden spires and the Kashi Vishwanath Dham corridor connect the temple experience with the sacred riverfront. The surrounding lanes offer a close encounter with the everyday traditions of old Kashi.",
+      "url": "https://hotelpradeep.com/varanasi/kashi-vishwanath",
+      "image": {
+        "@id": "https://hotelpradeep.com/varanasi/kashi-vishwanath#photo"
+      },
+      "containedInPlace": {
+        "@id": "https://hotelpradeep.com/varanasi#city"
+      },
+      "sameAs": "https://shrikashivishwanath.org/",
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=Shri%20Kashi%20Vishwanath%20Temple%20Varanasi"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/varanasi/kashi-vishwanath#photo",
+      "contentUrl": "https://hotelpradeep.com/images/varanasi/kashi-vishwanath.webp",
+      "url": "https://hotelpradeep.com/images/varanasi/kashi-vishwanath.webp",
+      "caption": "Ganga Dwar, the gateway to Kashi Vishwanath Dham in Varanasi",
+      "creditText": "Ashvin Kaitabhya, clicked by Abhishek Pandey",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0",
+      "isBasedOn": "https://commons.wikimedia.org/wiki/File:Ganga_Dwar,_Gateway_of_Corridor_of_Kashi_Vishwanath_Temple,_Varanasi_2.webp",
+      "description": "WebP resizing and dedicated mobile crops applied to the credited source photograph."
+    },
+    {
+      "@type": "TouristAttraction",
+      "@id": "https://hotelpradeep.com/varanasi/dashashwamedh#place",
+      "name": "Dashashwamedh Ghat",
+      "description": "One of Varanasi's best-known riverfront landmarks, Dashashwamedh Ghat brings together pilgrims, boats, and the energy of the old city. It is especially associated with the evening Ganga Aarti, when lamps, bells, and prayers create an unforgettable riverside atmosphere. A daytime visit reveals a different, equally absorbing rhythm of life along the steps.",
+      "url": "https://hotelpradeep.com/varanasi/dashashwamedh",
+      "image": {
+        "@id": "https://hotelpradeep.com/varanasi/dashashwamedh#photo"
+      },
+      "containedInPlace": {
+        "@id": "https://hotelpradeep.com/varanasi#city"
+      },
+      "sameAs": "https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi/dashashwamedh-ghat",
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=Dashashwamedh%20Ghat%20Varanasi"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/varanasi/dashashwamedh#photo",
+      "contentUrl": "https://hotelpradeep.com/images/varanasi/dashashwamedh.webp",
+      "url": "https://hotelpradeep.com/images/varanasi/dashashwamedh.webp",
+      "caption": "Dashashwamedh Ghat on the Ganges in Varanasi",
+      "creditText": "Sulagna Halder",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0",
+      "isBasedOn": "https://commons.wikimedia.org/wiki/File:DASHASHWAMEDH_GHAT,_VARANASI.jpg",
+      "description": "WebP resizing and dedicated mobile crops applied to the credited source photograph."
+    },
+    {
+      "@type": "TouristAttraction",
+      "@id": "https://hotelpradeep.com/varanasi/assi#place",
+      "name": "Assi Ghat",
+      "description": "At the southern end of the city's celebrated riverfront, Assi Ghat offers space to pause and watch the Ganges. Early mornings bring gentle light and a slower pace, while the surrounding neighbourhood has cafés and places to sit between walks. It is a welcoming starting point for experiencing the ghats beyond the busiest central stretch.",
+      "url": "https://hotelpradeep.com/varanasi/assi",
+      "image": {
+        "@id": "https://hotelpradeep.com/varanasi/assi#photo"
+      },
+      "containedInPlace": {
+        "@id": "https://hotelpradeep.com/varanasi#city"
+      },
+      "sameAs": "https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi/assi-ghat",
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=Assi%20Ghat%20Varanasi"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/varanasi/assi#photo",
+      "contentUrl": "https://hotelpradeep.com/images/varanasi/assi.webp",
+      "url": "https://hotelpradeep.com/images/varanasi/assi.webp",
+      "caption": "Morning prayer ceremony at Assi Ghat in Varanasi",
+      "creditText": "Titodutta",
+      "license": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+      "isBasedOn": "https://commons.wikimedia.org/wiki/File:Assi_Ghat_Varanasi_morning_Aarti.jpg",
+      "description": "WebP resizing and dedicated mobile crops applied to the credited source photograph."
+    },
+    {
+      "@type": "TouristAttraction",
+      "@id": "https://hotelpradeep.com/varanasi/sarnath#place",
+      "name": "Sarnath",
+      "description": "Sarnath is a major Buddhist pilgrimage destination associated with the Buddha's first teaching after enlightenment. The Dhamek Stupa, archaeological remains, and the nearby museum offer another perspective on the region's spiritual history. Its open grounds and historic monuments make a thoughtful contrast to the movement and intensity of the old city.",
+      "url": "https://hotelpradeep.com/varanasi/sarnath",
+      "image": {
+        "@id": "https://hotelpradeep.com/varanasi/sarnath#photo"
+      },
+      "containedInPlace": {
+        "@id": "https://hotelpradeep.com/varanasi#city"
+      },
+      "sameAs": "https://varanasi.nic.in/tourist-place/sarnath/",
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=Dhamek%20Stupa%20Sarnath"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/varanasi/sarnath#photo",
+      "contentUrl": "https://hotelpradeep.com/images/varanasi/sarnath.webp",
+      "url": "https://hotelpradeep.com/images/varanasi/sarnath.webp",
+      "caption": "The Dhamek Stupa at Sarnath near Varanasi",
+      "creditText": "MaximusPrasad",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0",
+      "isBasedOn": "https://commons.wikimedia.org/wiki/File:Dhamekh_Stupa,_Sarnath0065.jpg",
+      "description": "WebP resizing and dedicated mobile crops applied to the credited source photograph."
+    },
+    {
+      "@type": "TouristAttraction",
+      "@id": "https://hotelpradeep.com/varanasi/ramnagar#place",
+      "name": "Ramnagar Fort",
+      "description": "Across the Ganges from the old city, the eighteenth-century Ramnagar Fort introduces visitors to Varanasi's royal heritage. Its river-facing walls, courtyards, and historic setting offer a different view of the city. The museum collections add context to the lives, tastes, and traditions associated with the former royal household.",
+      "url": "https://hotelpradeep.com/varanasi/ramnagar",
+      "image": {
+        "@id": "https://hotelpradeep.com/varanasi/ramnagar#photo"
+      },
+      "containedInPlace": {
+        "@id": "https://hotelpradeep.com/varanasi#city"
+      },
+      "sameAs": "https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi/ramnagar-fort",
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=Ramnagar%20Fort%20Varanasi"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/varanasi/ramnagar#photo",
+      "contentUrl": "https://hotelpradeep.com/images/varanasi/ramnagar.webp",
+      "url": "https://hotelpradeep.com/images/varanasi/ramnagar.webp",
+      "caption": "Ramnagar Fort on the bank of the Ganges near Varanasi",
+      "creditText": "Paramanu Sarkar",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0",
+      "isBasedOn": "https://commons.wikimedia.org/wiki/File:Ramnagar_Fort,_Ramnagar,_Varanasi,_Uttar_Pradesh_05.jpg",
+      "description": "WebP resizing and dedicated mobile crops applied to the credited source photograph."
+    },
+    {
+      "@type": "TouristAttraction",
+      "@id": "https://hotelpradeep.com/varanasi/bhu#place",
+      "name": "New Vishwanath Temple, BHU",
+      "description": "Set within Banaras Hindu University, the New Vishwanath Temple is a distinctive landmark dedicated to Lord Shiva. Its tall spire and campus setting offer an experience quite different from the narrow lanes around Kashi Vishwanath. A visit can be combined with a gentle exploration of the university's tree-lined surroundings.",
+      "url": "https://hotelpradeep.com/varanasi/bhu",
+      "image": {
+        "@id": "https://hotelpradeep.com/varanasi/bhu#photo"
+      },
+      "containedInPlace": {
+        "@id": "https://hotelpradeep.com/varanasi#city"
+      },
+      "sameAs": "https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi/new-vishwanath-temple",
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=New%20Vishwanath%20Temple%20Banaras%20Hindu%20University%20Varanasi"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/varanasi/bhu#photo",
+      "contentUrl": "https://hotelpradeep.com/images/varanasi/bhu.webp",
+      "url": "https://hotelpradeep.com/images/varanasi/bhu.webp",
+      "caption": "The New Vishwanath Temple on the Banaras Hindu University campus",
+      "creditText": "Heliophilous",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0",
+      "isBasedOn": "https://commons.wikimedia.org/wiki/File:New_Vishwanath_Temple_(BHU).jpg",
+      "description": "WebP resizing and dedicated mobile crops applied to the credited source photograph."
+    },
+    {
+      "@type": "TouristAttraction",
+      "@id": "https://hotelpradeep.com/varanasi/durga#place",
+      "name": "Durga Kund Temple",
+      "description": "Recognisable by its red exterior and North Indian temple towers, Durga Kund is dedicated to Goddess Durga. The temple and its adjacent water tank form one of the city's familiar devotional landmarks. It is a rewarding addition to a southern Varanasi visit, alongside nearby temples and the wider Assi neighbourhood.",
+      "url": "https://hotelpradeep.com/varanasi/durga",
+      "image": {
+        "@id": "https://hotelpradeep.com/varanasi/durga#photo"
+      },
+      "containedInPlace": {
+        "@id": "https://hotelpradeep.com/varanasi#city"
+      },
+      "sameAs": "https://www.incredibleindia.gov.in/en/uttar-pradesh/varanasi/durga-temple",
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=Durga%20Kund%20Temple%20Varanasi"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/varanasi/durga#photo",
+      "contentUrl": "https://hotelpradeep.com/images/varanasi/durga.webp",
+      "url": "https://hotelpradeep.com/images/varanasi/durga.webp",
+      "caption": "The red Durga Kund Temple and its adjacent water tank in Varanasi",
+      "creditText": "Baldersdod",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0",
+      "isBasedOn": "https://commons.wikimedia.org/wiki/File:Durga_Mandir_and_Kund.jpg",
+      "description": "WebP resizing and dedicated mobile crops applied to the credited source photograph."
+    },
+    {
+      "@type": "TouristAttraction",
+      "@id": "https://hotelpradeep.com/varanasi/namo#place",
+      "name": "Namo Ghat",
+      "description": "Namo Ghat offers a contemporary addition to Varanasi's riverfront, with open public spaces and distinctive folded-hands sculptures. It provides a fresh perspective on the Ganges and an interesting contrast to the older, densely built ghats. Come for an unhurried walk and a wider view of the riverfront.",
+      "url": "https://hotelpradeep.com/varanasi/namo",
+      "image": {
+        "@id": "https://hotelpradeep.com/varanasi/namo#photo"
+      },
+      "containedInPlace": {
+        "@id": "https://hotelpradeep.com/varanasi#city"
+      },
+      "sameAs": "https://kashi.gov.in/listing-details/namo-ghat",
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=Namo%20Ghat%20Varanasi"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/varanasi/namo#photo",
+      "contentUrl": "https://hotelpradeep.com/images/varanasi/namo.webp",
+      "url": "https://hotelpradeep.com/images/varanasi/namo.webp",
+      "caption": "The Ganges and Malviya Bridge viewed from Namo Ghat in Varanasi",
+      "creditText": "Naveen K Gautam",
+      "license": "https://creativecommons.org/licenses/by-sa/4.0",
+      "isBasedOn": "https://commons.wikimedia.org/wiki/File:NAMO_GHAT_JULY-2024.jpg",
+      "description": "WebP resizing and dedicated mobile crops applied to the credited source photograph."
+    },
+    {
+      "@type": "ContactPage",
+      "@id": "https://hotelpradeep.com/contact#webpage",
+      "url": "https://hotelpradeep.com/contact",
+      "name": "Contact Hotel Pradeep",
+      "description": "Contact Hotel Pradeep in Jagatganj, Varanasi for stays, dining and general enquiries.",
+      "inLanguage": "en-IN",
+      "isPartOf": {
+        "@id": "https://hotelpradeep.com/#website"
+      },
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://hotelpradeep.com/contact#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://hotelpradeep.com/contact#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://hotelpradeep.com/contact#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://hotelpradeep.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Contact Hotel Pradeep",
+          "item": "https://hotelpradeep.com/contact"
+        }
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/contact#primaryimage",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/entrance-evening.webp",
+      "url": "https://hotelpradeep.com/images/hotel/entrance-evening.webp",
+      "caption": "Contact Hotel Pradeep"
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://hotelpradeep.com/tariff#webpage",
+      "url": "https://hotelpradeep.com/tariff",
+      "name": "Hotel Pradeep Room Tariff",
+      "description": "Published room tariffs and booking information for Hotel Pradeep, Varanasi.",
+      "inLanguage": "en-IN",
+      "isPartOf": {
+        "@id": "https://hotelpradeep.com/#website"
+      },
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://hotelpradeep.com/tariff#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://hotelpradeep.com/tariff#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://hotelpradeep.com/tariff#rooms"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://hotelpradeep.com/tariff#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://hotelpradeep.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Hotel Pradeep Room Tariff",
+          "item": "https://hotelpradeep.com/tariff"
+        }
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/tariff#primaryimage",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/room-carpet-wide.webp",
+      "url": "https://hotelpradeep.com/images/hotel/room-carpet-wide.webp",
+      "caption": "Hotel Pradeep Room Tariff"
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://hotelpradeep.com/tariff#rooms",
+      "name": "Room categories at Hotel Pradeep",
+      "numberOfItems": 3,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://hotelpradeep.com/rooms#delux",
+            "name": "Deluxe Rooms",
+            "url": "https://hotelpradeep.com/rooms#delux"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://hotelpradeep.com/rooms#super-delux",
+            "name": "Super Deluxe Room",
+            "url": "https://hotelpradeep.com/rooms#super-delux"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@id": "https://hotelpradeep.com/rooms#executive",
+            "name": "Executive Rooms",
+            "url": "https://hotelpradeep.com/rooms#executive"
+          }
+        }
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://hotelpradeep.com/varanasi/kashi-vishwanath#webpage",
+      "url": "https://hotelpradeep.com/varanasi/kashi-vishwanath",
+      "name": "Shri Kashi Vishwanath Temple Visitor Guide",
+      "description": "Dedicated to Lord Shiva, Kashi Vishwanath is one of the twelve Jyotirlinga shrines and a spiritual centre of the city. Its golden spires and the Kashi Vishwanath Dham corridor connect the temple experience with the sacred riverfront. The surrounding lanes offer a close encounter with the everyday traditions of old Kashi.",
+      "inLanguage": "en-IN",
+      "isPartOf": {
+        "@id": "https://hotelpradeep.com/#website"
+      },
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "about": {
+        "@id": "https://hotelpradeep.com/varanasi/kashi-vishwanath#place"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://hotelpradeep.com/varanasi/kashi-vishwanath#photo"
+      },
+      "breadcrumb": {
+        "@id": "https://hotelpradeep.com/varanasi/kashi-vishwanath#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://hotelpradeep.com/varanasi/kashi-vishwanath#guide"
+      },
+      "lastReviewed": "2026-10-24"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://hotelpradeep.com/varanasi/kashi-vishwanath#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://hotelpradeep.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Varanasi",
+          "item": "https://hotelpradeep.com/varanasi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Shri Kashi Vishwanath Temple",
+          "item": "https://hotelpradeep.com/varanasi/kashi-vishwanath"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hotelpradeep.com/varanasi/kashi-vishwanath#guide",
+      "headline": "Shri Kashi Vishwanath Temple Visitor Guide",
+      "description": "Dedicated to Lord Shiva, Kashi Vishwanath is one of the twelve Jyotirlinga shrines and a spiritual centre of the city. Its golden spires and the Kashi Vishwanath Dham corridor connect the temple experience with the sacred riverfront. The surrounding lanes offer a close encounter with the everyday traditions of old Kashi.",
+      "url": "https://hotelpradeep.com/varanasi/kashi-vishwanath",
+      "inLanguage": "en-IN",
+      "mainEntityOfPage": {
+        "@id": "https://hotelpradeep.com/varanasi/kashi-vishwanath#webpage"
+      },
+      "about": {
+        "@id": "https://hotelpradeep.com/varanasi/kashi-vishwanath#place"
+      },
+      "author": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "image": {
+        "@id": "https://hotelpradeep.com/varanasi/kashi-vishwanath#photo"
+      },
+      "articleSection": [
+        "The experience",
+        "Timings and best time to visit",
+        "Travel from Hotel Pradeep",
+        "What to carry",
+        "What to avoid"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://hotelpradeep.com/varanasi/dashashwamedh#webpage",
+      "url": "https://hotelpradeep.com/varanasi/dashashwamedh",
+      "name": "Dashashwamedh Ghat Visitor Guide",
+      "description": "One of Varanasi's best-known riverfront landmarks, Dashashwamedh Ghat brings together pilgrims, boats, and the energy of the old city. It is especially associated with the evening Ganga Aarti, when lamps, bells, and prayers create an unforgettable riverside atmosphere. A daytime visit reveals a different, equally absorbing rhythm of life along the steps.",
+      "inLanguage": "en-IN",
+      "isPartOf": {
+        "@id": "https://hotelpradeep.com/#website"
+      },
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "about": {
+        "@id": "https://hotelpradeep.com/varanasi/dashashwamedh#place"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://hotelpradeep.com/varanasi/dashashwamedh#photo"
+      },
+      "breadcrumb": {
+        "@id": "https://hotelpradeep.com/varanasi/dashashwamedh#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://hotelpradeep.com/varanasi/dashashwamedh#guide"
+      },
+      "lastReviewed": "2026-10-24"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://hotelpradeep.com/varanasi/dashashwamedh#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://hotelpradeep.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Varanasi",
+          "item": "https://hotelpradeep.com/varanasi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Dashashwamedh Ghat",
+          "item": "https://hotelpradeep.com/varanasi/dashashwamedh"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hotelpradeep.com/varanasi/dashashwamedh#guide",
+      "headline": "Dashashwamedh Ghat Visitor Guide",
+      "description": "One of Varanasi's best-known riverfront landmarks, Dashashwamedh Ghat brings together pilgrims, boats, and the energy of the old city. It is especially associated with the evening Ganga Aarti, when lamps, bells, and prayers create an unforgettable riverside atmosphere. A daytime visit reveals a different, equally absorbing rhythm of life along the steps.",
+      "url": "https://hotelpradeep.com/varanasi/dashashwamedh",
+      "inLanguage": "en-IN",
+      "mainEntityOfPage": {
+        "@id": "https://hotelpradeep.com/varanasi/dashashwamedh#webpage"
+      },
+      "about": {
+        "@id": "https://hotelpradeep.com/varanasi/dashashwamedh#place"
+      },
+      "author": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "image": {
+        "@id": "https://hotelpradeep.com/varanasi/dashashwamedh#photo"
+      },
+      "articleSection": [
+        "The experience",
+        "Timings and best time to visit",
+        "Travel from Hotel Pradeep",
+        "What to carry",
+        "What to avoid"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://hotelpradeep.com/varanasi/assi#webpage",
+      "url": "https://hotelpradeep.com/varanasi/assi",
+      "name": "Assi Ghat Visitor Guide",
+      "description": "At the southern end of the city's celebrated riverfront, Assi Ghat offers space to pause and watch the Ganges. Early mornings bring gentle light and a slower pace, while the surrounding neighbourhood has cafés and places to sit between walks. It is a welcoming starting point for experiencing the ghats beyond the busiest central stretch.",
+      "inLanguage": "en-IN",
+      "isPartOf": {
+        "@id": "https://hotelpradeep.com/#website"
+      },
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "about": {
+        "@id": "https://hotelpradeep.com/varanasi/assi#place"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://hotelpradeep.com/varanasi/assi#photo"
+      },
+      "breadcrumb": {
+        "@id": "https://hotelpradeep.com/varanasi/assi#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://hotelpradeep.com/varanasi/assi#guide"
+      },
+      "lastReviewed": "2026-10-24"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://hotelpradeep.com/varanasi/assi#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://hotelpradeep.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Varanasi",
+          "item": "https://hotelpradeep.com/varanasi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Assi Ghat",
+          "item": "https://hotelpradeep.com/varanasi/assi"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hotelpradeep.com/varanasi/assi#guide",
+      "headline": "Assi Ghat Visitor Guide",
+      "description": "At the southern end of the city's celebrated riverfront, Assi Ghat offers space to pause and watch the Ganges. Early mornings bring gentle light and a slower pace, while the surrounding neighbourhood has cafés and places to sit between walks. It is a welcoming starting point for experiencing the ghats beyond the busiest central stretch.",
+      "url": "https://hotelpradeep.com/varanasi/assi",
+      "inLanguage": "en-IN",
+      "mainEntityOfPage": {
+        "@id": "https://hotelpradeep.com/varanasi/assi#webpage"
+      },
+      "about": {
+        "@id": "https://hotelpradeep.com/varanasi/assi#place"
+      },
+      "author": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "image": {
+        "@id": "https://hotelpradeep.com/varanasi/assi#photo"
+      },
+      "articleSection": [
+        "The experience",
+        "Timings and best time to visit",
+        "Travel from Hotel Pradeep",
+        "What to carry",
+        "What to avoid"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://hotelpradeep.com/varanasi/sarnath#webpage",
+      "url": "https://hotelpradeep.com/varanasi/sarnath",
+      "name": "Sarnath Visitor Guide",
+      "description": "Sarnath is a major Buddhist pilgrimage destination associated with the Buddha's first teaching after enlightenment. The Dhamek Stupa, archaeological remains, and the nearby museum offer another perspective on the region's spiritual history. Its open grounds and historic monuments make a thoughtful contrast to the movement and intensity of the old city.",
+      "inLanguage": "en-IN",
+      "isPartOf": {
+        "@id": "https://hotelpradeep.com/#website"
+      },
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "about": {
+        "@id": "https://hotelpradeep.com/varanasi/sarnath#place"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://hotelpradeep.com/varanasi/sarnath#photo"
+      },
+      "breadcrumb": {
+        "@id": "https://hotelpradeep.com/varanasi/sarnath#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://hotelpradeep.com/varanasi/sarnath#guide"
+      },
+      "lastReviewed": "2026-10-24"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://hotelpradeep.com/varanasi/sarnath#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://hotelpradeep.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Varanasi",
+          "item": "https://hotelpradeep.com/varanasi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Sarnath",
+          "item": "https://hotelpradeep.com/varanasi/sarnath"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hotelpradeep.com/varanasi/sarnath#guide",
+      "headline": "Sarnath Visitor Guide",
+      "description": "Sarnath is a major Buddhist pilgrimage destination associated with the Buddha's first teaching after enlightenment. The Dhamek Stupa, archaeological remains, and the nearby museum offer another perspective on the region's spiritual history. Its open grounds and historic monuments make a thoughtful contrast to the movement and intensity of the old city.",
+      "url": "https://hotelpradeep.com/varanasi/sarnath",
+      "inLanguage": "en-IN",
+      "mainEntityOfPage": {
+        "@id": "https://hotelpradeep.com/varanasi/sarnath#webpage"
+      },
+      "about": {
+        "@id": "https://hotelpradeep.com/varanasi/sarnath#place"
+      },
+      "author": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "image": {
+        "@id": "https://hotelpradeep.com/varanasi/sarnath#photo"
+      },
+      "articleSection": [
+        "The experience",
+        "Timings and best time to visit",
+        "Travel from Hotel Pradeep",
+        "What to carry",
+        "What to avoid"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://hotelpradeep.com/varanasi/ramnagar#webpage",
+      "url": "https://hotelpradeep.com/varanasi/ramnagar",
+      "name": "Ramnagar Fort Visitor Guide",
+      "description": "Across the Ganges from the old city, the eighteenth-century Ramnagar Fort introduces visitors to Varanasi's royal heritage. Its river-facing walls, courtyards, and historic setting offer a different view of the city. The museum collections add context to the lives, tastes, and traditions associated with the former royal household.",
+      "inLanguage": "en-IN",
+      "isPartOf": {
+        "@id": "https://hotelpradeep.com/#website"
+      },
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "about": {
+        "@id": "https://hotelpradeep.com/varanasi/ramnagar#place"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://hotelpradeep.com/varanasi/ramnagar#photo"
+      },
+      "breadcrumb": {
+        "@id": "https://hotelpradeep.com/varanasi/ramnagar#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://hotelpradeep.com/varanasi/ramnagar#guide"
+      },
+      "lastReviewed": "2026-10-24"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://hotelpradeep.com/varanasi/ramnagar#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://hotelpradeep.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Varanasi",
+          "item": "https://hotelpradeep.com/varanasi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Ramnagar Fort",
+          "item": "https://hotelpradeep.com/varanasi/ramnagar"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hotelpradeep.com/varanasi/ramnagar#guide",
+      "headline": "Ramnagar Fort Visitor Guide",
+      "description": "Across the Ganges from the old city, the eighteenth-century Ramnagar Fort introduces visitors to Varanasi's royal heritage. Its river-facing walls, courtyards, and historic setting offer a different view of the city. The museum collections add context to the lives, tastes, and traditions associated with the former royal household.",
+      "url": "https://hotelpradeep.com/varanasi/ramnagar",
+      "inLanguage": "en-IN",
+      "mainEntityOfPage": {
+        "@id": "https://hotelpradeep.com/varanasi/ramnagar#webpage"
+      },
+      "about": {
+        "@id": "https://hotelpradeep.com/varanasi/ramnagar#place"
+      },
+      "author": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "image": {
+        "@id": "https://hotelpradeep.com/varanasi/ramnagar#photo"
+      },
+      "articleSection": [
+        "The experience",
+        "Timings and best time to visit",
+        "Travel from Hotel Pradeep",
+        "What to carry",
+        "What to avoid"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://hotelpradeep.com/varanasi/bhu#webpage",
+      "url": "https://hotelpradeep.com/varanasi/bhu",
+      "name": "New Vishwanath Temple, BHU Visitor Guide",
+      "description": "Set within Banaras Hindu University, the New Vishwanath Temple is a distinctive landmark dedicated to Lord Shiva. Its tall spire and campus setting offer an experience quite different from the narrow lanes around Kashi Vishwanath. A visit can be combined with a gentle exploration of the university's tree-lined surroundings.",
+      "inLanguage": "en-IN",
+      "isPartOf": {
+        "@id": "https://hotelpradeep.com/#website"
+      },
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "about": {
+        "@id": "https://hotelpradeep.com/varanasi/bhu#place"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://hotelpradeep.com/varanasi/bhu#photo"
+      },
+      "breadcrumb": {
+        "@id": "https://hotelpradeep.com/varanasi/bhu#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://hotelpradeep.com/varanasi/bhu#guide"
+      },
+      "lastReviewed": "2026-10-24"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://hotelpradeep.com/varanasi/bhu#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://hotelpradeep.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Varanasi",
+          "item": "https://hotelpradeep.com/varanasi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "New Vishwanath Temple, BHU",
+          "item": "https://hotelpradeep.com/varanasi/bhu"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hotelpradeep.com/varanasi/bhu#guide",
+      "headline": "New Vishwanath Temple, BHU Visitor Guide",
+      "description": "Set within Banaras Hindu University, the New Vishwanath Temple is a distinctive landmark dedicated to Lord Shiva. Its tall spire and campus setting offer an experience quite different from the narrow lanes around Kashi Vishwanath. A visit can be combined with a gentle exploration of the university's tree-lined surroundings.",
+      "url": "https://hotelpradeep.com/varanasi/bhu",
+      "inLanguage": "en-IN",
+      "mainEntityOfPage": {
+        "@id": "https://hotelpradeep.com/varanasi/bhu#webpage"
+      },
+      "about": {
+        "@id": "https://hotelpradeep.com/varanasi/bhu#place"
+      },
+      "author": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "image": {
+        "@id": "https://hotelpradeep.com/varanasi/bhu#photo"
+      },
+      "articleSection": [
+        "The experience",
+        "Timings and best time to visit",
+        "Travel from Hotel Pradeep",
+        "What to carry",
+        "What to avoid"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://hotelpradeep.com/varanasi/durga#webpage",
+      "url": "https://hotelpradeep.com/varanasi/durga",
+      "name": "Durga Kund Temple Visitor Guide",
+      "description": "Recognisable by its red exterior and North Indian temple towers, Durga Kund is dedicated to Goddess Durga. The temple and its adjacent water tank form one of the city's familiar devotional landmarks. It is a rewarding addition to a southern Varanasi visit, alongside nearby temples and the wider Assi neighbourhood.",
+      "inLanguage": "en-IN",
+      "isPartOf": {
+        "@id": "https://hotelpradeep.com/#website"
+      },
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "about": {
+        "@id": "https://hotelpradeep.com/varanasi/durga#place"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://hotelpradeep.com/varanasi/durga#photo"
+      },
+      "breadcrumb": {
+        "@id": "https://hotelpradeep.com/varanasi/durga#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://hotelpradeep.com/varanasi/durga#guide"
+      },
+      "lastReviewed": "2026-10-24"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://hotelpradeep.com/varanasi/durga#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://hotelpradeep.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Varanasi",
+          "item": "https://hotelpradeep.com/varanasi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Durga Kund Temple",
+          "item": "https://hotelpradeep.com/varanasi/durga"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hotelpradeep.com/varanasi/durga#guide",
+      "headline": "Durga Kund Temple Visitor Guide",
+      "description": "Recognisable by its red exterior and North Indian temple towers, Durga Kund is dedicated to Goddess Durga. The temple and its adjacent water tank form one of the city's familiar devotional landmarks. It is a rewarding addition to a southern Varanasi visit, alongside nearby temples and the wider Assi neighbourhood.",
+      "url": "https://hotelpradeep.com/varanasi/durga",
+      "inLanguage": "en-IN",
+      "mainEntityOfPage": {
+        "@id": "https://hotelpradeep.com/varanasi/durga#webpage"
+      },
+      "about": {
+        "@id": "https://hotelpradeep.com/varanasi/durga#place"
+      },
+      "author": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "image": {
+        "@id": "https://hotelpradeep.com/varanasi/durga#photo"
+      },
+      "articleSection": [
+        "The experience",
+        "Timings and best time to visit",
+        "Travel from Hotel Pradeep",
+        "What to carry",
+        "What to avoid"
+      ]
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://hotelpradeep.com/varanasi/namo#webpage",
+      "url": "https://hotelpradeep.com/varanasi/namo",
+      "name": "Namo Ghat Visitor Guide",
+      "description": "Namo Ghat offers a contemporary addition to Varanasi's riverfront, with open public spaces and distinctive folded-hands sculptures. It provides a fresh perspective on the Ganges and an interesting contrast to the older, densely built ghats. Come for an unhurried walk and a wider view of the riverfront.",
+      "inLanguage": "en-IN",
+      "isPartOf": {
+        "@id": "https://hotelpradeep.com/#website"
+      },
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "about": {
+        "@id": "https://hotelpradeep.com/varanasi/namo#place"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://hotelpradeep.com/varanasi/namo#photo"
+      },
+      "breadcrumb": {
+        "@id": "https://hotelpradeep.com/varanasi/namo#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://hotelpradeep.com/varanasi/namo#guide"
+      },
+      "lastReviewed": "2026-10-24"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://hotelpradeep.com/varanasi/namo#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://hotelpradeep.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Varanasi",
+          "item": "https://hotelpradeep.com/varanasi"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Namo Ghat",
+          "item": "https://hotelpradeep.com/varanasi/namo"
+        }
+      ]
+    },
+    {
+      "@type": "Article",
+      "@id": "https://hotelpradeep.com/varanasi/namo#guide",
+      "headline": "Namo Ghat Visitor Guide",
+      "description": "Namo Ghat offers a contemporary addition to Varanasi's riverfront, with open public spaces and distinctive folded-hands sculptures. It provides a fresh perspective on the Ganges and an interesting contrast to the older, densely built ghats. Come for an unhurried walk and a wider view of the riverfront.",
+      "url": "https://hotelpradeep.com/varanasi/namo",
+      "inLanguage": "en-IN",
+      "mainEntityOfPage": {
+        "@id": "https://hotelpradeep.com/varanasi/namo#webpage"
+      },
+      "about": {
+        "@id": "https://hotelpradeep.com/varanasi/namo#place"
+      },
+      "author": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "image": {
+        "@id": "https://hotelpradeep.com/varanasi/namo#photo"
+      },
+      "articleSection": [
+        "The experience",
+        "Timings and best time to visit",
+        "Travel from Hotel Pradeep",
+        "What to carry",
+        "What to avoid"
+      ]
+    },
+    {
+      "@type": "ImageGallery",
+      "@id": "https://hotelpradeep.com/gallery/front-view-gallery#webpage",
+      "url": "https://hotelpradeep.com/gallery/front-view-gallery",
+      "name": "Front View Gallery",
+      "description": "Experience the grand entrance and stunning architecture that welcomes you to our hotel.",
+      "inLanguage": "en-IN",
+      "isPartOf": {
+        "@id": "https://hotelpradeep.com/#website"
+      },
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://hotelpradeep.com/gallery/front-view-gallery#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://hotelpradeep.com/gallery/front-view-gallery#breadcrumb"
+      },
+      "image": [
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/facade-dusk.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/facade-night.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/facade-daylight.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/facade-street.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/entrance-evening.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/facade-aerial.webp#image"
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://hotelpradeep.com/gallery/front-view-gallery#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://hotelpradeep.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Gallery",
+          "item": "https://hotelpradeep.com/gallery"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Front View",
+          "item": "https://hotelpradeep.com/gallery/front-view-gallery"
+        }
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/gallery/front-view-gallery#primaryimage",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/facade-dusk.webp",
+      "url": "https://hotelpradeep.com/images/hotel/facade-dusk.webp",
+      "caption": "Front View Gallery"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/facade-dusk.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/facade-dusk.webp",
+      "url": "https://hotelpradeep.com/images/hotel/facade-dusk.webp",
+      "name": "Front View photograph 1",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/facade-night.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/facade-night.webp",
+      "url": "https://hotelpradeep.com/images/hotel/facade-night.webp",
+      "name": "Front View photograph 2",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/facade-daylight.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/facade-daylight.webp",
+      "url": "https://hotelpradeep.com/images/hotel/facade-daylight.webp",
+      "name": "Front View photograph 3",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/facade-street.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/facade-street.webp",
+      "url": "https://hotelpradeep.com/images/hotel/facade-street.webp",
+      "name": "Front View photograph 4",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/entrance-evening.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/entrance-evening.webp",
+      "url": "https://hotelpradeep.com/images/hotel/entrance-evening.webp",
+      "name": "Front View photograph 5",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/facade-aerial.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/facade-aerial.webp",
+      "url": "https://hotelpradeep.com/images/hotel/facade-aerial.webp",
+      "name": "Front View photograph 6",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageGallery",
+      "@id": "https://hotelpradeep.com/gallery/resturant-gallery#webpage",
+      "url": "https://hotelpradeep.com/gallery/resturant-gallery",
+      "name": "Restaurant Gallery",
+      "description": "Indulge in a delightful dining experience with exquisite cuisine and a cozy ambiance.",
+      "inLanguage": "en-IN",
+      "isPartOf": {
+        "@id": "https://hotelpradeep.com/#website"
+      },
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://hotelpradeep.com/gallery/resturant-gallery#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://hotelpradeep.com/gallery/resturant-gallery#breadcrumb"
+      },
+      "image": [
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/dining-room.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/dining-tables.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/dining-buffet.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/dining-wide.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/dining-daylight.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/terrace-evening.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/terrace-tables.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/terrace-garden.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/terrace-lounge.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/terrace-daylight.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/terrace-dining.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/bar-lounge.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/bar-interior.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/bar-tables.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/bar-counter.webp#image"
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://hotelpradeep.com/gallery/resturant-gallery#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://hotelpradeep.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Gallery",
+          "item": "https://hotelpradeep.com/gallery"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Restaurant",
+          "item": "https://hotelpradeep.com/gallery/resturant-gallery"
+        }
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/gallery/resturant-gallery#primaryimage",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/dining-room.webp",
+      "url": "https://hotelpradeep.com/images/hotel/dining-room.webp",
+      "caption": "Restaurant Gallery"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/dining-room.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/dining-room.webp",
+      "url": "https://hotelpradeep.com/images/hotel/dining-room.webp",
+      "name": "Restaurant photograph 1",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/dining-tables.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/dining-tables.webp",
+      "url": "https://hotelpradeep.com/images/hotel/dining-tables.webp",
+      "name": "Restaurant photograph 2",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/dining-buffet.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/dining-buffet.webp",
+      "url": "https://hotelpradeep.com/images/hotel/dining-buffet.webp",
+      "name": "Restaurant photograph 3",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/dining-wide.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/dining-wide.webp",
+      "url": "https://hotelpradeep.com/images/hotel/dining-wide.webp",
+      "name": "Restaurant photograph 4",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/dining-daylight.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/dining-daylight.webp",
+      "url": "https://hotelpradeep.com/images/hotel/dining-daylight.webp",
+      "name": "Restaurant photograph 5",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/terrace-evening.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/terrace-evening.webp",
+      "url": "https://hotelpradeep.com/images/hotel/terrace-evening.webp",
+      "name": "Restaurant photograph 6",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/terrace-tables.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/terrace-tables.webp",
+      "url": "https://hotelpradeep.com/images/hotel/terrace-tables.webp",
+      "name": "Restaurant photograph 7",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/terrace-garden.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/terrace-garden.webp",
+      "url": "https://hotelpradeep.com/images/hotel/terrace-garden.webp",
+      "name": "Restaurant photograph 8",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/terrace-lounge.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/terrace-lounge.webp",
+      "url": "https://hotelpradeep.com/images/hotel/terrace-lounge.webp",
+      "name": "Restaurant photograph 9",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/terrace-daylight.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/terrace-daylight.webp",
+      "url": "https://hotelpradeep.com/images/hotel/terrace-daylight.webp",
+      "name": "Restaurant photograph 10",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/terrace-dining.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/terrace-dining.webp",
+      "url": "https://hotelpradeep.com/images/hotel/terrace-dining.webp",
+      "name": "Restaurant photograph 11",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/bar-lounge.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/bar-lounge.webp",
+      "url": "https://hotelpradeep.com/images/hotel/bar-lounge.webp",
+      "name": "Restaurant photograph 12",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/bar-interior.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/bar-interior.webp",
+      "url": "https://hotelpradeep.com/images/hotel/bar-interior.webp",
+      "name": "Restaurant photograph 13",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/bar-tables.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/bar-tables.webp",
+      "url": "https://hotelpradeep.com/images/hotel/bar-tables.webp",
+      "name": "Restaurant photograph 14",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/bar-counter.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/bar-counter.webp",
+      "url": "https://hotelpradeep.com/images/hotel/bar-counter.webp",
+      "name": "Restaurant photograph 15",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageGallery",
+      "@id": "https://hotelpradeep.com/gallery/reception-gallery#webpage",
+      "url": "https://hotelpradeep.com/gallery/reception-gallery",
+      "name": "Reception & Common Area Gallery",
+      "description": "A warm and inviting reception area designed to provide a seamless check-in experience.",
+      "inLanguage": "en-IN",
+      "isPartOf": {
+        "@id": "https://hotelpradeep.com/#website"
+      },
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://hotelpradeep.com/gallery/reception-gallery#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://hotelpradeep.com/gallery/reception-gallery#breadcrumb"
+      },
+      "image": [
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/reception-desk.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/lobby-wide.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/lobby-seating.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/lobby-corridor.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/lobby-arrival.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/reception-welcome.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/lobby-windows.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/lobby-tables.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/lobby-sunlight.webp#image"
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://hotelpradeep.com/gallery/reception-gallery#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://hotelpradeep.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Gallery",
+          "item": "https://hotelpradeep.com/gallery"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Reception & Common Area",
+          "item": "https://hotelpradeep.com/gallery/reception-gallery"
+        }
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/gallery/reception-gallery#primaryimage",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/reception-desk.webp",
+      "url": "https://hotelpradeep.com/images/hotel/reception-desk.webp",
+      "caption": "Reception & Common Area Gallery"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/reception-desk.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/reception-desk.webp",
+      "url": "https://hotelpradeep.com/images/hotel/reception-desk.webp",
+      "name": "Reception & Common Area photograph 1",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/lobby-wide.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/lobby-wide.webp",
+      "url": "https://hotelpradeep.com/images/hotel/lobby-wide.webp",
+      "name": "Reception & Common Area photograph 2",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/lobby-seating.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/lobby-seating.webp",
+      "url": "https://hotelpradeep.com/images/hotel/lobby-seating.webp",
+      "name": "Reception & Common Area photograph 3",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/lobby-corridor.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/lobby-corridor.webp",
+      "url": "https://hotelpradeep.com/images/hotel/lobby-corridor.webp",
+      "name": "Reception & Common Area photograph 4",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/lobby-arrival.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/lobby-arrival.webp",
+      "url": "https://hotelpradeep.com/images/hotel/lobby-arrival.webp",
+      "name": "Reception & Common Area photograph 5",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/reception-welcome.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/reception-welcome.webp",
+      "url": "https://hotelpradeep.com/images/hotel/reception-welcome.webp",
+      "name": "Reception & Common Area photograph 6",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/lobby-windows.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/lobby-windows.webp",
+      "url": "https://hotelpradeep.com/images/hotel/lobby-windows.webp",
+      "name": "Reception & Common Area photograph 7",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/lobby-tables.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/lobby-tables.webp",
+      "url": "https://hotelpradeep.com/images/hotel/lobby-tables.webp",
+      "name": "Reception & Common Area photograph 8",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/lobby-sunlight.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/lobby-sunlight.webp",
+      "url": "https://hotelpradeep.com/images/hotel/lobby-sunlight.webp",
+      "name": "Reception & Common Area photograph 9",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageGallery",
+      "@id": "https://hotelpradeep.com/gallery/rooms-gallery#webpage",
+      "url": "https://hotelpradeep.com/gallery/rooms-gallery",
+      "name": "Rooms Gallery",
+      "description": "Enjoy luxurious and comfortable rooms with modern amenities for a relaxing stay.",
+      "inLanguage": "en-IN",
+      "isPartOf": {
+        "@id": "https://hotelpradeep.com/#website"
+      },
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://hotelpradeep.com/gallery/rooms-gallery#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://hotelpradeep.com/gallery/rooms-gallery#breadcrumb"
+      },
+      "image": [
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/room-carpet-wide.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/room-carpet-windows.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/room-carpet-bed.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/room-carpet-seating.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/bathroom-modern.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/bathroom-vanity.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/room-king-wide.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/room-king-bed.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/room-king-desk.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/bathroom-pattern.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/room-arched-wide.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/room-arched-bed.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/room-arched-windows.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/room-arched-desk.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/room-twin-wide.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/room-twin-beds.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/bathroom-classic.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/room-classic-wide.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/room-classic-bed.webp#image"
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://hotelpradeep.com/gallery/rooms-gallery#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://hotelpradeep.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Gallery",
+          "item": "https://hotelpradeep.com/gallery"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Rooms",
+          "item": "https://hotelpradeep.com/gallery/rooms-gallery"
+        }
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/gallery/rooms-gallery#primaryimage",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/room-carpet-wide.webp",
+      "url": "https://hotelpradeep.com/images/hotel/room-carpet-wide.webp",
+      "caption": "Rooms Gallery"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/room-carpet-wide.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/room-carpet-wide.webp",
+      "url": "https://hotelpradeep.com/images/hotel/room-carpet-wide.webp",
+      "name": "Rooms photograph 1",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/room-carpet-windows.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/room-carpet-windows.webp",
+      "url": "https://hotelpradeep.com/images/hotel/room-carpet-windows.webp",
+      "name": "Rooms photograph 2",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/room-carpet-bed.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/room-carpet-bed.webp",
+      "url": "https://hotelpradeep.com/images/hotel/room-carpet-bed.webp",
+      "name": "Rooms photograph 3",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/room-carpet-seating.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/room-carpet-seating.webp",
+      "url": "https://hotelpradeep.com/images/hotel/room-carpet-seating.webp",
+      "name": "Rooms photograph 4",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/bathroom-modern.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/bathroom-modern.webp",
+      "url": "https://hotelpradeep.com/images/hotel/bathroom-modern.webp",
+      "name": "Rooms photograph 5",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/bathroom-vanity.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/bathroom-vanity.webp",
+      "url": "https://hotelpradeep.com/images/hotel/bathroom-vanity.webp",
+      "name": "Rooms photograph 6",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/room-king-wide.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/room-king-wide.webp",
+      "url": "https://hotelpradeep.com/images/hotel/room-king-wide.webp",
+      "name": "Rooms photograph 7",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/room-king-bed.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/room-king-bed.webp",
+      "url": "https://hotelpradeep.com/images/hotel/room-king-bed.webp",
+      "name": "Rooms photograph 8",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/room-king-desk.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/room-king-desk.webp",
+      "url": "https://hotelpradeep.com/images/hotel/room-king-desk.webp",
+      "name": "Rooms photograph 9",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/bathroom-pattern.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/bathroom-pattern.webp",
+      "url": "https://hotelpradeep.com/images/hotel/bathroom-pattern.webp",
+      "name": "Rooms photograph 10",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/room-arched-wide.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/room-arched-wide.webp",
+      "url": "https://hotelpradeep.com/images/hotel/room-arched-wide.webp",
+      "name": "Rooms photograph 11",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/room-arched-bed.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/room-arched-bed.webp",
+      "url": "https://hotelpradeep.com/images/hotel/room-arched-bed.webp",
+      "name": "Rooms photograph 12",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/room-arched-windows.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/room-arched-windows.webp",
+      "url": "https://hotelpradeep.com/images/hotel/room-arched-windows.webp",
+      "name": "Rooms photograph 13",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/room-arched-desk.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/room-arched-desk.webp",
+      "url": "https://hotelpradeep.com/images/hotel/room-arched-desk.webp",
+      "name": "Rooms photograph 14",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/room-twin-wide.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/room-twin-wide.webp",
+      "url": "https://hotelpradeep.com/images/hotel/room-twin-wide.webp",
+      "name": "Rooms photograph 15",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/room-twin-beds.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/room-twin-beds.webp",
+      "url": "https://hotelpradeep.com/images/hotel/room-twin-beds.webp",
+      "name": "Rooms photograph 16",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/bathroom-classic.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/bathroom-classic.webp",
+      "url": "https://hotelpradeep.com/images/hotel/bathroom-classic.webp",
+      "name": "Rooms photograph 17",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/room-classic-wide.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/room-classic-wide.webp",
+      "url": "https://hotelpradeep.com/images/hotel/room-classic-wide.webp",
+      "name": "Rooms photograph 18",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/room-classic-bed.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/room-classic-bed.webp",
+      "url": "https://hotelpradeep.com/images/hotel/room-classic-bed.webp",
+      "name": "Rooms photograph 19",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageGallery",
+      "@id": "https://hotelpradeep.com/gallery/parking-gallery#webpage",
+      "url": "https://hotelpradeep.com/gallery/parking-gallery",
+      "name": "Parking Gallery",
+      "description": "Secure and spacious parking available for the convenience of our guests.",
+      "inLanguage": "en-IN",
+      "isPartOf": {
+        "@id": "https://hotelpradeep.com/#website"
+      },
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://hotelpradeep.com/gallery/parking-gallery#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://hotelpradeep.com/gallery/parking-gallery#breadcrumb"
+      },
+      "image": [
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/courtyard-wide.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/courtyard-garden.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/parking-garden.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/parking-courtyard.webp#image"
+        },
+        {
+          "@id": "https://hotelpradeep.com/images/hotel/parking-heritage.webp#image"
+        }
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://hotelpradeep.com/gallery/parking-gallery#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://hotelpradeep.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Gallery",
+          "item": "https://hotelpradeep.com/gallery"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Parking",
+          "item": "https://hotelpradeep.com/gallery/parking-gallery"
+        }
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/gallery/parking-gallery#primaryimage",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/courtyard-wide.webp",
+      "url": "https://hotelpradeep.com/images/hotel/courtyard-wide.webp",
+      "caption": "Parking Gallery"
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/courtyard-wide.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/courtyard-wide.webp",
+      "url": "https://hotelpradeep.com/images/hotel/courtyard-wide.webp",
+      "name": "Parking photograph 1",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/courtyard-garden.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/courtyard-garden.webp",
+      "url": "https://hotelpradeep.com/images/hotel/courtyard-garden.webp",
+      "name": "Parking photograph 2",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/parking-garden.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/parking-garden.webp",
+      "url": "https://hotelpradeep.com/images/hotel/parking-garden.webp",
+      "name": "Parking photograph 3",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/parking-courtyard.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/parking-courtyard.webp",
+      "url": "https://hotelpradeep.com/images/hotel/parking-courtyard.webp",
+      "name": "Parking photograph 4",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/images/hotel/parking-heritage.webp#image",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/parking-heritage.webp",
+      "url": "https://hotelpradeep.com/images/hotel/parking-heritage.webp",
+      "name": "Parking photograph 5",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    }
+  ]
+}

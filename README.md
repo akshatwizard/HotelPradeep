@@ -96,3 +96,11 @@ All eight destinations have a statically generated `/varanasi/[slug]` page, link
 Review visitor facts and the `guideReviewed` date before updating schedules. The Sarnath museum timetable is visibly provisional because a current ASI timetable could not be confirmed. Namo Ghat has no asserted fixed opening window. Temple and tourism links are provided on each page for current access rules; opening hours are separate from ceremony times.
 
 The header and mobile navigation use self-hosted Marcellus under the included SIL Open Font License in `public/fonts/marcellus/`. The original hotel wordmark retains its serif type. Homepage location cards link directly to their guides and use the existing dedicated mobile destination crops.
+
+## Structured data and Analytics audit
+
+All 22 content pages render a shared Hotel/WebSite graph and one page-specific JSON-LD graph from `src/lib/structured-data.ts`. Coverage includes breadcrumbs, room categories and nightly tariff offers, both restaurants, galleries and the eight Varanasi guides. The serializer escapes HTML delimiters. No live availability, aggregate reviews, unverified opening hours or social profiles are fabricated.
+
+Run `npm run build` followed by `npm run schema:export` to validate and export the actual rendered markup into `docs/structured-data/`. That directory includes a complete deduplicated graph, standalone page graphs, route coverage and an Analytics audit. Do not paste the complete-site export into every page or add it alongside the existing implementation.
+
+The existing GA4 measurement ID remains `G-9FXDWDJ45Z`, globally loaded through `Integrations`. Its installation is verified from source and build payloads; authenticated Realtime/DebugView event receipt and the web stream's enhanced history measurement settings have not been verified.

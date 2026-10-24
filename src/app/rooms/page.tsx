@@ -1,3 +1,4 @@
+import { PageStructuredData } from "@/components/StructuredData";
 import { photos } from "@/lib/photos";
 import Link from "next/link";
 import { rooms } from "@/lib/content";
@@ -15,6 +16,7 @@ export const metadata = {
 export default function RoomsPage() {
   return (
     <>
+      <PageStructuredData path="/rooms" />
       <PageIntro
         eyebrow="Rooms & suites"
         title="Rest well. Wake up in Varanasi."

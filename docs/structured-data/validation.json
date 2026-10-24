@@ -1,0 +1,23 @@
+{
+  "reviewDate": "2026-10-24",
+  "builtContentPages": 22,
+  "linkedEntities": 151,
+  "officialVocabularySource": "https://schema.org/version/latest/schemaorg-current-https.jsonld",
+  "schemaTypesChecked": 26,
+  "schemaPropertiesChecked": 63,
+  "typeAndPropertyDomainErrors": 0,
+  "checks": [
+    "One shared graph and one page-specific graph per content route",
+    "JSON parsing and canonical page identities",
+    "Unique and consistent entity IDs",
+    "Internal graph references resolve",
+    "Room tariff amounts and INR currency",
+    "No invented stock states or offer expiry dates",
+    "Eight attractions without unverified structured opening times",
+    "HTML-safe JSON-LD serialization",
+    "Browser: page-specific graph changes correctly during navigation",
+    "Browser: single GA4 loader and matching configuration"
+  ],
+  "externalGoogleRichResultsTestRun": false,
+  "authenticatedAnalyticsReceiptVerified": false
+}

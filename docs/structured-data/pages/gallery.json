@@ -1,0 +1,298 @@
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Hotel",
+      "@id": "https://hotelpradeep.com/#hotel",
+      "name": "Hotel Pradeep",
+      "url": "https://hotelpradeep.com/",
+      "description": "Hotel Pradeep in Jagatganj, Varanasi offers guest rooms, Poonam Restaurant, Eden Rooftop Restaurant and hotel facilities for leisure and business travellers.",
+      "logo": {
+        "@type": "ImageObject",
+        "@id": "https://hotelpradeep.com/#logo",
+        "contentUrl": "https://hotelpradeep.com/img/logo/logo_trans.png",
+        "url": "https://hotelpradeep.com/img/logo/logo_trans.png"
+      },
+      "image": [
+        "https://hotelpradeep.com/images/hotel/facade-dusk.webp",
+        "https://hotelpradeep.com/images/hotel/facade-daylight.webp",
+        "https://hotelpradeep.com/images/hotel/lobby-wide.webp"
+      ],
+      "telephone": "+917408423503",
+      "email": "info@hotelpradeep.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Jagatganj",
+        "addressLocality": "Varanasi",
+        "addressRegion": "Uttar Pradesh",
+        "postalCode": "221002",
+        "addressCountry": "IN"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 25.3252605,
+        "longitude": 82.9996762
+      },
+      "hasMap": "https://www.google.com/maps/search/?api=1&query=Hotel+Pradeep+Jagatganj+Varanasi",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "contactType": "General enquiries",
+          "telephone": "+917408423503",
+          "email": "info@hotelpradeep.com"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "Reservations",
+          "telephone": "+917408423504",
+          "email": "reservation@hotelpradeep.com"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "Hotel reception",
+          "telephone": "+915422204963"
+        },
+        {
+          "@type": "ContactPoint",
+          "contactType": "Hotel reception",
+          "telephone": "+915422207231"
+        }
+      ],
+      "numberOfRooms": 36,
+      "currenciesAccepted": "INR",
+      "checkoutTime": "12:00:00+05:30",
+      "amenityFeature": [
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "24-Hour Room Service",
+          "value": true,
+          "description": "Enjoy round-the-clock in-room dining."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Refrigerator",
+          "value": true,
+          "description": "Keep your drinks and snacks chilled anytime."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "WiFi",
+          "value": true,
+          "description": "Stay connected with high-speed internet access."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Bar",
+          "value": true,
+          "description": "Relax with a drink at our in-house bar."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Lift",
+          "value": true,
+          "description": "Easy access to all floors with our elevator service."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Multi cuisine Restaurant",
+          "value": true,
+          "description": "Enjoy delicious vegetarian meals at our restaurant."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Air Conditioning",
+          "value": true,
+          "description": "Stay cool and comfortable with air-conditioned rooms."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Telephone",
+          "value": true,
+          "description": "Stay connected with in-room calling service."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Email and Xerox facilities",
+          "value": true,
+          "description": "Convenient document copying and fax services."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Laundry Service",
+          "value": true,
+          "description": "Quick and professional garment cleaning service."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Doctor on Call",
+          "value": true,
+          "description": "Medical assistance available anytime for emergencies."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Parking Facilities",
+          "value": true,
+          "description": "Secure parking for your vehicle."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Travel Desk",
+          "value": true,
+          "description": "Expert assistance with local travel arrangements and bookings."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Safe Deposit Locker",
+          "value": true,
+          "description": "Every room has a secure storage facility for your valuables."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Attached Bathrooms",
+          "value": true,
+          "description": "Private and convenient for every room."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Hot & Cold Running Water",
+          "value": true,
+          "description": "Available round the clock for your comfort."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Conference Facilities",
+          "value": true,
+          "description": "Ideal for meetings and events."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Soundproof Hotel",
+          "value": true,
+          "description": "Enjoy a peaceful stay in the heart of Varanasi."
+        }
+      ],
+      "subjectOf": [
+        {
+          "@id": "https://hotelpradeep.com/about#webpage"
+        },
+        {
+          "@id": "https://hotelpradeep.com/contact#webpage"
+        }
+      ]
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://hotelpradeep.com/#website",
+      "url": "https://hotelpradeep.com/",
+      "name": "Hotel Pradeep",
+      "inLanguage": "en-IN",
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "CollectionPage",
+      "@id": "https://hotelpradeep.com/gallery#webpage",
+      "url": "https://hotelpradeep.com/gallery",
+      "name": "Hotel Pradeep Photo Gallery",
+      "description": "Photographs of the hotel exterior, rooms, restaurant, reception and parking areas.",
+      "inLanguage": "en-IN",
+      "isPartOf": {
+        "@id": "https://hotelpradeep.com/#website"
+      },
+      "publisher": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      },
+      "primaryImageOfPage": {
+        "@id": "https://hotelpradeep.com/gallery#primaryimage"
+      },
+      "breadcrumb": {
+        "@id": "https://hotelpradeep.com/gallery#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://hotelpradeep.com/gallery#albums"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://hotelpradeep.com/gallery#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://hotelpradeep.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Hotel Pradeep Photo Gallery",
+          "item": "https://hotelpradeep.com/gallery"
+        }
+      ]
+    },
+    {
+      "@type": "ImageObject",
+      "@id": "https://hotelpradeep.com/gallery#primaryimage",
+      "contentUrl": "https://hotelpradeep.com/images/hotel/lobby-wide.webp",
+      "url": "https://hotelpradeep.com/images/hotel/lobby-wide.webp",
+      "caption": "Hotel Pradeep Photo Gallery"
+    },
+    {
+      "@type": "ItemList",
+      "@id": "https://hotelpradeep.com/gallery#albums",
+      "name": "Hotel Pradeep photo albums",
+      "numberOfItems": 5,
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "item": {
+            "@id": "https://hotelpradeep.com/gallery/front-view-gallery#webpage",
+            "name": "Front View",
+            "url": "https://hotelpradeep.com/gallery/front-view-gallery"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "item": {
+            "@id": "https://hotelpradeep.com/gallery/resturant-gallery#webpage",
+            "name": "Restaurant",
+            "url": "https://hotelpradeep.com/gallery/resturant-gallery"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "item": {
+            "@id": "https://hotelpradeep.com/gallery/reception-gallery#webpage",
+            "name": "Reception & Common Area",
+            "url": "https://hotelpradeep.com/gallery/reception-gallery"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 4,
+          "item": {
+            "@id": "https://hotelpradeep.com/gallery/rooms-gallery#webpage",
+            "name": "Rooms",
+            "url": "https://hotelpradeep.com/gallery/rooms-gallery"
+          }
+        },
+        {
+          "@type": "ListItem",
+          "position": 5,
+          "item": {
+            "@id": "https://hotelpradeep.com/gallery/parking-gallery#webpage",
+            "name": "Parking",
+            "url": "https://hotelpradeep.com/gallery/parking-gallery"
+          }
+        }
+      ]
+    }
+  ]
+}

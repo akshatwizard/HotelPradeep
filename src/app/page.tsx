@@ -1,3 +1,4 @@
+import { PageStructuredData } from "@/components/StructuredData";
 import HeroCarousel from "@/components/HeroCarousel";
 import { photos } from "@/lib/photos";
 import Link from "next/link";
@@ -21,6 +22,7 @@ export default function Home() {
   ];
   return (
     <>
+      <PageStructuredData path="/" />
       <section className="home-hero">
         <div className="hero-copy">
           <Eyebrow>A warm welcome to Varanasi</Eyebrow>

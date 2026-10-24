@@ -1,3 +1,4 @@
+import { PageStructuredData } from "@/components/StructuredData";
 import { roomPhotoAssignments } from "@/lib/photos";
 import { rooms } from "@/lib/content";
 import { BookButton } from "@/components/BookingProvider";
@@ -13,6 +14,7 @@ export const metadata = {
 export default function TariffPage() {
   return (
     <>
+      <PageStructuredData path="/tariff" />
       <PageIntro
         eyebrow="Room tariff"
         title="Your stay, thoughtfully priced."
