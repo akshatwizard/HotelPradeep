@@ -69,14 +69,15 @@ export default function SiteHeader() {
         </nav>
         <div className="header-actions">
           <button
-            className="button header-book"
+            className="button header-book reservation-button"
+            aria-label="Book your stay"
             onClick={() => {
               setMenu(false);
               openBooking();
             }}
           >
-            Book your stay
-            <Icon name="diagonal" />
+            <span className="reservation-copy"><span aria-hidden="true">Reservations</span><strong>Book your stay</strong></span>
+            <span className="reservation-arrow" aria-hidden="true"><Icon name="diagonal" /></span>
           </button>
           <button
             className="icon-button menu-toggle"
@@ -110,14 +111,15 @@ export default function SiteHeader() {
             <Icon name="arrow" />
           </Link>
           <button
-            className="button"
+            className="button reservation-button"
+            aria-label="Book your stay"
             onClick={() => {
               setMenu(false);
               openBooking();
             }}
           >
-            Book your stay
-            <Icon name="diagonal" />
+            <span className="reservation-copy"><span aria-hidden="true">Reservations</span><strong>Book your stay</strong></span>
+            <span className="reservation-arrow" aria-hidden="true"><Icon name="diagonal" /></span>
           </button>
           <a href="tel:+917408423503">Call {hotel.phones[0]}</a>
         </nav>

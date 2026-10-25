@@ -67,9 +67,10 @@ export default function Home() {
             alt="Dining at Hotel Pradeep"
             className="intro-photo-small"
           />
-          <div className="intro-seal">
+          <div className="intro-plaque">
             <span>HOTEL PRADEEP</span>
             <strong>Varanasi</strong>
+            <span className="intro-plaque-rule" aria-hidden="true" />
             <span>WARM HOSPITALITY</span>
           </div>
         </div>

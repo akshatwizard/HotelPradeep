@@ -85,7 +85,7 @@ Internal browser checks covered desktop, mobile, and tablet layouts. All 13 cont
 
 ## Header, hero, and Varanasi guide
 
-The header uses 16px desktop navigation and a larger logo, with mobile navigation below 1100px to avoid crowding. The homepage hero has three slides: the hotel facade, Varanasi ghats, and the hotel drone view. Previous/next buttons, direct slide selection, play/pause, keyboard arrows, reduced-motion preferences, hover/focus pausing, and page visibility are supported.
+The header uses 18px Marcellus desktop navigation and a larger logo, with mobile navigation at 1180px and below to leave room for the framed reservations control. The header and mobile-menu reservation buttons use an ivory-and-gold frame with a separate navy arrow panel. The homepage introduction uses a matching framed hospitality plaque, sized independently for smaller screens. The homepage hero has three slides: the hotel facade, Varanasi ghats, and the hotel drone view. Previous/next buttons, direct slide selection, play/pause, keyboard arrows, reduced-motion preferences, hover/focus pausing, and page visibility are supported.
 
 `src/lib/varanasi.ts` holds eight destination introductions and visit tips. Licensed photographs and dedicated mobile crops are in `public/images/varanasi/`. The page includes visible photo credits and license links, and `scripts/varanasi-photo-plan.json` records sources and crop focal points. To regenerate these assets locally, run `python scripts/prepare-varanasi-photos.py` with Pillow installed. Deployment uses the committed WebP files and makes no external image downloads.
 
