@@ -104,3 +104,9 @@ All 22 content pages render a shared Hotel/WebSite graph and one page-specific J
 Run `npm run build` followed by `npm run schema:export` to validate and export the actual rendered markup into `docs/structured-data/`. That directory includes a complete deduplicated graph, standalone page graphs, route coverage and an Analytics audit. Do not paste the complete-site export into every page or add it alongside the existing implementation.
 
 The existing GA4 measurement ID remains `G-9FXDWDJ45Z`, globally loaded through `Integrations`. Its installation is verified from source and build payloads; authenticated Realtime/DebugView event receipt and the web stream's enhanced history measurement settings have not been verified.
+
+## Content readability
+
+Body paragraphs use shared `--copy-size` and `--copy-leading` tokens: 17px on desktop/tablet, 16px on mobile up to 650px, with 1.8 line spacing. Supporting copy and controls use 15px / 14px, while form inputs remain 16px. Compact decorative labels and display headings keep their hierarchy. Existing page-specific and responsive rules use these same tokens so mobile overrides do not shrink the main copy again.
+
+The enquiry form stacks fields on screens up to 400px. The narrow booking bar gives date inputs full rows, and the tariff table keeps its positioned labels inside its own horizontal scrolling area.
