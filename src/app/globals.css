@@ -15,6 +15,9 @@
   --gold: #ae8251;
   --line: #dcd8ce;
   --muted: #62635f;
+  --copy-size: 17px;
+  --copy-leading: 1.8;
+  --support-size: 15px;
 }
 * {
   box-sizing: border-box;
@@ -28,8 +31,8 @@ body {
   background: var(--paper);
   color: var(--ink);
   font-family: Arial, Helvetica, sans-serif;
-  font-size: 15px;
-  line-height: 1.75;
+  font-size: var(--copy-size);
+  line-height: var(--copy-leading);
   -webkit-font-smoothing: antialiased;
 }
 ::selection {
@@ -105,6 +108,8 @@ h3 em {
 }
 p {
   color: var(--muted);
+  font-size: var(--copy-size);
+  line-height: var(--copy-leading);
 }
 svg {
   flex-shrink: 0;
@@ -177,7 +182,7 @@ a:hover > .photo img,
   border: 1px solid var(--ink);
   background: var(--ink);
   color: white;
-  font-size: 12px;
+  font-size: var(--support-size);
   font-weight: 500;
   letter-spacing: 0.035em;
   line-height: 1.5;
@@ -205,7 +210,7 @@ a:hover > .photo img,
   color: var(--ink);
   padding: 0 0 7px;
   border-bottom: 1px solid var(--gold);
-  font-size: 12px;
+  font-size: var(--support-size);
   line-height: 1.5;
   transition: gap 0.2s;
 }
@@ -392,8 +397,8 @@ a:hover > .photo img,
   line-height: 1.05;
 }
 .hero-copy > p {
-  font-size: 14px;
-  line-height: 1.9;
+  font-size: var(--copy-size);
+  line-height: var(--copy-leading);
   max-width: 355px;
   margin-top: 28px;
 }
@@ -409,7 +414,7 @@ a:hover > .photo img,
   margin-top: 32px;
 }
 .hero-actions .text-link {
-  font-size: 11px;
+  font-size: var(--support-size);
 }
 .hero-accreditation {
   display: flex;
@@ -503,7 +508,7 @@ a:hover > .photo img,
   flex-direction: column;
   padding-inline: 22px;
   border-left: 1px solid var(--line);
-  font-size: 9px;
+  font-size: var(--support-size);
   color: var(--gold);
   letter-spacing: 0.05em;
   gap: 3px;
@@ -516,7 +521,7 @@ a:hover > .photo img,
   border: none;
   background: transparent;
   color: var(--ink);
-  font-size: 12px;
+  font-size: 16px;
   outline-offset: 2px;
   height: 29px;
 }
@@ -557,7 +562,7 @@ a:hover > .photo img,
 }
 .section-copy > p:not(.eyebrow) {
   margin-bottom: 17px;
-  font-size: 14px;
+  font-size: var(--copy-size);
 }
 .section-copy > .text-link {
   margin-top: 14px;
@@ -571,7 +576,7 @@ a:hover > .photo img,
 }
 .heading-aside {
   max-width: 330px;
-  font-size: 13px;
+  font-size: var(--copy-size);
 }
 .heading-aside .text-link {
   margin-top: 22px;
@@ -607,7 +612,7 @@ a:hover > .photo img,
   align-items: center;
   justify-content: space-between;
   gap: 12px;
-  font-size: 12px;
+  font-size: var(--support-size);
   padding: 20px 0 12px;
 }
 .room-card-meta > span:first-child {
@@ -615,10 +620,10 @@ a:hover > .photo img,
   align-items: center;
   gap: 7px;
   color: var(--muted);
-  font-size: 10px;
+  font-size: var(--support-size);
 }
 .room-card-meta small {
-  font-size: 9px;
+  font-size: var(--support-size);
   color: var(--muted);
 }
 .room-card h3 {
@@ -626,11 +631,11 @@ a:hover > .photo img,
   font-size: 27px;
 }
 .room-card .text-link {
-  font-size: 11px;
+  font-size: var(--support-size);
 }
 .tariff-note {
   margin-top: 36px;
-  font-size: 11px;
+  font-size: var(--support-size);
   text-align: center;
 }
 .tariff-note a {
@@ -705,7 +710,7 @@ a:hover > .photo img,
 }
 .dining-secondary p:not(.eyebrow) {
   max-width: 360px;
-  font-size: 13px;
+  font-size: var(--copy-size);
 }
 .dining-secondary .text-link {
   margin-top: 20px;
@@ -743,7 +748,7 @@ a:hover > .photo img,
 }
 .amenity-preview p {
   color: #d2d2dc;
-  font-size: 12px;
+  font-size: var(--copy-size);
 }
 .experience-grid {
   display: grid;
@@ -765,11 +770,11 @@ a:hover > .photo img,
   margin-bottom: 15px;
 }
 .experience-grid p {
-  font-size: 13px;
+  font-size: var(--copy-size);
 }
 .city-description {
-  font-size: 12px;
-  line-height: 1.9;
+  font-size: var(--copy-size);
+  line-height: var(--copy-leading);
   max-width: 1060px;
   margin: 48px auto 0;
   padding-top: 28px;
@@ -813,13 +818,13 @@ a:hover > .photo img,
 .review-bottom strong {
   display: block;
   font-weight: 500;
-  font-size: 12px;
+  font-size: var(--support-size);
 }
 .review-bottom a {
   display: flex;
   align-items: center;
   gap: 6px;
-  font-size: 10px;
+  font-size: var(--support-size);
   margin-top: 4px;
   color: var(--muted);
 }
@@ -894,7 +899,7 @@ a:hover > .photo img,
   max-width: 750px;
   margin: 28px auto 0;
   text-align: center;
-  font-size: 12px;
+  font-size: var(--support-size);
 }
 .home-gallery {
   display: grid;
@@ -951,7 +956,7 @@ a:hover > .photo img,
   margin-right: 45px;
 }
 .invitation-action > a {
-  font-size: 11px;
+  font-size: var(--support-size);
   color: var(--muted);
 }
 .site-footer {
@@ -981,13 +986,13 @@ a:hover > .photo img,
 }
 .footer-brand-block > p {
   color: #babcc9;
-  font-size: 12px;
+  font-size: var(--support-size);
   line-height: 1.9;
   max-width: 355px;
 }
 .site-footer h3 {
   font-family: Arial, sans-serif;
-  font-size: 11px;
+  font-size: var(--support-size);
   letter-spacing: 0.1em;
   font-weight: 500;
   margin: 10px 0 25px;
@@ -996,11 +1001,11 @@ a:hover > .photo img,
   display: grid;
   grid-template-columns: 1fr;
   gap: 10px;
-  font-size: 12px;
+  font-size: var(--support-size);
   color: #babcc9;
 }
 .footer-contact {
-  font-size: 12px;
+  font-size: var(--support-size);
 }
 .footer-contact > p {
   color: #babcc9;
@@ -1056,7 +1061,7 @@ a:hover > .photo img,
 }
 .footer-bottom p {
   color: #babcc9;
-  font-size: 10px;
+  font-size: var(--support-size);
 }
 .footer-bottom a {
   color: var(--paper);
@@ -1094,7 +1099,7 @@ a:hover > .photo img,
 }
 .intro-description {
   max-width: 470px;
-  font-size: 13px;
+  font-size: var(--copy-size);
   margin-top: 22px;
 }
 .page-intro-image {
@@ -1131,7 +1136,7 @@ a:hover > .photo img,
   color: var(--gold);
 }
 .about-stat span {
-  font-size: 11px;
+  font-size: var(--support-size);
   line-height: 1.7;
   max-width: 100px;
 }
@@ -1145,7 +1150,7 @@ a:hover > .photo img,
 }
 .prose p {
   margin-bottom: 25px;
-  font-size: 15px;
+  font-size: var(--copy-size);
 }
 .prose .button {
   margin-top: 5px;
@@ -1154,7 +1159,7 @@ a:hover > .photo img,
   display: flex;
   align-items: center;
   gap: 8px;
-  font-size: 12px;
+  font-size: var(--support-size);
   margin-top: 20px;
 }
 .about-offers {
@@ -1183,7 +1188,7 @@ a:hover > .photo img,
   padding-top: 3px;
 }
 .editorial-list p {
-  font-size: 13px;
+  font-size: var(--copy-size);
 }
 .room-jump {
   display: flex;
@@ -1196,7 +1201,7 @@ a:hover > .photo img,
   display: flex;
   align-items: center;
   gap: 25px;
-  font-size: 11px;
+  font-size: var(--support-size);
 }
 .room-jump a:last-child {
   margin-left: auto;
@@ -1276,7 +1281,7 @@ a:hover > .photo img,
   margin-bottom: 24px;
 }
 .room-detail-copy > p:not(.eyebrow) {
-  font-size: 14px;
+  font-size: var(--copy-size);
 }
 .room-amenities {
   margin: 25px 0;
@@ -1290,7 +1295,7 @@ a:hover > .photo img,
   display: flex;
   align-items: center;
   gap: 11px;
-  font-size: 11px;
+  font-size: var(--support-size);
 }
 .room-amenities svg {
   color: var(--gold);
@@ -1310,14 +1315,14 @@ a:hover > .photo img,
 }
 .room-rate small {
   font-family: Arial, sans-serif;
-  font-size: 10px;
+  font-size: var(--support-size);
   color: var(--muted);
 }
 .room-rate > a {
   display: flex;
   gap: 6px;
   align-items: center;
-  font-size: 10px;
+  font-size: var(--support-size);
   color: var(--muted);
 }
 .restaurant-detail {
@@ -1331,7 +1336,7 @@ a:hover > .photo img,
 }
 .restaurant-detail > div > p:not(.eyebrow) {
   margin-bottom: 20px;
-  font-size: 14px;
+  font-size: var(--copy-size);
 }
 .restaurant-detail > .photo {
   min-height: 650px;
@@ -1352,7 +1357,7 @@ a:hover > .photo img,
   color: var(--gold);
 }
 .dining-hours p {
-  font-size: 12px;
+  font-size: var(--copy-size);
   padding-block: 6px;
   border-bottom: 1px solid #ded9ce;
 }
@@ -1370,7 +1375,7 @@ a:hover > .photo img,
 }
 .eden-detail > div > p:not(.eyebrow) {
   margin-bottom: 20px;
-  font-size: 14px;
+  font-size: var(--copy-size);
 }
 .facilities-grid {
   display: grid;
@@ -1398,7 +1403,7 @@ a:hover > .photo img,
   margin-bottom: 14px;
 }
 .facilities-grid p {
-  font-size: 12px;
+  font-size: var(--copy-size);
 }
 .gallery-albums {
   display: grid;
@@ -1440,8 +1445,8 @@ a:hover > .photo img,
 }
 .album p {
   max-width: 370px;
-  font-size: 12px;
-  line-height: 1.7;
+  font-size: var(--copy-size);
+  line-height: var(--copy-leading);
   color: #efeff2;
   margin-top: 13px;
   padding-right: 30px;
@@ -1495,7 +1500,7 @@ a:hover > .photo img,
   align-items: center;
   padding: 12px 20px;
   border: 1px solid var(--line);
-  font-size: 11px;
+  font-size: var(--support-size);
 }
 .album-navigation svg {
   width: 14px;
@@ -1573,7 +1578,7 @@ a:hover > .photo img,
 }
 .contact-detail p,
 .contact-detail a {
-  font-size: 13px;
+  font-size: var(--copy-size);
 }
 .contact-detail a {
   display: block;
@@ -1602,7 +1607,7 @@ a:hover > .photo img,
   flex-direction: column;
   gap: 7px;
   color: var(--ink);
-  font-size: 11px;
+  font-size: var(--support-size);
   margin: 0;
 }
 .form-grid {
@@ -1620,7 +1625,7 @@ a:hover > .photo img,
   border-radius: 0;
   padding: 11px 12px;
   background: transparent;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 1.5;
   color: var(--ink);
 }
@@ -1633,7 +1638,7 @@ a:hover > .photo img,
 .enquiry-form input::placeholder,
 .enquiry-form textarea::placeholder {
   color: #81817c;
-  font-size: 12px;
+  font-size: 16px;
 }
 .enquiry-form input:focus,
 .enquiry-form select:focus,
@@ -1650,7 +1655,7 @@ a:hover > .photo img,
   display: contents;
 }
 .form-status {
-  font-size: 12px;
+  font-size: var(--support-size);
   line-height: 1.5;
   margin-block: 14px;
 }
@@ -1661,7 +1666,7 @@ a:hover > .photo img,
   color: #a33431;
 }
 .small-note {
-  font-size: 10px;
+  font-size: var(--support-size);
   line-height: 1.6;
   color: var(--muted);
   text-align: center;
@@ -1683,7 +1688,7 @@ a:hover > .photo img,
   margin-block: 20px;
 }
 .form-success > p {
-  font-size: 13px;
+  font-size: var(--copy-size);
 }
 .form-success .text-link {
   margin-top: 25px;
@@ -1733,7 +1738,7 @@ a:hover > .photo img,
 .dialog-description {
   margin-top: 14px;
   margin-bottom: 25px;
-  font-size: 12px;
+  font-size: var(--support-size);
 }
 .tariff-table-wrap {
   width: 100%;
@@ -1755,7 +1760,7 @@ a:hover > .photo img,
   border-bottom: 1px solid var(--line);
 }
 .tariff-table thead th {
-  font-size: 10px;
+  font-size: var(--support-size);
   letter-spacing: 0.1em;
   font-weight: 400;
   text-transform: uppercase;
@@ -1772,7 +1777,7 @@ a:hover > .photo img,
   margin-right: 20px;
 }
 .tariff-table tbody td:nth-child(2) {
-  font-size: 12px;
+  font-size: var(--support-size);
   color: var(--muted);
 }
 .tariff-table tbody td:nth-child(3) {
@@ -1796,7 +1801,7 @@ a:hover > .photo img,
   margin-bottom: 10px;
 }
 .tariff-info p {
-  font-size: 13px;
+  font-size: var(--copy-size);
 }
 .tariff-policies {
   display: grid;
@@ -1809,7 +1814,7 @@ a:hover > .photo img,
   margin-bottom: 20px;
 }
 .tariff-policies p:not(.eyebrow) {
-  font-size: 13px;
+  font-size: var(--copy-size);
 }
 .not-found {
   padding-block: 90px;
@@ -1921,7 +1926,7 @@ a:hover > .photo img,
     padding: 55px 28px 70px;
   }
   .hero-copy > p {
-    font-size: 13px;
+    font-size: var(--copy-size);
   }
   .hero-accreditation {
     flex-direction: column;
@@ -2061,7 +2066,7 @@ a:hover > .photo img,
   }
   .room-detail-copy > .button {
     padding-inline: 18px;
-    font-size: 11px;
+    font-size: var(--support-size);
     gap: 15px;
   }
   .restaurant-detail,
@@ -2103,7 +2108,7 @@ a:hover > .photo img,
     font-size: 36px;
   }
   .section-copy > p:not(.eyebrow) {
-    font-size: 12px;
+    font-size: var(--copy-size);
   }
   .heading-aside {
     max-width: 270px;
@@ -2125,7 +2130,7 @@ a:hover > .photo img,
     font-size: 18px;
   }
   .amenity-preview p {
-    font-size: 11px;
+    font-size: var(--copy-size);
   }
   .review-layout {
     grid-template-columns: 1fr;
@@ -2209,7 +2214,7 @@ a:hover > .photo img,
     font-size: 29px;
   }
   .album p {
-    font-size: 11px;
+    font-size: var(--copy-size);
   }
   .album-number {
     font-size: 8px;
@@ -2229,7 +2234,7 @@ a:hover > .photo img,
   }
   .contact-detail p,
   .contact-detail a {
-    font-size: 11px;
+    font-size: var(--copy-size);
   }
   .contact-form-panel {
     padding: 25px;
@@ -2254,7 +2259,7 @@ a:hover > .photo img,
 @media (max-width: 650px) {
   .site-header { --header-height: 118px; }
   body {
-    font-size: 14px;
+    font-size: var(--copy-size);
   }
   .shell {
     width: calc(100% - 40px);
@@ -2315,7 +2320,7 @@ a:hover > .photo img,
     font-size: 9px;
   }
   .hero-copy > p {
-    font-size: 13px;
+    font-size: var(--copy-size);
     margin-top: 22px;
     max-width: 340px;
   }
@@ -2327,11 +2332,11 @@ a:hover > .photo img,
   }
   .hero-actions .button {
     padding: 14px 18px;
-    font-size: 11px;
+    font-size: var(--support-size);
     gap: 20px;
   }
   .hero-actions .text-link {
-    font-size: 10px;
+    font-size: var(--support-size);
   }
   .hero-accreditation {
     flex-direction: row;
@@ -2391,7 +2396,7 @@ a:hover > .photo img,
   }
   .booking-bar input,
   .booking-bar select {
-    font-size: 12px;
+    font-size: 16px;
   }
   .booking-bar > .button {
     grid-row: auto;
@@ -2420,7 +2425,7 @@ a:hover > .photo img,
     font-size: 40px;
   }
   .section-copy > p:not(.eyebrow) {
-    font-size: 14px;
+    font-size: var(--copy-size);
   }
   .section-heading {
     flex-direction: column;
@@ -2433,7 +2438,7 @@ a:hover > .photo img,
   }
   .heading-aside {
     max-width: 100%;
-    font-size: 13px;
+    font-size: var(--copy-size);
   }
   .heading-aside .text-link {
     margin-top: 17px;
@@ -2477,7 +2482,7 @@ a:hover > .photo img,
     font-size: 36px;
   }
   .dining-secondary p:not(.eyebrow) {
-    font-size: 14px;
+    font-size: var(--copy-size);
   }
   .amenity-band {
     padding-block: 60px;
@@ -2493,7 +2498,7 @@ a:hover > .photo img,
     font-size: 21px;
   }
   .amenity-preview p {
-    font-size: 12px;
+    font-size: var(--copy-size);
   }
   .experience-grid {
     grid-template-columns: 1fr;
@@ -2587,15 +2592,15 @@ a:hover > .photo img,
     max-width: none;
   }
   .site-footer h3 {
-    font-size: 10px;
+    font-size: var(--support-size);
     margin-top: 0;
     margin-bottom: 20px;
   }
   .footer-contact {
-    font-size: 11px;
+    font-size: var(--support-size);
   }
   .footer-links {
-    font-size: 11px;
+    font-size: var(--support-size);
   }
   .footer-phone-list {
     gap: 6px;
@@ -2613,7 +2618,7 @@ a:hover > .photo img,
     gap: 5px;
   }
   .footer-bottom p {
-    font-size: 9px;
+    font-size: var(--support-size);
   }
   .page-intro {
     display: flex;
@@ -2633,7 +2638,7 @@ a:hover > .photo img,
   }
   .intro-description {
     margin-top: 18px;
-    font-size: 13px;
+    font-size: var(--copy-size);
   }
   .page-intro-image {
     min-height: 240px;
@@ -2663,7 +2668,7 @@ a:hover > .photo img,
     padding: 0;
   }
   .prose p {
-    font-size: 14px;
+    font-size: var(--copy-size);
     margin-bottom: 20px;
   }
   .about-offers {
@@ -2687,7 +2692,7 @@ a:hover > .photo img,
   }
   .room-jump a {
     justify-content: space-between;
-    font-size: 10px;
+    font-size: var(--support-size);
     gap: 8px;
   }
   .room-jump a:last-child {
@@ -2704,13 +2709,13 @@ a:hover > .photo img,
     font-size: 9px;
   }
   .room-detail-copy > p:not(.eyebrow) {
-    font-size: 13px;
+    font-size: var(--copy-size);
   }
   .room-amenities {
     gap: 15px;
   }
   .room-amenities li {
-    font-size: 10px;
+    font-size: var(--support-size);
     gap: 8px;
   }
   .room-amenities svg {
@@ -2745,8 +2750,8 @@ a:hover > .photo img,
     font-size: 21px;
   }
   .facilities-grid p {
-    font-size: 11px;
-    line-height: 1.7;
+    font-size: var(--copy-size);
+    line-height: var(--copy-leading);
   }
   .facility-index {
     top: 18px;
@@ -2770,7 +2775,7 @@ a:hover > .photo img,
     font-size: 33px;
   }
   .album p {
-    font-size: 12px;
+    font-size: var(--copy-size);
   }
   .photo-grid {
     gap: 12px;
@@ -2795,7 +2800,7 @@ a:hover > .photo img,
   .album-navigation a {
     padding: 10px 13px;
     gap: 12px;
-    font-size: 10px;
+    font-size: var(--support-size);
   }
   .lightbox {
     padding: 12px;
@@ -2836,7 +2841,7 @@ a:hover > .photo img,
   }
   .contact-detail p,
   .contact-detail a {
-    font-size: 13px;
+    font-size: var(--copy-size);
   }
   .contact-form-panel {
     padding: 28px 22px;
@@ -2879,10 +2884,10 @@ a:hover > .photo img,
   .enquiry-form select,
   .enquiry-form textarea {
     padding: 10px;
-    font-size: 12px;
+    font-size: 16px;
   }
   .enquiry-form label {
-    font-size: 10px;
+    font-size: var(--support-size);
   }
   .tariff-table th,
   .tariff-table td {
@@ -2964,11 +2969,11 @@ a:hover > .photo img,
   margin-bottom: 18px;
 }
 .service-details-grid p {
-  font-size: 13px;
+  font-size: var(--copy-size);
 }
 .service-details-grid article > span {
   display: block;
-  font-size: 11px;
+  font-size: var(--support-size);
   border-top: 1px solid #d5cfc4;
   padding-top: 18px;
   margin-top: 23px;
@@ -3009,10 +3014,10 @@ a:hover > .photo img,
 .pause-symbol { display: block; width: 10px; height: 13px; border-left: 3px solid currentColor; border-right: 3px solid currentColor; }
 .city-guide-link { margin-top: 26px; }
 .city-introduction { display: grid; grid-template-columns: 1fr 1.2fr; gap: 90px; align-items: start; }
-.city-introduction > div > p { font-size: 16px; line-height: 1.85; }
+.city-introduction > div > p { font-size: var(--copy-size); line-height: var(--copy-leading); }
 .city-introduction .text-link { margin-top: 10px; }
 .destination-jump { display: flex; flex-wrap: wrap; gap: 10px; margin: 0 0 42px; }
-.destination-jump a { border: 1px solid var(--line); padding: 11px 15px; display: inline-flex; align-items: center; gap: 14px; font-size: 12px; background: var(--paper); }
+.destination-jump a { border: 1px solid var(--line); padding: 11px 15px; display: inline-flex; align-items: center; gap: 14px; font-size: var(--support-size); background: var(--paper); }
 .destination-jump a:hover { border-color: var(--gold); color: var(--gold); }
 .destination-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 38px 30px; }
 .destination-card { background: var(--paper); display: flex; flex-direction: column; scroll-margin-top: 175px; }
@@ -3021,29 +3026,29 @@ a:hover > .photo img,
 .destination-kicker { display: flex; align-items: center; justify-content: space-between; margin-bottom: 17px; color: var(--gold); font-size: 10px; text-transform: uppercase; letter-spacing: .12em; }
 .destination-kicker > span:first-child { font-family: Georgia, serif; font-size: 21px; letter-spacing: 0; }
 .destination-card h3 { font-size: 31px; line-height: 1.2; margin: 0 0 18px; }
-.destination-card p { font-size: 14px; line-height: 1.85; }
+.destination-card p { font-size: var(--copy-size); line-height: var(--copy-leading); }
 .destination-tip { display: flex; align-items: flex-start; gap: 10px; padding: 17px 0; margin-top: auto; border-top: 1px solid var(--line); }
 .destination-tip svg { color: var(--gold); flex-shrink: 0; margin-top: 5px; }
-.destination-tip p { font-size: 12px; margin: 0; }
+.destination-tip p { font-size: var(--support-size); margin: 0; }
 .destination-links { display: flex; align-items: center; justify-content: space-between; gap: 16px; padding-top: 17px; border-top: 1px solid var(--line); }
-.destination-links > a:last-child { display: inline-flex; align-items: center; gap: 6px; font-size: 11px; color: var(--muted); }
-.destination-links .text-link { font-size: 12px; }
+.destination-links > a:last-child { display: inline-flex; align-items: center; gap: 6px; font-size: var(--support-size); color: var(--muted); }
+.destination-links .text-link { font-size: var(--support-size); }
 .city-experiences { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 40px; }
 .city-experiences article { border-top: 1px solid var(--gold); padding-top: 24px; }
 .city-experiences article > span { color: var(--gold); font-size: 13px; }
 .city-experiences h3 { font-size: 29px; margin: 19px 0 18px; }
-.city-experiences p { font-size: 14px; }
+.city-experiences p { font-size: var(--copy-size); }
 .city-stay { display: grid; grid-template-columns: 1fr 1fr; gap: 75px; align-items: center; }
 .city-stay > .photo { min-height: 440px; }
-.city-stay p { font-size: 15px; }
+.city-stay p { font-size: var(--copy-size); }
 .city-stay-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 24px; margin-top: 30px; }
 .city-stay-actions .button { background: var(--paper); color: var(--ink); }
 .city-resources { padding-block: 36px 50px; }
-.city-resources > p, .city-resources details { font-size: 12px; color: var(--muted); line-height: 1.8; }
+.city-resources > p, .city-resources details { font-size: var(--support-size); color: var(--muted); line-height: 1.8; }
 .city-resources details { padding: 17px 0; border-bottom: 1px solid var(--line); margin-bottom: 25px; }
 .city-resources summary { color: var(--ink); cursor: pointer; }
 .city-resources details a { text-decoration: underline; text-underline-offset: 3px; }
-.city-resources details p { font-size: 12px; margin-top: 15px; }
+.city-resources details p { font-size: var(--support-size); margin-top: 15px; }
 .city-resources ul { padding-left: 19px; }
 #destinations { scroll-margin-top: 145px; }
 @media (max-width: 1000px) {
@@ -3071,14 +3076,14 @@ a:hover > .photo img,
   .hero-carousel-dots button { width: 24px; }
   .hero-side-label { bottom: 150px; }
   .destination-jump { gap: 8px; margin-bottom: 30px; }
-  .destination-jump a { padding: 9px 12px; font-size: 11px; gap: 9px; }
+  .destination-jump a { padding: 9px 12px; font-size: var(--support-size); gap: 9px; }
   .destination-copy { padding: 23px 21px; }
   .destination-card h3 { font-size: 28px; }
   .destination-card > .photo { aspect-ratio: 1.3; }
   .destination-card { scroll-margin-top: 130px; }
   .destination-links { flex-wrap: wrap; gap: 18px; }
   .city-stay > .photo { min-height: 300px; }
-  .city-introduction > div > p { font-size: 15px; }
+  .city-introduction > div > p { font-size: var(--copy-size); }
   #destinations { scroll-margin-top: 125px; }
 }
 @media (prefers-reduced-motion: reduce) { .hero-slide { transition: none; } }
@@ -3090,64 +3095,64 @@ a:hover > .photo img,
 .mobile-nav > a { font-size: 20px; font-weight: 400; letter-spacing: .015em; }
 .header-top { font-size: 11px; font-weight: 400; }
 .experience-grid > article > a:first-child { display: block; }
-.experience-grid .text-link { margin-top: 10px; font-size: 12px; }
-.experience-credit { margin: 20px 0 0; font-size: 11px; color: var(--muted); max-width: 850px; }
+.experience-grid .text-link { margin-top: 10px; font-size: var(--support-size); }
+.experience-credit { margin: 20px 0 0; font-size: var(--support-size); color: var(--muted); max-width: 850px; }
 .experience-credit a { text-decoration: underline; text-underline-offset: 3px; }
 .destination-hero { display: grid; grid-template-columns: 1fr 1.1fr; min-height: 560px; background: var(--sand); }
 .destination-hero-copy { padding: 40px clamp(28px, 4.7vw, 84px) 58px; align-self: center; }
 .destination-hero .breadcrumb { flex-wrap: wrap; margin-bottom: 48px; gap: 9px; line-height: 1.6; }
 .destination-hero h1 { font-size: clamp(42px, 4.6vw, 76px); line-height: 1.07; margin: 24px 0; text-wrap: balance; overflow-wrap: break-word; }
-.destination-tagline { font-size: 16px; margin-bottom: 30px; }
+.destination-tagline { font-size: var(--copy-size); margin-bottom: 30px; }
 .destination-hero > .photo { min-height: 560px; }
 .guide-navigation { display: flex; flex-wrap: wrap; gap: 12px 32px; padding-block: 24px; border-bottom: 1px solid var(--line); }
-.guide-navigation a { font-size: 12px; font-weight: 600; }
+.guide-navigation a { font-size: var(--support-size); font-weight: 600; }
 .guide-navigation a:hover { color: var(--gold); }
 .guide-overview { display: grid; grid-template-columns: .85fr 1.15fr; gap: 80px; }
-.guide-description { font-size: 17px; line-height: 1.9; margin-top: 0; }
+.guide-description { font-size: var(--copy-size); line-height: var(--copy-leading); margin-top: 0; }
 .guide-highlights { padding-left: 20px; color: var(--muted); }
 .guide-highlights li { margin-top: 13px; padding-left: 5px; }
 .guide-planner { display: grid; grid-template-columns: 1fr 1fr; gap: 30px; }
 .guide-hours, .guide-planner-side > article { background: var(--paper); padding: 35px; border-top: 2px solid var(--gold); }
 .guide-label { font-size: 10px; text-transform: uppercase; letter-spacing: .14em; color: var(--gold); font-weight: 600; display: block; }
 .guide-hours h3 { font-size: 27px; margin: 24px 0 10px; }
-.guide-hours p, .guide-planner p { font-size: 14px; margin-bottom: 0; }
+.guide-hours p, .guide-planner p { font-size: var(--copy-size); margin-bottom: 0; }
 .guide-planner-side { display: flex; flex-direction: column; gap: 25px; }
 .guide-duration { display: flex; align-items: flex-start; gap: 18px; }
 .guide-duration > svg { color: var(--gold); flex-shrink: 0; }
 .guide-duration p { margin: 10px 0 0; }
 .guide-estimate-note { display: flex; gap: 16px; background: var(--sand); padding: 22px 25px; margin-bottom: 32px; }
 .guide-estimate-note > svg { flex-shrink: 0; color: var(--gold); margin-top: 4px; }
-.guide-estimate-note p { margin: 0; font-size: 12px; line-height: 1.8; }
+.guide-estimate-note p { margin: 0; font-size: var(--support-size); line-height: 1.8; }
 .guide-estimate-note strong { display: block; font-weight: 600; color: var(--ink); margin-bottom: 4px; }
 .journey-row { display: grid; grid-template-columns: 220px 1fr 165px; gap: 30px; padding-block: 30px; border-bottom: 1px solid var(--line); align-items: start; }
 .journey-row:first-child { border-top: 1px solid var(--line); }
 .journey-mode h3 { font-size: 25px; line-height: 1.2; margin: 0 0 12px; }
-.journey-mode p { font-size: 15px; font-weight: 600; margin: 0; color: var(--ink); }
-.journey-mode > span { display: block; font-size: 12px; color: var(--muted); margin-top: 5px; }
-.journey-directions { margin: 0; font-size: 14px; }
-.journey-map { display: flex; align-items: center; gap: 9px; font-size: 12px; padding-block: 6px; text-decoration: underline; text-underline-offset: 4px; }
+.journey-mode p { font-size: var(--copy-size); font-weight: 600; margin: 0; color: var(--ink); }
+.journey-mode > span { display: block; font-size: var(--support-size); color: var(--muted); margin-top: 5px; }
+.journey-directions { margin: 0; font-size: var(--copy-size); }
+.journey-map { display: flex; align-items: center; gap: 9px; font-size: var(--support-size); padding-block: 6px; text-decoration: underline; text-underline-offset: 4px; }
 .journey-map svg { flex-shrink: 0; }
-.journey-unavailable { font-size: 12px; color: var(--muted); }
+.journey-unavailable { font-size: var(--support-size); color: var(--muted); }
 .guide-transport-note { padding: 28px 0 6px; max-width: 900px; }
 .guide-transport-note h3, .guide-access h3 { font-size: 25px; margin: 0 0 12px; }
-.guide-transport-note p, .guide-access p { font-size: 13px; }
+.guide-transport-note p, .guide-access p { font-size: var(--support-size); }
 .guide-access { display: flex; gap: 20px; border-left: 2px solid var(--gold); padding: 24px 28px; margin-top: 22px; background: var(--sand); }
 .guide-access > svg { color: var(--gold); flex-shrink: 0; margin-top: 4px; }
 .guide-access p { margin-bottom: 0; }
 .guide-advice { display: grid; grid-template-columns: 1.1fr 1fr 1fr; gap: 50px; }
 .guide-advice h2 { font-size: clamp(36px, 3.5vw, 54px); }
 .guide-advice h3 { font-size: 29px; margin: 5px 0 24px; }
-.guide-advice p, .guide-advice li { color: #dedee5; font-size: 14px; }
+.guide-advice p, .guide-advice li { color: #dedee5; font-size: var(--copy-size); }
 .guide-advice ul { padding-left: 18px; }
 .guide-advice li { padding-left: 5px; margin-bottom: 20px; }
 .guide-related { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 30px; }
 .guide-related .photo { aspect-ratio: 1.4; margin-bottom: 22px; }
 .guide-related h3 { font-size: 28px; line-height: 1.2; margin: 14px 0 18px; }
-.guide-related .text-link { font-size: 12px; }
+.guide-related .text-link { font-size: var(--support-size); }
 .guide-hotel-help { padding-block: 60px; }
 .guide-hotel-help > div { display: flex; align-items: center; justify-content: space-between; gap: 50px; }
 .guide-hotel-help h2 { font-size: 46px; }
-.guide-hotel-help p { max-width: 650px; font-size: 14px; }
+.guide-hotel-help p { max-width: 650px; font-size: var(--copy-size); }
 .guide-hotel-help .text-link { flex-shrink: 0; }
 .guide-resources details { scroll-margin-top: 160px; }
 @media (max-width: 1150px) { .journey-row { grid-template-columns: 190px 1fr; gap: 15px 30px; } .journey-map, .journey-unavailable { grid-column: 2; } .guide-advice { gap: 30px; } }
@@ -3168,8 +3173,8 @@ a:hover > .photo img,
   .destination-hero-copy { padding-inline: 22px; }
   .destination-hero > .photo { aspect-ratio: 1.25; }
   .guide-navigation { gap: 13px 22px; padding-block: 22px; }
-  .guide-navigation a { font-size: 11px; }
-  .guide-description { font-size: 15px; }
+  .guide-navigation a { font-size: var(--support-size); }
+  .guide-description { font-size: var(--copy-size); }
   .guide-hours, .guide-planner-side > article { padding: 25px; }
   .guide-estimate-note { padding: 20px; gap: 12px; }
   .journey-row { grid-template-columns: 1fr; gap: 18px; padding-block: 25px; }
@@ -3244,3 +3249,28 @@ a:hover > .photo img,
   .mobile-nav .reservation-copy > strong { font-size: 19px; }
 }
 @media (prefers-reduced-motion: reduce) { .reservation-button .reservation-arrow svg { transition: none; } }
+
+
+/* Shared reading sizes remain consistent across all responsive layouts. */
+.booking-bar input, .booking-bar select { height: 38px; line-height: 1.5; }
+.heading-aside { max-width: 390px; }
+.room-card-meta { flex-wrap: wrap; gap: 8px 14px; }
+.hero-accreditation { font-size: 12px; line-height: 1.7; }
+.breadcrumb { font-size: 12px; flex-wrap: wrap; }
+@media (max-width: 650px) {
+  :root { --copy-size: 16px; --support-size: 14px; }
+  .heading-aside { max-width: none; }
+  .about-stat span { max-width: 140px; }
+}
+@media (max-width: 400px) {
+  .enquiry-form .form-grid { grid-template-columns: 1fr; }
+}
+@media (max-width: 650px) {
+  .booking-bar { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .booking-bar > label { min-width: 0; }
+}
+@media (max-width: 400px) {
+  .booking-bar > label:nth-of-type(-n + 2) { grid-column: 1 / -1; border: 0; padding-inline: 0; }
+}
+/* Keep positioned table labels inside the horizontal scroll container. */
+.tariff-table-wrap { position: relative; }
