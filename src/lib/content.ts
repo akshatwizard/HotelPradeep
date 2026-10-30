@@ -66,8 +66,8 @@ export const facilities = [
   },
   {
     icon: "fa-thin fa-champagne-glasses",
-    title: "Bar",
-    description: "Relax with a drink at our in-house bar.",
+    title: "Mehfil Bar",
+    description: "Unwind with a drink at Mehfil, our in-house bar.",
   },
   {
     icon: "fa-light fa-elevator",
@@ -106,8 +106,8 @@ export const facilities = [
   },
   {
     icon: "fa-thin fa-car",
-    title: "Parking Facilities",
-    description: "Secure parking for your vehicle.",
+    title: "Free Secured Parking",
+    description: "Complimentary secured parking for hotel guests.",
   },
   {
     icon: "fa-thin fa-person-hiking",
@@ -156,12 +156,32 @@ export const facilities = [
     title: "Easy Access",
     description: "Just 26 km from Varanasi Airport.",
   },
+  {
+    icon: "fa-thin fa-bed-front",
+    title: "Free Driver Dormitory",
+    description: "A complimentary dormitory with a toilet for drivers, located near the parking area.",
+  },
+  {
+    icon: "fa-thin fa-champagne-glasses",
+    title: "Blessings Rooftop Banquet",
+    description: "Bring your guests together at Blessings, our rooftop banquet. Contact the hotel to plan your gathering.",
+  },
+];
+
+export const stayHighlights = [
+  { title: "Free Secured Parking", description: "Complimentary secured parking for hotel guests.", icon: "car" },
+  { title: "Free Driver Dormitory", description: "Dormitory with a toilet for drivers, conveniently located near the parking area.", icon: "bed" },
+] as const;
+
+export const gatheringVenues = [
+  { id: "mehfil", title: "Mehfil Bar", description: "Unwind at Mehfil, the in-house bar at Hotel Pradeep. Enjoy a drink and time with good company in a comfortable setting.", image: photos.barLounge, imageAlt: "The bar and lounge at Hotel Pradeep" },
+  { id: "blessings", title: "Blessings Rooftop Banquet", description: "Celebrate and gather at Blessings, our rooftop banquet at Hotel Pradeep. Contact our team to discuss your occasion and arrangements.", image: photos.terraceEvening, imageAlt: "The rooftop setting at Hotel Pradeep" },
 ];
 
 export const aboutParagraphs = [
   "Hotel Pradeep is a 3-star luxury hotel approved by the Ministry of Tourism, Government of India. Located in the heart of Varanasi, the hotel offers a blend of comfort and elegance, making it a great choice for both tourists and business travelers.",
   'The hotel’s in-house restaurant, "Poonam", serves delicious food with rich oriental flavors, offering a delightful dining experience. The rooftop restaurant "Eden" is the perfect spot for those who enjoy dining under the stars. With its open-air setting, guests can enjoy a breathtaking view of the city while savoring their meals.',
-  "With its prime location, excellent dining, and warm hospitality, Hotel Pradeep ensures a pleasant and memorable stay in the holy city of Varanasi.",
+  "With its prime location, excellent dining, and warm hospitality, Hotel Pradeep ensures a pleasant and memorable stay in the holy city of Varanasi. Guests can also unwind at Mehfil Bar or plan a gathering at Blessings Rooftop Banquet.",
   "At Hotel Pradeep, we offer more than just a stay—we offer an experience of comfort, taste, and beauty.",
 ];
 
@@ -169,12 +189,14 @@ export const aboutOffers = [
   "A range of elegant rooms with oriental decorations.",
   "Cosy dinning facilities with a wide range of Continental, Indian and Chinese cuisine.",
   'A roof-top lush green open air restaurant "Eden" with Mexican cuisine.',
-  "Exclusive banquet facilities and Board Room for select gathering, a Travel Desk and everything a traveler requires to feel comfortable, at home and at ease.",
+  "Blessings Rooftop Banquet and a Board Room for gatherings, along with a Travel Desk for assistance during your stay.",
+  "Mehfil, our in-house bar, for a relaxed drink and good company.",
+  "Free secured parking and a free dormitory with a toilet for drivers, near the parking area.",
 ];
 
 export const introParagraphs = [
   'Welcome to Hotel Pradeep, where warmth and elegance come together. The name Pradeep means "divine light"—guiding the way to wisdom, joy, and peace.',
-  "Under one roof, enjoy comfortable rooms, delicious meals at Poonam, our restaurant filled with rich flavors, and the stunning Eden, our rooftop dining space where you can dine under the stars.",
+  "Under one roof, enjoy comfortable rooms, delicious meals at Poonam, our restaurant filled with rich flavors, and Eden, our rooftop dining space where you can dine under the stars. Unwind at Mehfil Bar or bring your guests together at Blessings Rooftop Banquet.",
   "At Hotel Pradeep, we offer more than just a stay—we offer an experience of comfort, taste, and beauty.",
 ];
 
@@ -226,7 +248,7 @@ export const galleries = [
     title: "Parking",
     cover: photos.courtyardWide,
     description:
-      "Secure and spacious parking available for the convenience of our guests.",
+      "Free secured parking for hotel guests, with a free dormitory and toilet for drivers near the parking area.",
     images: photoAlbums.parking,
   },
 ];
@@ -273,19 +295,19 @@ export const navigation = [
 
 export const serviceDetails = [
   {
-    title: "Bar",
+    title: "Mehfil Bar",
     image: photos.barLounge,
     imageAlt: "The bar and lounge at Hotel Pradeep",
     description:
-      "Relax and enjoy a refreshing drink at our Bar. We offer a selection of soft drinks, fine spirits, and tasty snacks in a cozy and comfortable setting. Whether you want to unwind after a long day or have a quick bite, our Bar is the perfect place to sit back and enjoy.",
+      "Relax and enjoy a refreshing drink at Mehfil Bar. We offer a selection of soft drinks, fine spirits, and tasty snacks in a cozy and comfortable setting. Whether you want to unwind after a long day or have a quick bite, Mehfil is the perfect place to sit back and enjoy.",
     hours: "Opening Hours: 5.00 pm – 11.00 pm (daily)",
   },
   {
-    title: "Parking Facility",
+    title: "Free Secured Parking",
     image: photos.courtyardWide,
     imageAlt: "The courtyard and grounds in the hotel parking album",
     description:
-      "Spacious and secure parking is available for guests. Park your vehicle with ease and enjoy a stress-free stay.",
+      "Enjoy free secured parking during your stay. A free dormitory with a toilet is available for drivers near the parking area, making the journey comfortable for everyone.",
     hours: "Availability: 24/7",
   },
   {

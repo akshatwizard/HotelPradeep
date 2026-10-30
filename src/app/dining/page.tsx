@@ -1,14 +1,14 @@
 import { PageStructuredData } from "@/components/StructuredData";
 import { photos, photoAlbums } from "@/lib/photos";
-import { diningParagraphs } from "@/lib/content";
-import { Eyebrow, PageIntro, Photo } from "@/components/ui";
+import { diningParagraphs, gatheringVenues } from "@/lib/content";
+import { Eyebrow, PageIntro, Photo, TextLink } from "@/components/ui";
 import PhotoGallery from "@/components/PhotoGallery";
 import Icon from "@/components/Icon";
 
 export const metadata = {
-  title: "Poonam & Eden Dining",
+  title: "Dining, Mehfil Bar & Blessings Rooftop Banquet",
   description:
-    "Enjoy delicious Indian food at Poonam Restaurant, Hotel Pradeep. Experience the best dining in Varanasi with rich flavors and great service.",
+    "Discover Poonam Restaurant, Eden Rooftop Restaurant, Mehfil Bar and Blessings Rooftop Banquet at Hotel Pradeep, Varanasi.",
   alternates: { canonical: "/dining" },
 };
 export default function DiningPage() {
@@ -18,7 +18,7 @@ export default function DiningPage() {
       <PageIntro
         eyebrow="Dining"
         title="A taste of Banaras. A table to remember."
-        description="Discover Poonam Restaurant and Eden Rooftop Restaurant at Hotel Pradeep."
+        description="Discover Poonam Restaurant, Eden Rooftop Restaurant, Mehfil Bar and Blessings Rooftop Banquet at Hotel Pradeep."
         image={photos.diningRoom}
         imageAlt="Dining at Poonam Restaurant"
       />
@@ -65,6 +65,21 @@ export default function DiningPage() {
               <p key={paragraph}>{paragraph}</p>
             ))}
           </div>
+        </div>
+      </section>
+      <section className="section shell" aria-label="Bar and rooftop banquet">
+        <div className="section-heading">
+          <div><Eyebrow>Gather at Pradeep</Eyebrow><h2>Good company.<br /><em>Special occasions.</em></h2></div>
+        </div>
+        <div className="venue-details-grid">
+          {gatheringVenues.map((venue) => (
+            <article key={venue.id} id={venue.id}>
+              <Photo src={venue.image} alt={venue.imageAlt} />
+              <h3>{venue.title}</h3>
+              <p>{venue.description}</p>
+              <TextLink href="/contact">Enquire with our team</TextLink>
+            </article>
+          ))}
         </div>
       </section>
       <section className="section shell">

@@ -29,6 +29,7 @@ APIs, robots, the XML sitemap, redirects and 404 pages do not get content-page s
 
 ## Content choices
 
+- Owner-confirmed content update (30 October 2026): free secured parking, a free driver dormitory with a toilet near parking, Mehfil Bar and Blessings Rooftop Banquet are included in the shared Hotel description and amenities. Eden remains the rooftop restaurant.
 - Hotel data comes from the existing website. No unverified social profiles, payment methods, pets policy, check-in time, accessible-room claims or current certification were invented. Star classification is deliberately omitted from `starRating` until its current certification is confirmed.
 - The three room categories, occupancy labels and INR 4,000 / 5,000 / 6,000 nightly prices follow visible page content. Photo category assignments remain provisional, as previously agreed. Offers represent published tariffs for accommodation rental, not live availability or an instant booking guarantee. No stock state, invented price expiry or tax-inclusion flag is supplied.
 - Poonam's meal windows and last-order time appear in its description. A last-order time is not encoded as a closing time. Eden has no invented opening hours. Cuisine reflects existing site copy.

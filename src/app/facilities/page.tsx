@@ -1,3 +1,4 @@
+import StayHighlights from "@/components/StayHighlights";
 import { PageStructuredData } from "@/components/StructuredData";
 import { photos } from "@/lib/photos";
 import { facilities, serviceDetails } from "@/lib/content";
@@ -8,7 +9,7 @@ import type { IconName } from "@/components/Icon";
 export const metadata = {
   title: "Hotel Facilities",
   description:
-    "Hotel Pradeep offers comfortable rooms, great food, and excellent service. Explore our hotel amenities in Varanasi.",
+    "Free secured parking, a free driver dormitory with a toilet near parking, Mehfil Bar and Blessings Rooftop Banquet at Hotel Pradeep, Varanasi.",
   alternates: { canonical: "/facilities" },
 };
 const icons: IconName[] = [
@@ -33,6 +34,8 @@ const icons: IconName[] = [
   "shield",
   "pin",
   "diagonal",
+  "bed",
+  "people",
 ];
 export default function FacilitiesPage() {
   return (
@@ -45,6 +48,7 @@ export default function FacilitiesPage() {
         image={photos.receptionWelcome}
         imageAlt="The reception and guest services at Hotel Pradeep"
       />
+      <StayHighlights />
       <section className="section shell">
         <div className="section-heading">
           <div>
