@@ -1,3 +1,4 @@
+import ShortsSection from "@/components/ShortsSection";
 import { PageStructuredData } from "@/components/StructuredData";
 import { photos, photoAlbums } from "@/lib/photos";
 import { diningParagraphs, gatheringVenues } from "@/lib/content";
@@ -98,6 +99,7 @@ export default function DiningPage() {
           images={photoAlbums.dining}
         />
       </section>
+      <ShortsSection path="/dining" title="A taste of the atmosphere." description="Explore our rooftop dining setting and two perspectives on Mehfil Bar." />
     </>
   );
 }

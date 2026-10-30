@@ -226,7 +226,15 @@
       },
       "mainEntity": {
         "@id": "https://hotelpradeep.com/rooms#rooms"
-      }
+      },
+      "video": [
+        {
+          "@id": "https://hotelpradeep.com/gallery#video-rW-FEwJXIxk"
+        },
+        {
+          "@id": "https://hotelpradeep.com/gallery#video-YeGploj95IA"
+        }
+      ]
     },
     {
       "@type": "BreadcrumbList",
@@ -502,6 +510,30 @@
         }
       },
       "description": "Published room tariff per night. Refer to the tariff page for taxes and terms. Confirm dates, final charges and availability directly with the hotel; an enquiry is not a confirmed reservation."
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://hotelpradeep.com/gallery#video-rW-FEwJXIxk",
+      "name": "Room tour | Hotel Pradeep, Varanasi",
+      "description": "Thoughtful details, welcoming interiors and a comfortable place to unwind.",
+      "url": "https://www.youtube.com/shorts/rW-FEwJXIxk",
+      "embedUrl": "https://www.youtube.com/embed/rW-FEwJXIxk",
+      "thumbnailUrl": "https://hotelpradeep.com/images/shorts/rW-FEwJXIxk.webp",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://hotelpradeep.com/gallery#video-YeGploj95IA",
+      "name": "Twin-bed room tour | Hotel Pradeep, Varanasi",
+      "description": "Explore the twin-bed setting, seating corner and room essentials.",
+      "url": "https://www.youtube.com/shorts/YeGploj95IA",
+      "embedUrl": "https://www.youtube.com/embed/YeGploj95IA",
+      "thumbnailUrl": "https://hotelpradeep.com/images/shorts/YeGploj95IA.webp",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
     }
   ]
 }

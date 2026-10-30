@@ -226,7 +226,27 @@
       },
       "mainEntity": {
         "@id": "https://hotelpradeep.com/gallery#albums"
-      }
+      },
+      "video": [
+        {
+          "@id": "https://hotelpradeep.com/gallery#video-rW-FEwJXIxk"
+        },
+        {
+          "@id": "https://hotelpradeep.com/gallery#video-YeGploj95IA"
+        },
+        {
+          "@id": "https://hotelpradeep.com/gallery#video-p0jK6qYFdHA"
+        },
+        {
+          "@id": "https://hotelpradeep.com/gallery#video-vxxW7R23XV0"
+        },
+        {
+          "@id": "https://hotelpradeep.com/gallery#video-IGuDUkvJOOM"
+        },
+        {
+          "@id": "https://hotelpradeep.com/gallery#video-Ghaqgs9MaVM"
+        }
+      ]
     },
     {
       "@type": "BreadcrumbList",
@@ -305,6 +325,78 @@
           }
         }
       ]
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://hotelpradeep.com/gallery#video-rW-FEwJXIxk",
+      "name": "Room tour | Hotel Pradeep, Varanasi",
+      "description": "Thoughtful details, welcoming interiors and a comfortable place to unwind.",
+      "url": "https://www.youtube.com/shorts/rW-FEwJXIxk",
+      "embedUrl": "https://www.youtube.com/embed/rW-FEwJXIxk",
+      "thumbnailUrl": "https://hotelpradeep.com/images/shorts/rW-FEwJXIxk.webp",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://hotelpradeep.com/gallery#video-YeGploj95IA",
+      "name": "Twin-bed room tour | Hotel Pradeep, Varanasi",
+      "description": "Explore the twin-bed setting, seating corner and room essentials.",
+      "url": "https://www.youtube.com/shorts/YeGploj95IA",
+      "embedUrl": "https://www.youtube.com/embed/YeGploj95IA",
+      "thumbnailUrl": "https://hotelpradeep.com/images/shorts/YeGploj95IA.webp",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://hotelpradeep.com/gallery#video-p0jK6qYFdHA",
+      "name": "Rooftop dining | Hotel Pradeep, Varanasi",
+      "description": "Warm lighting, greenery and inviting tables set the scene for your evening.",
+      "url": "https://www.youtube.com/shorts/p0jK6qYFdHA",
+      "embedUrl": "https://www.youtube.com/embed/p0jK6qYFdHA",
+      "thumbnailUrl": "https://hotelpradeep.com/images/shorts/p0jK6qYFdHA.webp",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://hotelpradeep.com/gallery#video-vxxW7R23XV0",
+      "name": "Mehfil Bar | Hotel Pradeep, Varanasi",
+      "description": "Step inside Mehfil for a look at the illuminated bar and inviting seating.",
+      "url": "https://www.youtube.com/shorts/vxxW7R23XV0",
+      "embedUrl": "https://www.youtube.com/embed/vxxW7R23XV0",
+      "thumbnailUrl": "https://hotelpradeep.com/images/shorts/vxxW7R23XV0.webp",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://hotelpradeep.com/gallery#video-IGuDUkvJOOM",
+      "name": "Mehfil Bar & lounge | Hotel Pradeep, Varanasi",
+      "description": "Another perspective on the lounge, decorative lighting and bar counter.",
+      "url": "https://www.youtube.com/shorts/IGuDUkvJOOM",
+      "embedUrl": "https://www.youtube.com/embed/IGuDUkvJOOM",
+      "thumbnailUrl": "https://hotelpradeep.com/images/shorts/IGuDUkvJOOM.webp",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
+    },
+    {
+      "@type": "VideoObject",
+      "@id": "https://hotelpradeep.com/gallery#video-Ghaqgs9MaVM",
+      "name": "Courtyard & lounge | Hotel Pradeep, Varanasi",
+      "description": "Discover a green courtyard, distinctive architecture and relaxed lounge spaces.",
+      "url": "https://www.youtube.com/shorts/Ghaqgs9MaVM",
+      "embedUrl": "https://www.youtube.com/embed/Ghaqgs9MaVM",
+      "thumbnailUrl": "https://hotelpradeep.com/images/shorts/Ghaqgs9MaVM.webp",
+      "about": {
+        "@id": "https://hotelpradeep.com/#hotel"
+      }
     }
   ]
 }

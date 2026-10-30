@@ -1,10 +1,10 @@
 {
-  "reviewDate": "2026-10-24",
+  "reviewDate": "2026-10-30",
   "builtContentPages": 22,
-  "linkedEntities": 151,
+  "linkedEntities": 157,
   "officialVocabularySource": "https://schema.org/version/latest/schemaorg-current-https.jsonld",
-  "schemaTypesChecked": 26,
-  "schemaPropertiesChecked": 63,
+  "schemaTypesChecked": 27,
+  "schemaPropertiesChecked": 66,
   "typeAndPropertyDomainErrors": 0,
   "checks": [
     "One shared graph and one page-specific graph per content route",
@@ -15,9 +15,12 @@
     "No invented stock states or offer expiry dates",
     "Eight attractions without unverified structured opening times",
     "HTML-safe JSON-LD serialization",
-    "Browser: page-specific graph changes correctly during navigation",
-    "Browser: single GA4 loader and matching configuration"
+    "Six distinct VideoObject entities matched to the visible Shorts on each relevant page",
+    "Built HTML: correct Shorts counts and matching video schema across six relevant pages",
+    "Built HTML: no YouTube iframe before user interaction",
+    "Browser: desktop and mobile cards, local preview images, player switching, close control and focus return"
   ],
   "externalGoogleRichResultsTestRun": false,
-  "authenticatedAnalyticsReceiptVerified": false
+  "authenticatedAnalyticsReceiptVerified": false,
+  "priorBrowserAuditDate": "2026-10-24"
 }
