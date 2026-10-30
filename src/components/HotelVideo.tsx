@@ -10,7 +10,7 @@ export default function HotelVideo() {
     <div className="hotel-video">
       {playing ? (
         <iframe
-          src="https://www.youtube.com/embed/dBhmDgovBBM?autoplay=1&controls=1"
+          src="https://www.youtube.com/embed/aA416L1M-OM?autoplay=1&controls=1"
           title="Experience Hotel Pradeep"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           referrerPolicy="strict-origin-when-cross-origin"
