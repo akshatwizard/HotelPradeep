@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import GroupVentures from "./GroupVentures";
 import { hotel, navigation } from "@/lib/content";
 import { BookButton } from "./BookingProvider";
 import Icon from "./Icon";
@@ -24,6 +25,7 @@ export default function SiteFooter() {
           </div>
         </div>
       </section>
+      <GroupVentures />
       <footer className="site-footer">
         <div className="shell footer-main">
           <div className="footer-brand-block">
@@ -79,35 +81,6 @@ export default function SiteFooter() {
               {hotel.reservationEmail}
             </a>
           </div>
-        </div>
-        <div
-          className="shell associate-properties"
-          aria-label="Hotel associate logos"
-        >
-          {[1, 2, 3, 4, 5].map((number) =>
-            number === 2 ? (
-              <a
-                href="https://palashkothi.com/"
-                key={number}
-                aria-label="Visit Palash Kothi"
-              >
-                <Image
-                  src={`/img/clients/${number}.jpg`}
-                  width={130}
-                  height={60}
-                  alt="Palash Kothi"
-                />
-              </a>
-            ) : (
-              <Image
-                key={number}
-                src={`/img/clients/${number}.jpg`}
-                width={130}
-                height={60}
-                alt={`Hotel associate ${number}`}
-              />
-            ),
-          )}
         </div>
         <div className="shell footer-bottom">
           <p>
