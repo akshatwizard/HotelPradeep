@@ -1,3 +1,4 @@
+import ShortsSection from "@/components/ShortsSection";
 import { PageStructuredData } from "@/components/StructuredData";
 import { photos } from "@/lib/photos";
 import Link from "next/link";
@@ -6,7 +7,7 @@ import { PageIntro, Photo } from "@/components/ui";
 import Icon from "@/components/Icon";
 
 export const metadata = {
-  title: "Photo Gallery",
+  title: "Photo & Video Gallery",
   description:
     "Explore Hotel Pradeep’s gallery and see our rooms, dining, and facilities. Get a glimpse of the hotel experience in Varanasi.",
   alternates: { canonical: "/gallery" },
@@ -18,7 +19,7 @@ export default function GalleryPage() {
       <PageIntro
         eyebrow="Gallery"
         title="A little closer to your next stay."
-        description="Explore Hotel Pradeep, one photograph at a time."
+        description="Explore Hotel Pradeep through photographs and short video tours."
         image={photos.lobbyWide}
         imageAlt="Inside Hotel Pradeep"
       />
@@ -47,6 +48,7 @@ export default function GalleryPage() {
           </Link>
         ))}
       </section>
+      <ShortsSection path="/gallery" title="See Pradeep in motion." description="Watch all six Shorts, from guest rooms and rooftop dining to Mehfil Bar and the courtyard." />
     </>
   );
 }

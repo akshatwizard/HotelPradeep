@@ -1,34 +1,36 @@
 {
   "pages": 22,
-  "entities": 151,
+  "entities": 157,
   "coverage": [
     {
       "path": "/",
       "file": "pages/home.json",
-      "nodes": 4,
+      "nodes": 10,
       "types": [
         "Hotel",
         "WebSite",
         "WebPage",
-        "ImageObject"
+        "ImageObject",
+        "VideoObject"
       ]
     },
     {
       "path": "/about",
       "file": "pages/about.json",
-      "nodes": 5,
+      "nodes": 6,
       "types": [
         "Hotel",
         "WebSite",
         "AboutPage",
         "BreadcrumbList",
-        "ImageObject"
+        "ImageObject",
+        "VideoObject"
       ]
     },
     {
       "path": "/rooms",
       "file": "pages/rooms.json",
-      "nodes": 12,
+      "nodes": 14,
       "types": [
         "Hotel",
         "WebSite",
@@ -38,13 +40,14 @@
         "ItemList",
         "HotelRoom",
         "Product",
-        "Offer"
+        "Offer",
+        "VideoObject"
       ]
     },
     {
       "path": "/dining",
       "file": "pages/dining.json",
-      "nodes": 8,
+      "nodes": 11,
       "types": [
         "Hotel",
         "WebSite",
@@ -52,32 +55,35 @@
         "BreadcrumbList",
         "ImageObject",
         "ItemList",
-        "Restaurant"
+        "Restaurant",
+        "VideoObject"
       ]
     },
     {
       "path": "/facilities",
       "file": "pages/facilities.json",
-      "nodes": 5,
+      "nodes": 6,
       "types": [
         "Hotel",
         "WebSite",
         "WebPage",
         "BreadcrumbList",
-        "ImageObject"
+        "ImageObject",
+        "VideoObject"
       ]
     },
     {
       "path": "/gallery",
       "file": "pages/gallery.json",
-      "nodes": 6,
+      "nodes": 12,
       "types": [
         "Hotel",
         "WebSite",
         "CollectionPage",
         "BreadcrumbList",
         "ImageObject",
-        "ItemList"
+        "ItemList",
+        "VideoObject"
       ]
     },
     {

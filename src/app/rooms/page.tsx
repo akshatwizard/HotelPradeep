@@ -1,3 +1,4 @@
+import ShortsSection from "@/components/ShortsSection";
 import StayHighlights from "@/components/StayHighlights";
 import { PageStructuredData } from "@/components/StructuredData";
 import { photos } from "@/lib/photos";
@@ -87,6 +88,7 @@ export default function RoomsPage() {
           </section>
         ))}
       </div>
+      <ShortsSection path="/rooms" title="Step inside your next stay." description="Take a closer look at two of our room settings before planning your stay. Ask our team to confirm the room category and configuration for your booking." />
     </>
   );
 }

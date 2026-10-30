@@ -1,3 +1,4 @@
+import { shortsForPage, shortUrl, shortEmbedUrl, shortThumbnail } from "./shorts";
 import { aboutParagraphs, diningParagraphs, facilities, galleries, hotel, rooms } from "./content";
 import { photos } from "./photos";
 import { destinations } from "./varanasi";
@@ -139,6 +140,16 @@ export function getPageSchema(path: string) {
       "@type": "Article", "@id": `${url}#guide`, headline: info.name, description: place.description, url, inLanguage: "en-IN", mainEntityOfPage: ref(pageId(path)), about: ref(`${url}#place`), author: ref(HOTEL_ID), publisher: ref(HOTEL_ID), image: ref(mainImage),
       articleSection: ["The experience", "Timings and best time to visit", "Travel from Hotel Pradeep", "What to carry", "What to avoid"],
     });
+  }
+  const videos = shortsForPage(path);
+  if (videos.length) {
+    const videoId = (id: string) => `${absoluteUrl("/gallery")}#video-${id}`;
+    page.video = videos.map((video) => ref(videoId(video.id)));
+    nodes.push(...videos.map((video) => ({
+      "@type": "VideoObject", "@id": videoId(video.id), name: `${video.label} | Hotel Pradeep, Varanasi`,
+      description: video.description, url: shortUrl(video.id), embedUrl: shortEmbedUrl(video.id),
+      thumbnailUrl: absoluteUrl(shortThumbnail(video.id)), about: ref(HOTEL_ID),
+    })));
   }
   return graph(nodes);
 }

@@ -1,3 +1,4 @@
+import ShortsSection from "@/components/ShortsSection";
 import { PageStructuredData } from "@/components/StructuredData";
 import { photos } from "@/lib/photos";
 import { aboutOffers, aboutParagraphs, hotel } from "@/lib/content";
@@ -75,6 +76,7 @@ export default function AboutPage() {
           </div>
         </div>
       </section>
+      <ShortsSection path="/about" title="A closer look around." description="Discover the courtyard, distinctive architecture and welcoming lounge spaces." />
     </>
   );
 }

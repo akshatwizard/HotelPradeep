@@ -1,3 +1,4 @@
+import ShortsSection from "@/components/ShortsSection";
 import StayHighlights from "@/components/StayHighlights";
 import { PageStructuredData } from "@/components/StructuredData";
 import { photos } from "@/lib/photos";
@@ -104,6 +105,7 @@ export default function FacilitiesPage() {
           </div>
         </div>
       </section>
+      <ShortsSection path="/facilities" title="A little space to unwind." description="Take a short tour of the courtyard and lounge spaces." />
     </>
   );
 }

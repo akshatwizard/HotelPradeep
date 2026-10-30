@@ -36,7 +36,7 @@ for (const path of paths) {
 }
 const all = [...complete.values()];
 function validate(value, key = "") {
-  if (typeof value === "string" && ["@id", "url", "contentUrl", "item", "sameAs", "license", "hasMap"].includes(key)) assert(URL.canParse(value), `Non-absolute URL: ${value}`);
+  if (typeof value === "string" && ["@id", "url", "contentUrl", "embedUrl", "thumbnailUrl", "item", "sameAs", "license", "hasMap"].includes(key)) assert(URL.canParse(value), `Non-absolute URL: ${value}`);
   if (Array.isArray(value)) return value.forEach((item) => validate(item, key));
   if (!value || typeof value !== "object") return;
   if (Object.keys(value).length === 1 && value["@id"]) assert(complete.has(value["@id"]), `Unresolved internal reference: ${value["@id"]}`);

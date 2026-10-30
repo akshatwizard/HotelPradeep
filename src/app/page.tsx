@@ -1,3 +1,4 @@
+import ShortsSection from "@/components/ShortsSection";
 import StayHighlights from "@/components/StayHighlights";
 import { PageStructuredData } from "@/components/StructuredData";
 import HeroCarousel from "@/components/HeroCarousel";
@@ -300,6 +301,7 @@ export default function Home() {
           staying in a place that offers both convenience and comfort.
         </p>
       </section>
+      <ShortsSection path="/" title="Little glimpses. Lasting impressions." description="Explore our rooms, rooftop dining, Mehfil Bar and courtyard through six short video tours." />
       <section className="section section-tinted">
         <div className="shell">
           <div className="section-heading">

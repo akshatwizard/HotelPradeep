@@ -16,6 +16,7 @@ The Next.js implementation already renders `SiteStructuredData` once in the root
 
 | Pages | Structured data |
 | --- | --- |
+| Home, Rooms, Dining, About, Facilities and Gallery | Relevant VideoObject entities with descriptions, locally hosted preview stills and YouTube embed URLs |
 | Every content page | Hotel, WebSite, appropriate WebPage subtype, primary ImageObject; BreadcrumbList on inner pages |
 | Home, About, Contact, Facilities | Hotel identity, address, geo from the existing map, public contacts, 36 rooms, amenities, check-out time |
 | Rooms and Tariff | CollectionPage, ItemList, three HotelRoom + Product entities, Offer and UnitPriceSpecification per category |
@@ -28,6 +29,8 @@ The Next.js implementation already renders `SiteStructuredData` once in the root
 APIs, robots, the XML sitemap, redirects and 404 pages do not get content-page schema. The shared layout may still contain the site identity on a 404; no fake page/article is created for it.
 
 ## Content choices
+
+- Six owner-supplied YouTube Shorts are represented by stable VideoObject IDs and linked only from pages where they are displayed. Preview stills are extracted from the corresponding owner-provided original videos and served locally. The home and gallery pages show all six; Rooms shows two room tours, Dining shows rooftop dining and two Mehfil edits, and About/Facilities show the courtyard tour. No unverified upload dates, video view counts or durations are invented. This does not assert eligibility for Google video rich results.
 
 - Owner-confirmed content update (30 October 2026): free secured parking, a free driver dormitory with a toilet near parking, Mehfil Bar and Blessings Rooftop Banquet are included in the shared Hotel description and amenities. Eden remains the rooftop restaurant.
 - Hotel data comes from the existing website. No unverified social profiles, payment methods, pets policy, check-in time, accessible-room claims or current certification were invented. Star classification is deliberately omitted from `starRating` until its current certification is confirmed.
