@@ -1,3 +1,4 @@
+import StayHighlights from "@/components/StayHighlights";
 import { PageStructuredData } from "@/components/StructuredData";
 import HeroCarousel from "@/components/HeroCarousel";
 import { photos } from "@/lib/photos";
@@ -55,6 +56,7 @@ export default function Home() {
         </div>
       </section>
       <BookingBar />
+      <StayHighlights />
       <section className="section shell intro-section">
         <div className="intro-photos">
           <Photo

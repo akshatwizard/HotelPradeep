@@ -1,3 +1,4 @@
+import StayHighlights from "@/components/StayHighlights";
 import { PageStructuredData } from "@/components/StructuredData";
 import { photos } from "@/lib/photos";
 import Link from "next/link";
@@ -24,6 +25,7 @@ export default function RoomsPage() {
         image={photos.roomCarpetWindows}
         imageAlt="A guest room at Hotel Pradeep"
       />
+      <StayHighlights />
       <nav className="room-jump shell" aria-label="Room categories">
         {rooms.map((room) => (
           <a key={room.id} href={`#${room.id}`}>

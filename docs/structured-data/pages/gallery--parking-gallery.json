@@ -6,7 +6,7 @@
       "@id": "https://hotelpradeep.com/#hotel",
       "name": "Hotel Pradeep",
       "url": "https://hotelpradeep.com/",
-      "description": "Hotel Pradeep in Jagatganj, Varanasi offers guest rooms, Poonam Restaurant, Eden Rooftop Restaurant and hotel facilities for leisure and business travellers.",
+      "description": "Hotel Pradeep in Jagatganj, Varanasi offers guest rooms, Poonam Restaurant, Eden Rooftop Restaurant, Mehfil Bar, Blessings Rooftop Banquet, free secured parking and a free driver dormitory with a toilet near parking.",
       "logo": {
         "@type": "ImageObject",
         "@id": "https://hotelpradeep.com/#logo",
@@ -82,9 +82,9 @@
         },
         {
           "@type": "LocationFeatureSpecification",
-          "name": "Bar",
+          "name": "Mehfil Bar",
           "value": true,
-          "description": "Relax with a drink at our in-house bar."
+          "description": "Unwind with a drink at Mehfil, our in-house bar."
         },
         {
           "@type": "LocationFeatureSpecification",
@@ -130,9 +130,9 @@
         },
         {
           "@type": "LocationFeatureSpecification",
-          "name": "Parking Facilities",
+          "name": "Free Secured Parking",
           "value": true,
-          "description": "Secure parking for your vehicle."
+          "description": "Complimentary secured parking for hotel guests."
         },
         {
           "@type": "LocationFeatureSpecification",
@@ -169,6 +169,18 @@
           "name": "Soundproof Hotel",
           "value": true,
           "description": "Enjoy a peaceful stay in the heart of Varanasi."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Free Driver Dormitory",
+          "value": true,
+          "description": "A complimentary dormitory with a toilet for drivers, located near the parking area."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Blessings Rooftop Banquet",
+          "value": true,
+          "description": "Bring your guests together at Blessings, our rooftop banquet. Contact the hotel to plan your gathering."
         }
       ],
       "subjectOf": [
@@ -195,7 +207,7 @@
       "@id": "https://hotelpradeep.com/gallery/parking-gallery#webpage",
       "url": "https://hotelpradeep.com/gallery/parking-gallery",
       "name": "Parking Gallery",
-      "description": "Secure and spacious parking available for the convenience of our guests.",
+      "description": "Free secured parking for hotel guests, with a free dormitory and toilet for drivers near the parking area.",
       "inLanguage": "en-IN",
       "isPartOf": {
         "@id": "https://hotelpradeep.com/#website"

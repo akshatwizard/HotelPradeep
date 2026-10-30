@@ -6,7 +6,7 @@
       "@id": "https://hotelpradeep.com/#hotel",
       "name": "Hotel Pradeep",
       "url": "https://hotelpradeep.com/",
-      "description": "Hotel Pradeep in Jagatganj, Varanasi offers guest rooms, Poonam Restaurant, Eden Rooftop Restaurant and hotel facilities for leisure and business travellers.",
+      "description": "Hotel Pradeep in Jagatganj, Varanasi offers guest rooms, Poonam Restaurant, Eden Rooftop Restaurant, Mehfil Bar, Blessings Rooftop Banquet, free secured parking and a free driver dormitory with a toilet near parking.",
       "logo": {
         "@type": "ImageObject",
         "@id": "https://hotelpradeep.com/#logo",
@@ -82,9 +82,9 @@
         },
         {
           "@type": "LocationFeatureSpecification",
-          "name": "Bar",
+          "name": "Mehfil Bar",
           "value": true,
-          "description": "Relax with a drink at our in-house bar."
+          "description": "Unwind with a drink at Mehfil, our in-house bar."
         },
         {
           "@type": "LocationFeatureSpecification",
@@ -130,9 +130,9 @@
         },
         {
           "@type": "LocationFeatureSpecification",
-          "name": "Parking Facilities",
+          "name": "Free Secured Parking",
           "value": true,
-          "description": "Secure parking for your vehicle."
+          "description": "Complimentary secured parking for hotel guests."
         },
         {
           "@type": "LocationFeatureSpecification",
@@ -169,6 +169,18 @@
           "name": "Soundproof Hotel",
           "value": true,
           "description": "Enjoy a peaceful stay in the heart of Varanasi."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Free Driver Dormitory",
+          "value": true,
+          "description": "A complimentary dormitory with a toilet for drivers, located near the parking area."
+        },
+        {
+          "@type": "LocationFeatureSpecification",
+          "name": "Blessings Rooftop Banquet",
+          "value": true,
+          "description": "Bring your guests together at Blessings, our rooftop banquet. Contact the hotel to plan your gathering."
         }
       ],
       "subjectOf": [
@@ -194,8 +206,8 @@
       "@type": "CollectionPage",
       "@id": "https://hotelpradeep.com/dining#webpage",
       "url": "https://hotelpradeep.com/dining",
-      "name": "Poonam & Eden Dining",
-      "description": "Discover Poonam Restaurant and Eden Rooftop Restaurant at Hotel Pradeep.",
+      "name": "Dining, Mehfil Bar & Blessings Rooftop Banquet",
+      "description": "Discover Poonam Restaurant, Eden Rooftop Restaurant, Mehfil Bar and Blessings Rooftop Banquet at Hotel Pradeep.",
       "inLanguage": "en-IN",
       "isPartOf": {
         "@id": "https://hotelpradeep.com/#website"
@@ -229,7 +241,7 @@
         {
           "@type": "ListItem",
           "position": 2,
-          "name": "Poonam & Eden Dining",
+          "name": "Dining, Mehfil Bar & Blessings Rooftop Banquet",
           "item": "https://hotelpradeep.com/dining"
         }
       ]
@@ -239,7 +251,7 @@
       "@id": "https://hotelpradeep.com/dining#primaryimage",
       "contentUrl": "https://hotelpradeep.com/images/hotel/dining-room.webp",
       "url": "https://hotelpradeep.com/images/hotel/dining-room.webp",
-      "caption": "Poonam & Eden Dining"
+      "caption": "Dining, Mehfil Bar & Blessings Rooftop Banquet"
     },
     {
       "@type": "ItemList",

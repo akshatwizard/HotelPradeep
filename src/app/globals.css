@@ -3274,3 +3274,36 @@ a:hover > .photo img,
 }
 /* Keep positioned table labels inside the horizontal scroll container. */
 .tariff-table-wrap { position: relative; }
+
+/* Complimentary facilities are shared across the main stay-planning pages. */
+.stay-highlights {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 24px;
+  margin-top: 38px;
+  margin-bottom: 38px;
+}
+.stay-highlights article {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  padding: 28px;
+  background: var(--sand);
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--gold);
+}
+.stay-highlight-icon { color: var(--gold); flex-shrink: 0; padding-top: 3px; }
+.stay-highlights h2 { font-size: 27px; line-height: 1.25; letter-spacing: -0.02em; margin-bottom: 9px; }
+.stay-highlights p { font-size: var(--copy-size); line-height: var(--copy-leading); }
+.venue-details-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px; }
+.venue-details-grid .photo { aspect-ratio: 4 / 3; }
+.venue-details-grid h3 { margin: 24px 0 14px; }
+.venue-details-grid p { margin-bottom: 20px; }
+@media (max-width: 800px) {
+  .stay-highlights { grid-template-columns: 1fr; gap: 16px; }
+  .stay-highlights article { padding: 24px; }
+}
+@media (max-width: 650px) {
+  .stay-highlights h2 { font-size: 25px; }
+  .venue-details-grid { grid-template-columns: 1fr; gap: 40px; }
+}
