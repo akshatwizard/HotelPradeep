@@ -6,7 +6,7 @@ import { Photo } from "./ui";
 import Icon from "./Icon";
 
 const slides = [
-  { image: "/images/hotel/facade-banner.webp", mobileSrc: "/images/hotel/facade-banner-mobile.webp", fullFrame: true, alt: "The illuminated facade of Hotel Pradeep at dusk", label: "Hotel Pradeep", caption: "Your address in the heart of Varanasi", position: "center" },
+  { image: "/images/hotel/facade-banner.webp", mobileSrc: "/images/hotel/facade-banner-mobile.webp", alt: "The illuminated facade of Hotel Pradeep at dusk", label: "Hotel Pradeep", caption: "Your address in the heart of Varanasi", position: "center" },
   { image: photos.gangesPanorama, alt: "An aerial panorama of the Varanasi ghats along the Ganges", label: "Varanasi ghats", caption: "A city of timeless riverfront stories", position: "center 65%" },
   { image: photos.facadeAerial, alt: "Drone view of Hotel Pradeep and the surrounding streets of Varanasi", label: "A view from above", caption: "Discover Hotel Pradeep from a new perspective", position: "76% center" },
 ];
@@ -64,7 +64,7 @@ export default function HeroCarousel() {
     >
       {slides.map((slide, index) => (
         <div
-          className={`hero-slide ${slide.fullFrame ? "hero-slide--full-frame" : ""} ${index === active ? "is-active" : ""}`}
+          className={`hero-slide ${index === active ? "is-active" : ""}`}
           key={slide.image}
           role="group"
           aria-roledescription="slide"
@@ -72,11 +72,6 @@ export default function HeroCarousel() {
           aria-hidden={index !== active}
           style={{ "--slide-position": slide.position } as CSSProperties}
         >
-          {slide.fullFrame && (
-            <div className="hero-slide-backdrop" aria-hidden="true">
-              <Photo src={slide.image} mobileSrc={slide.mobileSrc} alt="" sizes="(max-width: 650px) 100vw, (max-width: 800px) 50vw, 55vw" />
-            </div>
-          )}
           <Photo src={slide.image} mobileSrc={slide.mobileSrc} alt={slide.alt} priority={index === 0} sizes="(max-width: 650px) 100vw, (max-width: 800px) 50vw, 55vw" />
         </div>
       ))}
