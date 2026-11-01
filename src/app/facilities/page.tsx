@@ -1,7 +1,6 @@
 import ShortsSection from "@/components/ShortsSection";
 import StayHighlights from "@/components/StayHighlights";
 import { PageStructuredData } from "@/components/StructuredData";
-import { photos } from "@/lib/photos";
 import { facilities, serviceDetails } from "@/lib/content";
 import { Eyebrow, PageIntro, Photo } from "@/components/ui";
 import Icon from "@/components/Icon";
@@ -46,8 +45,9 @@ export default function FacilitiesPage() {
         eyebrow="Facilities"
         title="Every little comfort, taken care of."
         description="The Hotel Pradeep offers elegance and comfort, blending modern luxury with warm hospitality for a truly refined experience."
-        image={photos.receptionWelcome}
-        imageAlt="The reception and guest services at Hotel Pradeep"
+        image="/images/hotel/facilities-banner.webp"
+        mobileImage="/images/hotel/facilities-banner-mobile.webp"
+        imageAlt="The illuminated exterior of Hotel Pradeep in Varanasi at dusk"
       />
       <StayHighlights />
       <section className="section shell">

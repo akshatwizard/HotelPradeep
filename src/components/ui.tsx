@@ -67,12 +67,14 @@ export function PageIntro({
   title,
   description,
   image,
+  mobileImage,
   imageAlt,
 }: {
   eyebrow: string;
   title: string;
   description?: string;
   image: string;
+  mobileImage?: string;
   imageAlt: string;
 }) {
   return (
@@ -87,7 +89,7 @@ export function PageIntro({
         <h1>{title}</h1>
         {description && <p className="intro-description">{description}</p>}
       </div>
-      <Photo src={image} alt={imageAlt} priority className="page-intro-image" />
+      <Photo src={image} mobileSrc={mobileImage} alt={imageAlt} priority className="page-intro-image" />
       <span className="intro-watermark" aria-hidden="true">
         P
       </span>
