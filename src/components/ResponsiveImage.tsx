@@ -2,7 +2,7 @@ import Image, { getImageProps, type ImageProps } from "next/image";
 import { mobilePhotoSources } from "@/lib/photo-sources";
 import { varanasiMobileSources } from "@/lib/varanasi-photo-sources";
 
-type ResponsiveImageProps = ImageProps & { cropOnMobile?: boolean };
+type ResponsiveImageProps = ImageProps & { cropOnMobile?: boolean; mobileSrc?: string };
 
 /** A picture source selects the mobile crop before the browser downloads a photo. */
 export default function ResponsiveImage({
@@ -10,11 +10,12 @@ export default function ResponsiveImage({
   alt,
   priority = false,
   cropOnMobile = true,
+  mobileSrc,
   ...props
 }: ResponsiveImageProps) {
   const source = typeof src === "string" && !src.startsWith("/") ? `/${src}` : src;
   const mobile = typeof source === "string" && cropOnMobile
-    ? mobilePhotoSources[source] || varanasiMobileSources[source]
+    ? mobileSrc || mobilePhotoSources[source] || varanasiMobileSources[source]
     : undefined;
   const mobileProps = mobile
     ? getImageProps({ ...props, src: mobile, alt }).props

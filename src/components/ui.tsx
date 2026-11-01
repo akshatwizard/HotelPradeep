@@ -5,12 +5,14 @@ import Icon from "./Icon";
 
 export function Photo({
   src,
+  mobileSrc,
   alt,
   className = "",
   priority = false,
   sizes = "(max-width: 768px) 100vw, 50vw",
 }: {
   src: string;
+  mobileSrc?: string;
   alt: string;
   className?: string;
   priority?: boolean;
@@ -20,6 +22,7 @@ export function Photo({
     <div className={`photo ${className}`}>
       <ResponsiveImage
         src={src.startsWith("/") ? src : `/${src}`}
+        mobileSrc={mobileSrc}
         alt={alt}
         fill
         sizes={sizes}

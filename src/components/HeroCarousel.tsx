@@ -6,7 +6,7 @@ import { Photo } from "./ui";
 import Icon from "./Icon";
 
 const slides = [
-  { image: photos.facadeDusk, alt: "The illuminated facade of Hotel Pradeep at dusk", label: "Hotel Pradeep", caption: "Your address in the heart of Varanasi", position: "center" },
+  { image: "/images/hotel/facade-banner.webp", mobileSrc: "/images/hotel/facade-banner-mobile.webp", alt: "The illuminated facade of Hotel Pradeep at dusk", label: "Hotel Pradeep", caption: "Your address in the heart of Varanasi", position: "center" },
   { image: photos.gangesPanorama, alt: "An aerial panorama of the Varanasi ghats along the Ganges", label: "Varanasi ghats", caption: "A city of timeless riverfront stories", position: "center 65%" },
   { image: photos.facadeAerial, alt: "Drone view of Hotel Pradeep and the surrounding streets of Varanasi", label: "A view from above", caption: "Discover Hotel Pradeep from a new perspective", position: "76% center" },
 ];
@@ -72,7 +72,7 @@ export default function HeroCarousel() {
           aria-hidden={index !== active}
           style={{ "--slide-position": slide.position } as CSSProperties}
         >
-          <Photo src={slide.image} alt={slide.alt} priority={index === 0} sizes="(max-width: 650px) 100vw, (max-width: 800px) 50vw, 55vw" />
+          <Photo src={slide.image} mobileSrc={slide.mobileSrc} alt={slide.alt} priority={index === 0} sizes="(max-width: 650px) 100vw, (max-width: 800px) 50vw, 55vw" />
         </div>
       ))}
       <div className="hero-carousel-caption" aria-live={playing ? "off" : "polite"} aria-atomic="true">
