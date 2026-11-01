@@ -2974,11 +2974,6 @@ a:hover > .photo img,
 .hero-slide.is-active { opacity: 1; }
 .hero-slide > .photo { position: absolute; inset: 0; }
 .hero-slide img { object-position: var(--slide-position, center); }
-.hero-slide--full-frame { overflow: hidden; background: #142343; }
-.hero-slide-backdrop { position: absolute; inset: -24px; filter: blur(18px) brightness(.65); }
-.hero-slide-backdrop > .photo { position: absolute; inset: 0; }
-.hero-slide--full-frame > .photo { background: transparent; }
-.hero-slide--full-frame > .photo img { object-fit: contain; }
 .hero-carousel::after { inset: 45% 0 0; background: linear-gradient(transparent, #111525c9); }
 .hero-carousel-caption { position: absolute; left: 34px; right: 34px; bottom: 106px; z-index: 2; color: white; pointer-events: none; }
 .hero-carousel-caption > span { font-size: 11px; text-transform: uppercase; letter-spacing: .17em; }
