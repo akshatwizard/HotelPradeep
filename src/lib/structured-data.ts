@@ -1,6 +1,7 @@
 import { shortsForPage, shortUrl, shortEmbedUrl, shortThumbnail } from "./shorts";
 import { aboutParagraphs, diningParagraphs, facilities, galleries, hotel, rooms } from "./content";
 import { photos } from "./photos";
+import { hotelFaqs } from "./faqs";
 import { destinations } from "./varanasi";
 import photoCredits from "./varanasi-photo-credits.json";
 
@@ -21,7 +22,7 @@ export function getSiteSchema() {
   return graph([
     {
       "@type": "Hotel", "@id": HOTEL_ID, name: hotel.name, url: absoluteUrl("/"),
-      description: "Hotel Pradeep in Jagatganj, Varanasi offers guest rooms, Poonam Restaurant, Eden Rooftop Restaurant, Mehfil Bar, Blessings Rooftop Banquet, free secured parking and a free driver dormitory with a toilet near parking.",
+      description: "Hotel Pradeep in Jagatganj, Varanasi offers guest rooms, Poonam Restaurant, Mahefil Bar, Blessing Rooftop Banquet, free secured parking and a free driver dormitory with a toilet near parking.",
       logo: { "@type": "ImageObject", "@id": `${SITE_URL}/#logo`, contentUrl: absoluteUrl("/img/logo/logo_trans.png"), url: absoluteUrl("/img/logo/logo_trans.png") },
       image: [photos.facadeDusk, photos.facadeDaylight, photos.lobbyWide].map(absoluteUrl),
       telephone: hotel.phones[0].replace(/\s/g, ""), email: hotel.email, address,
@@ -42,12 +43,12 @@ export function getSiteSchema() {
 }
 
 const pageInfo: Record<string, { name: string; description: string; type: string; image: string }> = {
-  "/": { name: "Hotel Pradeep | Stay & Dining in Varanasi", description: "Comfortable rooms, Poonam Restaurant, Eden Rooftop Restaurant and Banarasi hospitality at Hotel Pradeep in Jagatganj, Varanasi.", type: "WebPage", image: photos.facadeDusk },
+  "/": { name: "Hotel Pradeep | Stay & Dining in Varanasi", description: "Comfortable rooms, Poonam Restaurant, Mahefil Bar, Blessing Rooftop Banquet and Banarasi hospitality at Hotel Pradeep in Jagatganj, Varanasi.", type: "WebPage", image: photos.facadeDusk },
   "/about": { name: "About Hotel Pradeep", description: aboutParagraphs[2], type: "AboutPage", image: photos.facadeNight },
   "/rooms": { name: "Rooms at Hotel Pradeep", description: "Explore Deluxe, Super Deluxe and Executive room categories, facilities and published nightly tariffs at Hotel Pradeep.", type: "CollectionPage", image: photos.roomCarpetWindows },
   "/tariff": { name: "Hotel Pradeep Room Tariff", description: "Published room tariffs and booking information for Hotel Pradeep, Varanasi.", type: "CollectionPage", image: photos.roomCarpetWide },
-  "/dining": { name: "Dining, Mehfil Bar & Blessings Rooftop Banquet", description: "Discover Poonam Restaurant, Eden Rooftop Restaurant, Mehfil Bar and Blessings Rooftop Banquet at Hotel Pradeep.", type: "CollectionPage", image: photos.diningRoom },
-  "/facilities": { name: "Hotel Pradeep Facilities", description: "Free secured parking, a free driver dormitory with a toilet near parking, Mehfil Bar and Blessings Rooftop Banquet at Hotel Pradeep, Varanasi.", type: "WebPage", image: photos.barLounge },
+  "/dining": { name: "Dining, Mahefil Bar & Blessing Rooftop Banquet", description: "Discover Poonam Restaurant, Mahefil Bar and Blessing Rooftop Banquet at Hotel Pradeep.", type: "CollectionPage", image: photos.diningRoom },
+  "/facilities": { name: "Hotel Pradeep Facilities", description: "Free secured parking, a free driver dormitory with a toilet near parking, Mahefil Bar and Blessing Rooftop Banquet at Hotel Pradeep, Varanasi.", type: "WebPage", image: photos.barLounge },
   "/contact": { name: "Contact Hotel Pradeep", description: "Contact Hotel Pradeep in Jagatganj, Varanasi for stays, dining and general enquiries.", type: "ContactPage", image: photos.entranceEvening },
   "/gallery": { name: "Hotel Pradeep Photo Gallery", description: "Photographs of the hotel exterior, rooms, restaurant, reception and parking areas.", type: "CollectionPage", image: photos.lobbyWide },
   "/varanasi": { name: "Explore Varanasi with Hotel Pradeep", description: "Discover Varanasi's temples, ghats and heritage sites, with practical destination guides from Hotel Pradeep.", type: "CollectionPage", image: photos.gangesPanorama },
@@ -88,7 +89,6 @@ function roomNodes() {
 function restaurantNodes() {
   return [
     { "@type": "Restaurant", "@id": `${absoluteUrl("/dining")}#poonam`, name: "Poonam Restaurant", url: `${absoluteUrl("/dining")}#poonam`, description: `${diningParagraphs[0]} ${diningParagraphs.slice(2, 5).join(". ")}`, image: [absoluteUrl(photos.diningRoom), absoluteUrl(photos.diningTables)], servesCuisine: ["Indian", "Continental", "Chinese"], address, telephone: "+917408423503", containedInPlace: ref(HOTEL_ID) },
-    { "@type": "Restaurant", "@id": `${absoluteUrl("/dining")}#eden`, name: "Eden Rooftop Restaurant", url: `${absoluteUrl("/dining")}#eden`, description: diningParagraphs[5], image: [absoluteUrl(photos.terraceGarden), absoluteUrl(photos.terraceEvening)], servesCuisine: "Indian", address, telephone: "+917408423503", containedInPlace: ref(HOTEL_ID) },
   ];
 }
 function attractionNodes(id: string) {
@@ -113,6 +113,10 @@ export function getPageSchema(path: string) {
   if (path !== "/") { page.breadcrumb = ref(`${url}#breadcrumb`); nodes.push(breadcrumb(path, gallery?.title || place?.name || info.name)); }
   if (!place) nodes.push({ "@type": "ImageObject", "@id": mainImage, contentUrl: absoluteUrl(info.image), url: absoluteUrl(info.image), caption: info.name });
   if (["/", "/about", "/contact", "/facilities"].includes(path)) page.mainEntity = ref(HOTEL_ID);
+  if (path === "/") {
+    page["@type"] = ["WebPage", "FAQPage"];
+    page.mainEntity = hotelFaqs.map((faq) => ({ "@type": "Question", name: faq.question, acceptedAnswer: { "@type": "Answer", text: faq.answer } }));
+  }
   if (["/rooms", "/tariff"].includes(path)) {
     const list = itemList(`${url}#rooms`, "Room categories at Hotel Pradeep", rooms.map((room) => ({ id: `${absoluteUrl("/rooms")}#${room.id}`, name: room.title, url: `${absoluteUrl("/rooms")}#${room.id}` })));
     page.mainEntity = ref(list["@id"]); nodes.push(list, ...roomNodes());

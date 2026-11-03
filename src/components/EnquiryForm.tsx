@@ -15,9 +15,11 @@ export type BookingDetails = {
 export default function EnquiryForm({
   kind = "booking",
   initial = {},
+  submitLabel = "Send enquiry",
 }: {
   kind?: "booking" | "feedback";
   initial?: BookingDetails;
+  submitLabel?: string;
 }) {
   const [status, setStatus] = useState<
     "idle" | "sending" | "success" | "error"
@@ -219,7 +221,7 @@ export default function EnquiryForm({
         type="submit"
         disabled={status === "sending"}
       >
-        {status === "sending" ? "Sending…" : "Send enquiry"}
+        {status === "sending" ? "Sending…" : submitLabel}
         <Icon name="arrow" />
       </button>
       {booking && (

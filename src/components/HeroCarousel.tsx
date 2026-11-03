@@ -62,6 +62,7 @@ export default function HeroCarousel() {
         }
       }}
     >
+      <div className="hero-carousel-stage">
       {slides.map((slide, index) => (
         <div
           className={`hero-slide ${index === active ? "is-active" : ""}`}
@@ -75,6 +76,7 @@ export default function HeroCarousel() {
           <Photo src={slide.image} mobileSrc={slide.mobileSrc} alt={slide.alt} priority={index === 0} sizes="(max-width: 650px) 100vw, (max-width: 800px) 50vw, 55vw" />
         </div>
       ))}
+      </div>
       <div className="hero-carousel-caption" aria-live={playing ? "off" : "polite"} aria-atomic="true">
         <span>{String(active + 1).padStart(2, "0")} / {slides[active].label}</span>
         <p>{slides[active].caption}</p>

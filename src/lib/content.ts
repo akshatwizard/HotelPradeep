@@ -69,8 +69,8 @@ export const facilities = [
   },
   {
     icon: "fa-thin fa-champagne-glasses",
-    title: "Mehfil Bar",
-    description: "Unwind with a drink at Mehfil, our in-house bar.",
+    title: "Mahefil Bar",
+    description: "Unwind with a drink at Mahefil, our in-house bar.",
   },
   {
     icon: "fa-light fa-elevator",
@@ -80,7 +80,7 @@ export const facilities = [
   {
     icon: "fa-thin fa-plate-utensils",
     title: "Multi cuisine Restaurant",
-    description: "Enjoy delicious vegetarian meals at our restaurant.",
+    description: "Enjoy delicious vegetarian and non-vegetarian meals at our restaurant.",
   },
   {
     icon: "fa-thin fa-air-conditioner",
@@ -166,8 +166,8 @@ export const facilities = [
   },
   {
     icon: "fa-thin fa-champagne-glasses",
-    title: "Blessings Rooftop Banquet",
-    description: "Bring your guests together at Blessings, our rooftop banquet. Contact the hotel to plan your events & meet-ups.",
+    title: "Blessing Rooftop Banquet",
+    description: "Bring your guests together at Blessing, our rooftop banquet. Contact the hotel to plan your events & meet-ups.",
   },
 ];
 
@@ -177,40 +177,38 @@ export const stayHighlights = [
 ] as const;
 
 export const gatheringVenues = [
-  { id: "mehfil", title: "Mehfil Bar", description: "Unwind at Mehfil, the in-house bar at Hotel Pradeep. Enjoy a drink and time with classy companions in a comfortable setting.", image: photos.barLounge, imageAlt: "The bar and lounge at Hotel Pradeep" },
-  { id: "blessings", title: "Blessings Rooftop Banquet", description: "Celebrate and gather at Blessings, our rooftop banquet at Hotel Pradeep. Contact our team to discuss your occasion and arrangements.", image: photos.terraceEvening, imageAlt: "The rooftop setting at Hotel Pradeep" },
+  { id: "mehfil", title: "Mahefil Bar", description: "Unwind at Mahefil, the in-house bar at Hotel Pradeep. Enjoy a drink and time with classy companions in a comfortable setting.", image: photos.barLounge, imageAlt: "The bar and lounge at Hotel Pradeep" },
+  { id: "blessings", title: "Blessing Rooftop Banquet", description: "Celebrate and gather at Blessing, our rooftop banquet at Hotel Pradeep. Contact our team to discuss your occasion and arrangements.", image: photos.terraceEvening, imageAlt: "The rooftop setting at Hotel Pradeep" },
 ];
 
 export const aboutParagraphs = [
   "Hotel Pradeep is a 3-star luxury hotel approved by the Ministry of Tourism, Government of India. Located in the heart of Varanasi, the hotel offers a blend of comfort and elegance, making it a great choice for both tourists and business travelers.",
-  'The hotel’s in-house restaurant, "Poonam", serves sumptuous food with rich flavors, offering a delightful dining experience. The rooftop restaurant "Eden" is the perfect spot for those who enjoy dining under the stars. With its open-air setting, guests can enjoy a breathtaking view of the city while savoring their meals.',
-  "With its prime location, excellent dining, and warm hospitality, Hotel Pradeep ensures a pleasant and memorable stay in the holy city of Varanasi. Guests can also unwind at Mehfil Bar or plan a get-together or meet up at Blessings Rooftop Banquet.",
+  'The hotel’s in-house restaurant, "Poonam", serves sumptuous food with rich flavors, offering a delightful dining experience. We serve vegetarian and non-vegetarian food. The rooftop is home to Blessing Rooftop Banquet.',
+  "With its prime location, excellent dining, and warm hospitality, Hotel Pradeep ensures a pleasant and memorable stay in the holy city of Varanasi. Guests can also unwind at Mahefil Bar or plan a get-together or meet up at Blessing Rooftop Banquet.",
   "At Hotel Pradeep, we offer more than just a stay—we offer an experience of comfort, taste, and beauty.",
 ];
 
 export const aboutOffers = [
   "A range of elegant rooms with oriental decorations.",
   "Cosy dining facilities with a wide range of Continental, Indian and Chinese cuisine.",
-  'A roof-top lush green open air restaurant "Eden" with Mexican cuisine.',
-  "Blessings Rooftop Banquet and a Board Room for events & meet-ups, along with a Travel Desk for assistance during your stay.",
-  "Mehfil, our in-house bar, for a relaxed drink and classy companions.",
+  "Blessing Rooftop Banquet and a Board Room for events & meet-ups, along with a Travel Desk for assistance during your stay.",
+  "Mahefil, our in-house bar, for a relaxed drink and classy companions.",
   "Free secured parking and a free dormitory with a toilet for drivers, near the parking area.",
 ];
 
 export const introParagraphs = [
   'Welcome to Hotel Pradeep, where warmth and elegance come together. The name Pradeep means "divine light"—guiding the way to wisdom, joy, and peace.',
-  "Under one roof, enjoy comfortable rooms, sumptuous cuisines at Poonam, our restaurant filled with rich flavors Unwind at Mehfil Bar or bring your guests together at Blessings Rooftop Banquet.",
+  "Under one roof, enjoy comfortable rooms, sumptuous cuisines at Poonam, our restaurant filled with rich flavors Unwind at Mahefil Bar or bring your guests together at Blessing Rooftop Banquet.",
   "At Hotel Pradeep, we offer more than just a stay—we offer an experience of comfort, taste, and beauty.",
 ];
 
 export const diningParagraphs = [
-  "Welcome to Poonam Restaurant, where we serve sumptuous food with the warmth of Banarasi hospitality. Our menu includes a variety of dishes, from traditional Banarasi flavors to popular Indian and international cuisine. Every dish is prepared with fresh ingredients to give you the best taste and quality. Whether you are craving local favorites or looking to try something new, we have something for everyone.",
+  "Welcome to Poonam Restaurant, where we serve sumptuous vegetarian and non-vegetarian food with the warmth of Banarasi hospitality. Our menu includes a variety of dishes, from traditional Banarasi flavors to popular Indian and international cuisine. Every dish is prepared with fresh ingredients to give you the best taste and quality. Whether you are craving local favorites or looking to try something new, we have something for everyone.",
   "With a cozy and elegant setting, Poonam Restaurant is the perfect place to enjoy a relaxing meal with family and friends. Our friendly staff ensures you have a comfortable and enjoyable dining experience. Visit us and savor the rich flavors in every bite!",
   "Breakfast: 7.30 am – 10.30 am (daily)",
   "Lunch: 12.00 noon – 3.00 pm (daily)",
   "Dinner: open from 6.30 pm, last order at 10.30 pm (daily)",
-  "Eden Rooftop Restaurant at Hotel Pradeep is a wonderful place to enjoy authentic Indian cuisine. With its peaceful atmosphere and beautiful garden view, it provides a relaxing dining experience for guests. The restaurant's open-air setting adds to the charm, whether you are looking for a quiet meal or a special evening with family and friends.",
-  "The menu features a variety of delicious Indian dishes, carefully prepared to bring out rich flavors and traditional tastes. The combination of great food, a scenic view, and a welcoming ambiance makes it a perfect spot to unwind and enjoy a memorable dining experience.",
+
 ];
 
 export const galleries = [
@@ -298,11 +296,11 @@ export const navigation = [
 
 export const serviceDetails = [
   {
-    title: "Mehfil Bar",
+    title: "Mahefil Bar",
     image: photos.barLounge,
     imageAlt: "The bar and lounge at Hotel Pradeep",
     description:
-      "Relax and enjoy a refreshing drink at Mehfil Bar. We offer a selection of soft drinks, fine spirits, and tasty snacks in a cozy and comfortable setting. Whether you want to unwind after a long day or have a quick bite, Mehfil is the perfect place to sit back and enjoy.",
+      "Relax and enjoy a refreshing drink at Mahefil Bar. We offer a selection of soft drinks, fine spirits, and tasty snacks in a cozy and comfortable setting. Whether you want to unwind after a long day or have a quick bite, Mahefil is the perfect place to sit back and enjoy.",
     hours: "Opening Hours: 5.00 pm – 11.00 pm (daily)",
   },
   {

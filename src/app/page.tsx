@@ -1,4 +1,6 @@
 import ShortsSection from "@/components/ShortsSection";
+import HomeGuestInformation from "@/components/HomeGuestInformation";
+import EnquiryForm from "@/components/EnquiryForm";
 import StayHighlights from "@/components/StayHighlights";
 import { PageStructuredData } from "@/components/StructuredData";
 import HeroCarousel from "@/components/HeroCarousel";
@@ -26,6 +28,7 @@ export default function Home() {
     <>
       <PageStructuredData path="/" />
       <section className="home-hero">
+        <HeroCarousel />
         <div className="hero-copy">
           <Eyebrow>A warm welcome to Varanasi</Eyebrow>
           <h1>
@@ -51,7 +54,6 @@ export default function Home() {
             </span>
           </div>
         </div>
-        <HeroCarousel />
         <div className="hero-side-label" aria-hidden="true">
           STAY · DINE · DISCOVER
         </div>
@@ -59,7 +61,7 @@ export default function Home() {
       <BookingBar />
       <StayHighlights />
       <section className="section shell intro-section">
-        <div className="intro-photos">
+        <figure className="intro-photos">
           <Photo
             src={photos.facadeDaylight}
             alt="The exterior of Hotel Pradeep in Jagatganj"
@@ -70,13 +72,11 @@ export default function Home() {
             alt="Dining at Hotel Pradeep"
             className="intro-photo-small"
           />
-          <div className="intro-plaque">
-            <span>HOTEL PRADEEP</span>
-            <strong>Varanasi</strong>
-            <span className="intro-plaque-rule" aria-hidden="true" />
-            <span>WARM HOSPITALITY</span>
-          </div>
-        </div>
+          <figcaption className="intro-photo-caption">
+            <span>Hotel Pradeep</span>
+            <span>Varanasi · Warm hospitality</span>
+          </figcaption>
+        </figure>
         <div className="section-copy">
           <Eyebrow>More than just a stay</Eyebrow>
           <h2>
@@ -123,6 +123,25 @@ export default function Home() {
           </p>
         </div>
       </section>
+      <section className="section" id="guest-reviews" aria-labelledby="guest-reviews-title">
+        <div className="shell">
+          <div className="section-heading">
+            <div>
+              <Eyebrow>Words from our guests</Eyebrow>
+              <h2 id="guest-reviews-title">Stays remembered.<br /><em>Stories shared.</em></h2>
+            </div>
+            <a className="text-link" href="#guest-feedback">Share your feedback <Icon name="arrow" /></a>
+          </div>
+          <div className="home-guest-grid">
+            <div className="home-guest-review"><Reviews /></div>
+            <div className="home-feedback" id="guest-feedback">
+              <h3>Share your experience.</h3>
+              <p>Your feedback is sent privately to the hotel team.</p>
+              <EnquiryForm kind="feedback" submitLabel="Send feedback" />
+            </div>
+          </div>
+        </div>
+      </section>
       <section className="section shell dining-section">
         <div className="section-heading">
           <div>
@@ -156,7 +175,9 @@ export default function Home() {
             />
             <div>
               <Eyebrow>Under the stars</Eyebrow>
-              <TextLink href="/dining#eden">Meet Eden</TextLink>
+              <h3>Blessing Rooftop Banquet</h3>
+              <p>Bring your guests together at Blessing, our rooftop banquet.</p>
+              <TextLink href="/dining#blessings">Discover Blessing</TextLink>
             </div>
           </div>
         </div>
@@ -179,7 +200,7 @@ export default function Home() {
               <div key={item.index}>
                 <Icon name={item.icon} width="30" height="30" />
                 <h3>{facilities[item.index].title}</h3>
-                <p>{item.index === 5 ? "Enjoy delicious meals at our restaurant." : facilities[item.index].description}</p>
+                <p>{facilities[item.index].description}</p>
               </div>
             ))}
           </div>
@@ -253,22 +274,6 @@ export default function Home() {
           every visitor.
         </p>
       </section>
-      <section className="section section-tinted">
-        <div className="shell review-layout">
-          <div>
-            <Eyebrow>Words from our guests</Eyebrow>
-            <h2>
-              Stays remembered.
-              <br />
-              <em>Stories shared.</em>
-            </h2>
-            <span className="large-quote" aria-hidden="true">
-              “
-            </span>
-          </div>
-          <Reviews />
-        </div>
-      </section>
       <section className="section shell film-section">
         <div className="section-heading">
           <div>
@@ -292,7 +297,7 @@ export default function Home() {
           staying in a place that offers both convenience and comfort.
         </p>
       </section>
-      <ShortsSection path="/" title="Little glimpses. Lasting impressions." description="Explore our rooms, rooftop dining, Mehfil Bar and courtyard through six short video tours." />
+      <ShortsSection path="/" title="Little glimpses. Lasting impressions." description="Explore our rooms, rooftop setting, Mahefil Bar and courtyard through six short video tours." />
       <section className="section section-tinted">
         <div className="shell">
           <div className="section-heading">
@@ -329,6 +334,7 @@ export default function Home() {
           </div>
         </div>
       </section>
+      <HomeGuestInformation />
     </>
   );
 }

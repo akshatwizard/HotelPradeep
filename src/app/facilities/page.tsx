@@ -9,7 +9,7 @@ import type { IconName } from "@/components/Icon";
 export const metadata = {
   title: "Hotel Facilities",
   description:
-    "Free secured parking, a free driver dormitory with a toilet near parking, Mehfil Bar and Blessings Rooftop Banquet at Hotel Pradeep, Varanasi.",
+    "Free secured parking, a free driver dormitory with a toilet near parking, Mahefil Bar and Blessing Rooftop Banquet at Hotel Pradeep, Varanasi.",
   alternates: { canonical: "/facilities" },
 };
 const icons: IconName[] = [
@@ -50,7 +50,16 @@ export default function FacilitiesPage() {
         imageAlt="The illuminated exterior of Hotel Pradeep in Varanasi at dusk"
       />
       <StayHighlights />
-      <section className="section shell">
+      <section className="section shell room-service-highlight" aria-labelledby="room-service-title">
+        <div className="room-service-symbol"><Icon name="clock" width="42" height="42" /></div>
+        <div>
+          <Eyebrow>At your service</Eyebrow>
+          <h2 id="room-service-title">24-Hour Room Service</h2>
+          <p>{facilities[0].description}</p>
+        </div>
+        <a className="text-link" href="#hotel-facilities">Explore all facilities <Icon name="arrow" /></a>
+      </section>
+      <section className="section shell" id="hotel-facilities">
         <div className="section-heading">
           <div>
             <Eyebrow>Experience comfort</Eyebrow>

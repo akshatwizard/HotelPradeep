@@ -71,7 +71,7 @@ export default function RoomsPage() {
               </ul>
               <div className="room-rate">
                 <span>
-                  ₹{room.price.toLocaleString("en-IN")}
+                  ₹{room.price.toLocaleString("en-IN")} - {room.priceMax.toLocaleString("en-IN")}
                   <small> / night</small>
                 </span>
                 <Link href="/tariff">
