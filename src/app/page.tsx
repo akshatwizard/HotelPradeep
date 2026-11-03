@@ -34,8 +34,8 @@ export default function Home() {
             &amp; <em>comfort.</em>
           </h1>
           <p>
-            Comfortable rooms, delicious dining, and the warmth of Banarasi
-            hospitality. Welcome to Hotel Pradeep.
+            Comfortable rooms, exquisite dining, and the warmth of Indian
+            hospitality, the Banarasi style. Welcome to Hotel Pradeep.
           </p>
           <div className="hero-actions">
             <BookButton>Book your stay</BookButton>
@@ -96,11 +96,11 @@ export default function Home() {
         <div className="shell">
           <div className="section-heading">
             <div>
-              <Eyebrow>Rest beautifully</Eyebrow>
+              <Eyebrow>Relax Comfortably</Eyebrow>
               <h2>
                 A room for
                 <br />
-                <em>your kind of stay.</em>
+                <em>your kind of stay &amp; comfort.</em>
               </h2>
             </div>
             <div className="heading-aside">
@@ -130,7 +130,7 @@ export default function Home() {
             <h2>
               Good food.
               <br />
-              <em>Beautiful company.</em>
+              <em>Pleasant Company.</em>
             </h2>
           </div>
           <TextLink href="/dining">Discover our dining</TextLink>
@@ -156,15 +156,6 @@ export default function Home() {
             />
             <div>
               <Eyebrow>Under the stars</Eyebrow>
-              <h3>
-                Eden Rooftop
-                <br />
-                <em>Restaurant.</em>
-              </h3>
-              <p>
-                A peaceful open-air setting, a beautiful garden view, and a
-                memorable dining experience.
-              </p>
               <TextLink href="/dining#eden">Meet Eden</TextLink>
             </div>
           </div>
@@ -188,7 +179,7 @@ export default function Home() {
               <div key={item.index}>
                 <Icon name={item.icon} width="30" height="30" />
                 <h3>{facilities[item.index].title}</h3>
-                <p>{facilities[item.index].description}</p>
+                <p>{item.index === 5 ? "Enjoy delicious meals at our restaurant." : facilities[item.index].description}</p>
               </div>
             ))}
           </div>
@@ -199,9 +190,9 @@ export default function Home() {
           <div>
             <Eyebrow>Experience Varanasi</Eyebrow>
             <h2>
-              A city that stays
+              A city that
               <br />
-              <em>with you.</em>
+              <em>Embraces</em>
             </h2>
           </div>
           <p className="heading-aside">

@@ -22,7 +22,7 @@ export default function RoomsPage() {
       <PageIntro
         eyebrow="Rooms & suites"
         title="Rest well. Wake up in Varanasi."
-        description="Well-appointed rooms with modern amenities and the warmth of Banarasi hospitality."
+        description="Well-appointed rooms with modern amenities and the warmth of Indian hospitality in Banarasi style."
         image={photos.roomCarpetWindows}
         imageAlt="A guest room at Hotel Pradeep"
       />
@@ -88,7 +88,7 @@ export default function RoomsPage() {
           </section>
         ))}
       </div>
-      <ShortsSection path="/rooms" title="Step inside your next stay." description="Take a closer look at two of our room settings before planning your stay. Ask our team to confirm the room category and configuration for your booking." />
+      <ShortsSection path="/rooms" title="Step inside your next stay." description="Take a closer look at two of our room settings before planning your stay. Request our team to confirm the room category and configuration for your booking." />
     </>
   );
 }

@@ -37,7 +37,7 @@ export const hotelShorts = [
   },
 ] as const;
 
-export type HotelShort = (typeof hotelShorts)[number];
+export type HotelShort = { id: string; title: string; label: string; description: string };
 export const shortsByPage: Record<string, readonly string[]> = {
   "/": hotelShorts.map((video) => video.id),
   "/gallery": hotelShorts.map((video) => video.id),
@@ -46,7 +46,9 @@ export const shortsByPage: Record<string, readonly string[]> = {
   "/facilities": ["Ghaqgs9MaVM"],
   "/about": ["Ghaqgs9MaVM"],
 };
-export const shortsForPage = (path: string) => hotelShorts.filter((video) => shortsByPage[path]?.includes(video.id));
+export const shortsForPage = (path: string): HotelShort[] => hotelShorts
+  .filter((video) => shortsByPage[path]?.includes(video.id))
+  .map((video) => path === "/" && video.id === "YeGploj95IA" ? { ...video, title: "Room to Relax in" } : video);
 export const shortUrl = (id: string) => `https://www.youtube.com/shorts/${id}`;
 export const shortEmbedUrl = (id: string) => `https://www.youtube.com/embed/${id}`;
 export const shortThumbnail = (id: string) => `/images/shorts/${id}.webp`;
