@@ -45,7 +45,8 @@ function validate(value, key = "") {
 }
 all.forEach((node) => validate(node));
 const offers = all.filter((node) => node["@type"] === "Offer");
-assert.deepEqual(offers.map((item) => item.price), [4000, 5000, 6000]);
+assert.deepEqual(offers.map((item) => item.priceSpecification.minPrice), [4000, 5000, 6000]);
+assert.deepEqual(offers.map((item) => item.priceSpecification.maxPrice), [5500, 6500, 8000]);
 for (const offer of offers) {
   assert.equal(offer.priceCurrency, "INR");
   assert.equal(offer.businessFunction, "http://purl.org/goodrelations/v1#LeaseOut");

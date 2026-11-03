@@ -78,8 +78,8 @@ function roomNodes() {
       },
       { "@type": "Offer", "@id": offerId, name: `${room.title} — published nightly tariff`, url: absoluteUrl("/tariff"), itemOffered: ref(id), offeredBy: ref(HOTEL_ID),
         businessFunction: "http://purl.org/goodrelations/v1#LeaseOut",
-        price: room.price, priceCurrency: "INR",
-        priceSpecification: { "@type": "UnitPriceSpecification", price: room.price, priceCurrency: "INR", unitCode: "DAY", unitText: "night", referenceQuantity: { "@type": "QuantitativeValue", value: 1, unitCode: "DAY", unitText: "night" } },
+        priceCurrency: "INR",
+        priceSpecification: { "@type": "UnitPriceSpecification", minPrice: room.price, maxPrice: room.priceMax, priceCurrency: "INR", unitCode: "DAY", unitText: "night", referenceQuantity: { "@type": "QuantitativeValue", value: 1, unitCode: "DAY", unitText: "night" } },
         description: "Published room tariff per night. Refer to the tariff page for taxes and terms. Confirm dates, final charges and availability directly with the hotel; an enquiry is not a confirmed reservation.",
       },
     ];

@@ -49,7 +49,7 @@ export default function TariffPage() {
               <tr>
                 <th scope="col">Room category</th>
                 <th scope="col">Guests</th>
-                <th scope="col">Per night</th>
+                <th scope="col">Per night (Dynamic Prices)</th>
                 <th scope="col">
                   <span className="sr-only">Enquire</span>
                 </th>
@@ -63,7 +63,7 @@ export default function TariffPage() {
                     {room.title}
                   </th>
                   <td>{room.features[0].text}</td>
-                  <td>₹{room.price.toLocaleString("en-IN")}</td>
+                  <td>₹{room.price.toLocaleString("en-IN")} - {room.priceMax.toLocaleString("en-IN")}</td>
                   <td>
                     <BookButton
                       className="text-link"

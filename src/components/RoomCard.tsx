@@ -26,7 +26,7 @@ export default function RoomCard({
           {room.features[0].text}
         </span>
         <span>
-          ₹{room.price.toLocaleString("en-IN")} <small>/ night</small>
+          ₹{room.price.toLocaleString("en-IN")} - {room.priceMax.toLocaleString("en-IN")} <small>/ night</small>
         </span>
       </div>
       <h3>

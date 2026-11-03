@@ -14,7 +14,7 @@ export default function SiteFooter() {
           <div>
             <Eyebrow>Warm hospitality. A memorable stay.</Eyebrow>
             <h2>
-              Varanasi is calling.
+              Varanasi is inviting.
               <br />
               <em>Make yourself at home.</em>
             </h2>

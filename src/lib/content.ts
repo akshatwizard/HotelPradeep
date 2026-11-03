@@ -4,7 +4,7 @@ export const rooms = [
   {
     title: "Deluxe Rooms",
     description:
-      "Relax in our Deluxe Room, designed for comfort with stylish décor and a cozy atmosphere. Enjoy a peaceful stay with all modern amenities and a warm touch of Banarasi hospitality.",
+      "Relax in our Deluxe Room, designed for comfort with stylish décor and a cozy atmosphere. Enjoy a peaceful stay with all modern amenities and detailed attention",
     features: [
       { icon: "fa-thin fa-user", text: "1-2 guests" },
       { icon: "fa-thin fa-bell-concierge", text: "24-Hour Room Service" },
@@ -12,6 +12,7 @@ export const rooms = [
       { icon: "fa-thin fa-wifi", text: "Free WiFi" },
     ],
     price: 4000,
+    priceMax: 5500,
     image: roomPhotoAssignments.delux,
     left: true,
     id: "delux",
@@ -27,6 +28,7 @@ export const rooms = [
       { icon: "fa-thin fa-bed-front", text: "Spacious & Stylish Interiors" },
     ],
     price: 5000,
+    priceMax: 6500,
     image: roomPhotoAssignments["super-delux"],
     left: false,
     id: "super-delux",
@@ -34,7 +36,7 @@ export const rooms = [
   {
     title: "Executive Rooms",
     description:
-      "Experience a perfect mix of luxury and comfort in our Executive Room, designed for a relaxing and premium stay. With spacious and stylish interiors, modern amenities, and a touch of Banarasi hospitality, this room offers everything you need for a memorable stay.",
+      "Experience a perfect mix of luxury and comfort in our Executive Room, designed for a relaxing and premium stay. With spacious and stylish interiors, modern amenities, and detailing, this room offers everything you need for a memorable stay.",
     features: [
       { icon: "fa-thin fa-user", text: "2-3 guests" },
       { icon: "fa-thin fa-bell-concierge", text: "24-Hour Room Service" },
@@ -42,6 +44,7 @@ export const rooms = [
       { icon: "fa-thin fa-bed-front", text: "Spacious & Stylish Interiors" },
     ],
     price: 6000,
+    priceMax: 8000,
     image: roomPhotoAssignments.executive,
     left: true,
     id: "executive",
@@ -164,7 +167,7 @@ export const facilities = [
   {
     icon: "fa-thin fa-champagne-glasses",
     title: "Blessings Rooftop Banquet",
-    description: "Bring your guests together at Blessings, our rooftop banquet. Contact the hotel to plan your gathering.",
+    description: "Bring your guests together at Blessings, our rooftop banquet. Contact the hotel to plan your events & meet-ups.",
   },
 ];
 
@@ -174,35 +177,35 @@ export const stayHighlights = [
 ] as const;
 
 export const gatheringVenues = [
-  { id: "mehfil", title: "Mehfil Bar", description: "Unwind at Mehfil, the in-house bar at Hotel Pradeep. Enjoy a drink and time with good company in a comfortable setting.", image: photos.barLounge, imageAlt: "The bar and lounge at Hotel Pradeep" },
+  { id: "mehfil", title: "Mehfil Bar", description: "Unwind at Mehfil, the in-house bar at Hotel Pradeep. Enjoy a drink and time with classy companions in a comfortable setting.", image: photos.barLounge, imageAlt: "The bar and lounge at Hotel Pradeep" },
   { id: "blessings", title: "Blessings Rooftop Banquet", description: "Celebrate and gather at Blessings, our rooftop banquet at Hotel Pradeep. Contact our team to discuss your occasion and arrangements.", image: photos.terraceEvening, imageAlt: "The rooftop setting at Hotel Pradeep" },
 ];
 
 export const aboutParagraphs = [
   "Hotel Pradeep is a 3-star luxury hotel approved by the Ministry of Tourism, Government of India. Located in the heart of Varanasi, the hotel offers a blend of comfort and elegance, making it a great choice for both tourists and business travelers.",
-  'The hotel’s in-house restaurant, "Poonam", serves delicious food with rich oriental flavors, offering a delightful dining experience. The rooftop restaurant "Eden" is the perfect spot for those who enjoy dining under the stars. With its open-air setting, guests can enjoy a breathtaking view of the city while savoring their meals.',
-  "With its prime location, excellent dining, and warm hospitality, Hotel Pradeep ensures a pleasant and memorable stay in the holy city of Varanasi. Guests can also unwind at Mehfil Bar or plan a gathering at Blessings Rooftop Banquet.",
+  'The hotel’s in-house restaurant, "Poonam", serves sumptuous food with rich flavors, offering a delightful dining experience. The rooftop restaurant "Eden" is the perfect spot for those who enjoy dining under the stars. With its open-air setting, guests can enjoy a breathtaking view of the city while savoring their meals.',
+  "With its prime location, excellent dining, and warm hospitality, Hotel Pradeep ensures a pleasant and memorable stay in the holy city of Varanasi. Guests can also unwind at Mehfil Bar or plan a get-together or meet up at Blessings Rooftop Banquet.",
   "At Hotel Pradeep, we offer more than just a stay—we offer an experience of comfort, taste, and beauty.",
 ];
 
 export const aboutOffers = [
   "A range of elegant rooms with oriental decorations.",
-  "Cosy dinning facilities with a wide range of Continental, Indian and Chinese cuisine.",
+  "Cosy dining facilities with a wide range of Continental, Indian and Chinese cuisine.",
   'A roof-top lush green open air restaurant "Eden" with Mexican cuisine.',
-  "Blessings Rooftop Banquet and a Board Room for gatherings, along with a Travel Desk for assistance during your stay.",
-  "Mehfil, our in-house bar, for a relaxed drink and good company.",
+  "Blessings Rooftop Banquet and a Board Room for events & meet-ups, along with a Travel Desk for assistance during your stay.",
+  "Mehfil, our in-house bar, for a relaxed drink and classy companions.",
   "Free secured parking and a free dormitory with a toilet for drivers, near the parking area.",
 ];
 
 export const introParagraphs = [
   'Welcome to Hotel Pradeep, where warmth and elegance come together. The name Pradeep means "divine light"—guiding the way to wisdom, joy, and peace.',
-  "Under one roof, enjoy comfortable rooms, delicious meals at Poonam, our restaurant filled with rich flavors, and Eden, our rooftop dining space where you can dine under the stars. Unwind at Mehfil Bar or bring your guests together at Blessings Rooftop Banquet.",
+  "Under one roof, enjoy comfortable rooms, sumptuous cuisines at Poonam, our restaurant filled with rich flavors Unwind at Mehfil Bar or bring your guests together at Blessings Rooftop Banquet.",
   "At Hotel Pradeep, we offer more than just a stay—we offer an experience of comfort, taste, and beauty.",
 ];
 
 export const diningParagraphs = [
-  "Welcome to Poonam Restaurant, where we serve delicious food with the warmth of Banarasi hospitality. Our menu includes a variety of dishes, from traditional Banarasi flavors to popular Indian and international meals. Every dish is prepared with fresh ingredients to give you the best taste and quality. Whether you are craving local favorites or looking to try something new, we have something for everyone.",
-  "With a cozy and elegant setting, Poonam Restaurant is the perfect place to enjoy a relaxing meal with family and friends. Our friendly staff ensures you have a comfortable and enjoyable dining experience. Visit us and savor the rich flavors of Banaras in every bite!",
+  "Welcome to Poonam Restaurant, where we serve sumptuous food with the warmth of Banarasi hospitality. Our menu includes a variety of dishes, from traditional Banarasi flavors to popular Indian and international cuisine. Every dish is prepared with fresh ingredients to give you the best taste and quality. Whether you are craving local favorites or looking to try something new, we have something for everyone.",
+  "With a cozy and elegant setting, Poonam Restaurant is the perfect place to enjoy a relaxing meal with family and friends. Our friendly staff ensures you have a comfortable and enjoyable dining experience. Visit us and savor the rich flavors in every bite!",
   "Breakfast: 7.30 am – 10.30 am (daily)",
   "Lunch: 12.00 noon – 3.00 pm (daily)",
   "Dinner: open from 6.30 pm, last order at 10.30 pm (daily)",

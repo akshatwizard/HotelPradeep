@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     template: "%s | Hotel Pradeep",
   },
   description:
-    "Experience a perfect blend of comfort and elegance at Hotel Pradeep. Enjoy well-appointed rooms and delicious meals at Poonam Restaurant. Book your stay today!",
+    "Experience a perfect blend of comfort and elegance at Hotel Pradeep. Enjoy well-appointed rooms and sumptuous cuisines at Poonam Restaurant. Book your stay today!",
   openGraph: {
     type: "website",
     siteName: "Hotel Pradeep",
