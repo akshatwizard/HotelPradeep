@@ -21,7 +21,7 @@ export const hotelFaqs = [
   },
   {
     question: "Does the hotel have a bar and a rooftop banquet?",
-    answer: "Yes. Mahefil is the hotel's in-house bar, and Blessing is its rooftop banquet. Contact the hotel team to discuss your visit or event.",
+    answer: "Yes. Mehfil is the hotel's in-house bar, and Blessings is its rooftop banquet. Contact the hotel team to discuss your visit or event.",
   },
   {
     question: "Where is Hotel Pradeep located?",

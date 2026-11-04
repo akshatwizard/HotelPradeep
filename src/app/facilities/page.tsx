@@ -9,7 +9,7 @@ import type { IconName } from "@/components/Icon";
 export const metadata = {
   title: "Hotel Facilities",
   description:
-    "Free secured parking, a free driver dormitory with a toilet near parking, Mahefil Bar and Blessing Rooftop Banquet at Hotel Pradeep, Varanasi.",
+    "Free secured parking, a free driver dormitory with a toilet near parking, Mehfil Bar and Blessings Rooftop Banquet at Hotel Pradeep, Varanasi.",
   alternates: { canonical: "/facilities" },
 };
 const icons: IconName[] = [

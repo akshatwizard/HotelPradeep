@@ -19,14 +19,14 @@ export const hotelShorts = [
   },
   {
     id: "vxxW7R23XV0",
-    title: "Unwind at Mahefil",
-    label: "Mahefil Bar",
-    description: "Step inside Mahefil for a look at the illuminated bar and inviting seating.",
+    title: "Unwind at Mehfil",
+    label: "Mehfil Bar",
+    description: "Step inside Mehfil for a look at the illuminated bar and inviting seating.",
   },
   {
     id: "IGuDUkvJOOM",
-    title: "A little more of Mahefil",
-    label: "Mahefil Bar & lounge",
+    title: "A little more of Mehfil",
+    label: "Mehfil Bar & lounge",
     description: "Another perspective on the lounge, decorative lighting and bar counter.",
   },
   {

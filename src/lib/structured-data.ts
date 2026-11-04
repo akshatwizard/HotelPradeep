@@ -22,7 +22,7 @@ export function getSiteSchema() {
   return graph([
     {
       "@type": "Hotel", "@id": HOTEL_ID, name: hotel.name, url: absoluteUrl("/"),
-      description: "Hotel Pradeep in Jagatganj, Varanasi offers guest rooms, Poonam Restaurant, Mahefil Bar, Blessing Rooftop Banquet, free secured parking and a free driver dormitory with a toilet near parking.",
+      description: "Hotel Pradeep in Jagatganj, Varanasi offers guest rooms, Poonam Restaurant, Mehfil Bar, Blessings Rooftop Banquet, free secured parking and a free driver dormitory with a toilet near parking.",
       logo: { "@type": "ImageObject", "@id": `${SITE_URL}/#logo`, contentUrl: absoluteUrl("/img/logo/logo_trans.png"), url: absoluteUrl("/img/logo/logo_trans.png") },
       image: [photos.facadeDusk, photos.facadeDaylight, photos.lobbyWide].map(absoluteUrl),
       telephone: hotel.phones[0].replace(/\s/g, ""), email: hotel.email, address,
@@ -34,7 +34,7 @@ export function getSiteSchema() {
         { "@type": "ContactPoint", contactType: "Hotel reception", telephone: "+915422204963" },
         { "@type": "ContactPoint", contactType: "Hotel reception", telephone: "+915422207231" },
       ],
-      numberOfRooms: 36, currenciesAccepted: "INR", checkoutTime: "12:00:00+05:30",
+      numberOfRooms: 36, currenciesAccepted: "INR", checkoutTime: "14:00:00+05:30",
       amenityFeature: facilities.filter((item) => !["36 Elegantly Appointed Rooms", "Prime Location", "Easy Access"].includes(item.title)).map((item) => amenity(item.title, item.description)),
       subjectOf: [ref(pageId("/about")), ref(pageId("/contact"))],
     },
@@ -43,12 +43,12 @@ export function getSiteSchema() {
 }
 
 const pageInfo: Record<string, { name: string; description: string; type: string; image: string }> = {
-  "/": { name: "Hotel Pradeep | Stay & Dining in Varanasi", description: "Comfortable rooms, Poonam Restaurant, Mahefil Bar, Blessing Rooftop Banquet and Banarasi hospitality at Hotel Pradeep in Jagatganj, Varanasi.", type: "WebPage", image: photos.facadeDusk },
+  "/": { name: "Hotel Pradeep | Stay & Dining in Varanasi", description: "Comfortable rooms, Poonam Restaurant, Mehfil Bar, Blessings Rooftop Banquet and Banarasi hospitality at Hotel Pradeep in Jagatganj, Varanasi.", type: "WebPage", image: photos.facadeDusk },
   "/about": { name: "About Hotel Pradeep", description: aboutParagraphs[2], type: "AboutPage", image: photos.facadeNight },
   "/rooms": { name: "Rooms at Hotel Pradeep", description: "Explore Deluxe, Super Deluxe and Executive room categories, facilities and published nightly tariffs at Hotel Pradeep.", type: "CollectionPage", image: photos.roomCarpetWindows },
   "/tariff": { name: "Hotel Pradeep Room Tariff", description: "Published room tariffs and booking information for Hotel Pradeep, Varanasi.", type: "CollectionPage", image: photos.roomCarpetWide },
-  "/dining": { name: "Dining, Mahefil Bar & Blessing Rooftop Banquet", description: "Discover Poonam Restaurant, Mahefil Bar and Blessing Rooftop Banquet at Hotel Pradeep.", type: "CollectionPage", image: photos.diningRoom },
-  "/facilities": { name: "Hotel Pradeep Facilities", description: "Free secured parking, a free driver dormitory with a toilet near parking, Mahefil Bar and Blessing Rooftop Banquet at Hotel Pradeep, Varanasi.", type: "WebPage", image: photos.barLounge },
+  "/dining": { name: "Dining, Mehfil Bar & Blessings Rooftop Banquet", description: "Discover Poonam Restaurant, Mehfil Bar and Blessings Rooftop Banquet at Hotel Pradeep.", type: "CollectionPage", image: photos.diningRoom },
+  "/facilities": { name: "Hotel Pradeep Facilities", description: "Free secured parking, a free driver dormitory with a toilet near parking, Mehfil Bar and Blessings Rooftop Banquet at Hotel Pradeep, Varanasi.", type: "WebPage", image: photos.barLounge },
   "/contact": { name: "Contact Hotel Pradeep", description: "Contact Hotel Pradeep in Jagatganj, Varanasi for stays, dining and general enquiries.", type: "ContactPage", image: photos.entranceEvening },
   "/gallery": { name: "Hotel Pradeep Photo Gallery", description: "Photographs of the hotel exterior, rooms, restaurant, reception and parking areas.", type: "CollectionPage", image: photos.lobbyWide },
   "/varanasi": { name: "Explore Varanasi with Hotel Pradeep", description: "Discover Varanasi's temples, ghats and heritage sites, with practical destination guides from Hotel Pradeep.", type: "CollectionPage", image: photos.gangesPanorama },

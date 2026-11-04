@@ -7,9 +7,9 @@ import PhotoGallery from "@/components/PhotoGallery";
 import Icon from "@/components/Icon";
 
 export const metadata = {
-  title: "Dining, Mahefil Bar & Blessing Rooftop Banquet",
+  title: "Dining, Mehfil Bar & Blessings Rooftop Banquet",
   description:
-    "Discover Poonam Restaurant, Mahefil Bar and Blessing Rooftop Banquet at Hotel Pradeep, Varanasi.",
+    "Discover Poonam Restaurant, Mehfil Bar and Blessings Rooftop Banquet at Hotel Pradeep, Varanasi.",
   alternates: { canonical: "/dining" },
 };
 export default function DiningPage() {
@@ -19,7 +19,7 @@ export default function DiningPage() {
       <PageIntro
         eyebrow="Dining"
         title="A taste of Banaras. A table to remember."
-        description="Discover Poonam Restaurant, Mahefil Bar and Blessing Rooftop Banquet at Hotel Pradeep."
+        description="Discover Poonam Restaurant, Mehfil Bar and Blessings Rooftop Banquet at Hotel Pradeep."
         image={photos.diningRoom}
         imageAlt="Dining at Poonam Restaurant"
       />
@@ -80,7 +80,7 @@ export default function DiningPage() {
           images={photoAlbums.dining}
         />
       </section>
-      <ShortsSection path="/dining" title="A taste of the atmosphere." description="Explore our rooftop setting and two perspectives on Mahefil Bar." />
+      <ShortsSection path="/dining" title="A taste of the atmosphere." description="Explore our rooftop setting and two perspectives on Mehfil Bar." />
     </>
   );
 }

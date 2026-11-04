@@ -175,9 +175,9 @@ export default function Home() {
             />
             <div>
               <Eyebrow>Under the stars</Eyebrow>
-              <h3>Blessing Rooftop Banquet</h3>
-              <p>Bring your guests together at Blessing, our rooftop banquet.</p>
-              <TextLink href="/dining#blessings">Discover Blessing</TextLink>
+              <h3>Blessings Rooftop Banquet</h3>
+              <p>Bring your guests together at Blessings, our rooftop banquet.</p>
+              <TextLink href="/dining#blessings">Discover Blessings</TextLink>
             </div>
           </div>
         </div>
@@ -297,7 +297,7 @@ export default function Home() {
           staying in a place that offers both convenience and comfort.
         </p>
       </section>
-      <ShortsSection path="/" title="Little glimpses. Lasting impressions." description="Explore our rooms, rooftop setting, Mahefil Bar and courtyard through six short video tours." />
+      <ShortsSection path="/" title="Little glimpses. Lasting impressions." description="Explore our rooms, rooftop setting, Mehfil Bar and courtyard through six short video tours." />
       <section className="section section-tinted">
         <div className="shell">
           <div className="section-heading">

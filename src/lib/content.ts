@@ -69,8 +69,8 @@ export const facilities = [
   },
   {
     icon: "fa-thin fa-champagne-glasses",
-    title: "Mahefil Bar",
-    description: "Unwind with a drink at Mahefil, our in-house bar.",
+    title: "Mehfil Bar",
+    description: "Unwind with a drink at Mehfil, our in-house bar.",
   },
   {
     icon: "fa-light fa-elevator",
@@ -166,8 +166,8 @@ export const facilities = [
   },
   {
     icon: "fa-thin fa-champagne-glasses",
-    title: "Blessing Rooftop Banquet",
-    description: "Bring your guests together at Blessing, our rooftop banquet. Contact the hotel to plan your events & meet-ups.",
+    title: "Blessings Rooftop Banquet",
+    description: "Bring your guests together at Blessings, our rooftop banquet. Contact the hotel to plan your events & meet-ups.",
   },
 ];
 
@@ -177,28 +177,28 @@ export const stayHighlights = [
 ] as const;
 
 export const gatheringVenues = [
-  { id: "mehfil", title: "Mahefil Bar", description: "Unwind at Mahefil, the in-house bar at Hotel Pradeep. Enjoy a drink and time with classy companions in a comfortable setting.", image: photos.barLounge, imageAlt: "The bar and lounge at Hotel Pradeep" },
-  { id: "blessings", title: "Blessing Rooftop Banquet", description: "Celebrate and gather at Blessing, our rooftop banquet at Hotel Pradeep. Contact our team to discuss your occasion and arrangements.", image: photos.terraceEvening, imageAlt: "The rooftop setting at Hotel Pradeep" },
+  { id: "mehfil", title: "Mehfil Bar", description: "Unwind at Mehfil, the in-house bar at Hotel Pradeep. Enjoy a drink and time with classy companions in a comfortable setting.", image: photos.barLounge, imageAlt: "The bar and lounge at Hotel Pradeep" },
+  { id: "blessings", title: "Blessings Rooftop Banquet", description: "Celebrate and gather at Blessings, our rooftop banquet at Hotel Pradeep. Contact our team to discuss your occasion and arrangements.", image: photos.terraceEvening, imageAlt: "The rooftop setting at Hotel Pradeep" },
 ];
 
 export const aboutParagraphs = [
   "Hotel Pradeep is a 3-star luxury hotel approved by the Ministry of Tourism, Government of India. Located in the heart of Varanasi, the hotel offers a blend of comfort and elegance, making it a great choice for both tourists and business travelers.",
-  'The hotel’s in-house restaurant, "Poonam", serves sumptuous food with rich flavors, offering a delightful dining experience. We serve vegetarian and non-vegetarian food. The rooftop is home to Blessing Rooftop Banquet.',
-  "With its prime location, excellent dining, and warm hospitality, Hotel Pradeep ensures a pleasant and memorable stay in the holy city of Varanasi. Guests can also unwind at Mahefil Bar or plan a get-together or meet up at Blessing Rooftop Banquet.",
+  'The hotel’s in-house restaurant, "Poonam", serves sumptuous food with rich flavors, offering a delightful dining experience. We serve vegetarian and non-vegetarian food. The rooftop is home to Blessings Rooftop Banquet.',
+  "With its prime location, excellent dining, and warm hospitality, Hotel Pradeep ensures a pleasant and memorable stay in the holy city of Varanasi. Guests can also unwind at Mehfil Bar or plan a get-together or meet up at Blessings Rooftop Banquet.",
   "At Hotel Pradeep, we offer more than just a stay—we offer an experience of comfort, taste, and beauty.",
 ];
 
 export const aboutOffers = [
   "A range of elegant rooms with oriental decorations.",
   "Cosy dining facilities with a wide range of Continental, Indian and Chinese cuisine.",
-  "Blessing Rooftop Banquet and a Board Room for events & meet-ups, along with a Travel Desk for assistance during your stay.",
-  "Mahefil, our in-house bar, for a relaxed drink and classy companions.",
+  "Blessings Rooftop Banquet and a Board Room for events & meet-ups, along with a Travel Desk for assistance during your stay.",
+  "Mehfil, our in-house bar, for a relaxed drink and classy companions.",
   "Free secured parking and a free dormitory with a toilet for drivers, near the parking area.",
 ];
 
 export const introParagraphs = [
   'Welcome to Hotel Pradeep, where warmth and elegance come together. The name Pradeep means "divine light"—guiding the way to wisdom, joy, and peace.',
-  "Under one roof, enjoy comfortable rooms, sumptuous cuisines at Poonam, our restaurant filled with rich flavors Unwind at Mahefil Bar or bring your guests together at Blessing Rooftop Banquet.",
+  "Under one roof, enjoy comfortable rooms, sumptuous cuisines at Poonam, our restaurant filled with rich flavors Unwind at Mehfil Bar or bring your guests together at Blessings Rooftop Banquet.",
   "At Hotel Pradeep, we offer more than just a stay—we offer an experience of comfort, taste, and beauty.",
 ];
 
@@ -263,7 +263,7 @@ export const testimonials = [
   {
     name: "Neerja Sharma",
     quote:
-      "My experience of Hotel Pradeep is excellent, I thank all the staff members especially G M Mr Anil ,who attends all the guests with great gesture and whole heartedly. We felt like a homely atmosphere. I also thank the Chef for service us the devious food items. I wish I may come again. I will also suggest all my friends and relatives,if they get the chance to visit Varanasi, they must enjoy Hotel Pradeep's hospitality. Thanks.",
+      "My experience of Hotel Pradeep is excellent, I thank all the staff members especially G M Mr. Anil, who attends all the guests with great gesture and whole heartedly. We felt like a homely atmosphere. I also thank the Chef for service us the delicious food items. I wish I may come again. I will also suggest all my friends and relatives, if they get the chance to visit Varanasi, they must enjoy Hotel Pradeep's hospitality. Thanks.",
   },
   {
     name: "Sachin Jain",
@@ -296,11 +296,11 @@ export const navigation = [
 
 export const serviceDetails = [
   {
-    title: "Mahefil Bar",
+    title: "Mehfil Bar",
     image: photos.barLounge,
     imageAlt: "The bar and lounge at Hotel Pradeep",
     description:
-      "Relax and enjoy a refreshing drink at Mahefil Bar. We offer a selection of soft drinks, fine spirits, and tasty snacks in a cozy and comfortable setting. Whether you want to unwind after a long day or have a quick bite, Mahefil is the perfect place to sit back and enjoy.",
+      "Relax and enjoy a refreshing drink at Mehfil Bar. We offer a selection of soft drinks, fine spirits, and tasty snacks in a cozy and comfortable setting. Whether you want to unwind after a long day or have a quick bite, Mehfil is the perfect place to sit back and enjoy.",
     hours: "Opening Hours: 5.00 pm – 11.00 pm (daily)",
   },
   {
