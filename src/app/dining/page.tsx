@@ -51,7 +51,7 @@ export default function DiningPage() {
       </section>
       <section className="section shell" aria-label="Bar and rooftop banquet">
         <div className="section-heading">
-          <div><Eyebrow>Gather at Pradeep</Eyebrow><h2>Good company.<br /><em>Special occasions.</em></h2></div>
+          <div><Eyebrow>Visit Pradeep</Eyebrow><h2>Good company.<br /><em>Special occasions.</em></h2></div>
         </div>
         <div className="venue-details-grid">
           {gatheringVenues.map((venue) => (

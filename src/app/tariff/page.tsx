@@ -111,8 +111,7 @@ export default function TariffPage() {
             <p>
               We are dedicated to ensuring your experience is smooth and fair.
               If any issue occurs with your booking or if we are unable to
-              provide the reserved room, we will refund your deposit along with
-              additional compensation as a gesture of goodwill. Your
+              provide the reserved room, we will refund your deposit. Your
               satisfaction is our priority.
             </p>
           </article>

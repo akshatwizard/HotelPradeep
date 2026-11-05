@@ -60,7 +60,7 @@ export const facilities = [
   {
     icon: "fa-thin fa-refrigerator",
     title: "Refrigerator",
-    description: "Keep your drinks and snacks chilled anytime.",
+    description: "Keep your drinks and snacks chilled.",
   },
   {
     icon: "fa-thin fa-wifi",
@@ -177,8 +177,8 @@ export const stayHighlights = [
 ] as const;
 
 export const gatheringVenues = [
-  { id: "mehfil", title: "Mehfil Bar", description: "Unwind at Mehfil, the in-house bar at Hotel Pradeep. Enjoy a drink and time with classy companions in a comfortable setting.", image: photos.barLounge, imageAlt: "The bar and lounge at Hotel Pradeep" },
-  { id: "blessings", title: "Blessings Rooftop Banquet", description: "Celebrate and gather at Blessings, our rooftop banquet at Hotel Pradeep. Contact our team to discuss your occasion and arrangements.", image: photos.terraceEvening, imageAlt: "The rooftop setting at Hotel Pradeep" },
+  { id: "mehfil", title: "Mehfil Bar", description: "Unwind at Mehfil, the in-house bar at Hotel Pradeep. Enjoy your drink and time with classy companions in a comfortable setting.", image: photos.barLounge, imageAlt: "The bar and lounge at Hotel Pradeep" },
+  { id: "blessings", title: "Blessings Rooftop Banquet", description: "Visit and celebrate at Blessings, our rooftop banquet at Hotel Pradeep. Contact our team to discuss your occasion and arrangements.", image: photos.terraceEvening, imageAlt: "The rooftop setting at Hotel Pradeep" },
 ];
 
 export const aboutParagraphs = [
@@ -198,7 +198,7 @@ export const aboutOffers = [
 
 export const introParagraphs = [
   'Welcome to Hotel Pradeep, where warmth and elegance come together. The name Pradeep means "divine light"—guiding the way to wisdom, joy, and peace.',
-  "Under one roof, enjoy comfortable rooms, sumptuous cuisines at Poonam, our restaurant filled with rich flavors Unwind at Mehfil Bar or bring your guests together at Blessings Rooftop Banquet.",
+  "Under one roof, enjoy comfortable rooms, sumptuous cuisines at Poonam, our restaurant filled with rich flavors. Unwind at Mehfil Bar or bring your guests together to celebrate their joyous moments at Blessings Rooftop Banquet.",
   "At Hotel Pradeep, we offer more than just a stay—we offer an experience of comfort, taste, and beauty.",
 ];
 
