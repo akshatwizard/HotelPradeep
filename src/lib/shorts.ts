@@ -13,7 +13,7 @@ export const hotelShorts = [
   },
   {
     id: "p0jK6qYFdHA",
-    title: "An evening above the everyday",
+    title: "A rooftop setting for your celebrations.",
     label: "Rooftop setting",
     description: "Warm lighting, greenery and inviting tables set the scene for your evening.",
   },
