@@ -48,7 +48,7 @@ export default function GalleryPage() {
           </Link>
         ))}
       </section>
-      <ShortsSection path="/gallery" title="See Pradeep in motion." description="Watch all six Shorts, from guest rooms and rooftop dining to Mehfil Bar and the courtyard." />
+      <ShortsSection path="/gallery" title="See Pradeep in motion." description="Watch all six Shorts, from guest rooms and rooftop setting to Mehfil Bar and the courtyard." />
     </>
   );
 }

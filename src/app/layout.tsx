@@ -10,7 +10,7 @@ import Integrations from "@/components/Integrations";
 export const metadata: Metadata = {
   metadataBase: new URL("https://hotelpradeep.com"),
   title: {
-    default: "Hotel Pradeep | Luxury Stay & Rooftop Dining in Varanasi",
+    default: "Hotel Pradeep | Luxury Stay & Dining in Varanasi",
     template: "%s | Hotel Pradeep",
   },
   description:

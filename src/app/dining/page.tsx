@@ -9,7 +9,7 @@ import Icon from "@/components/Icon";
 export const metadata = {
   title: "Dining, Mehfil Bar & Blessings Rooftop Banquet",
   description:
-    "Discover Poonam Restaurant, Eden Rooftop Restaurant, Mehfil Bar and Blessings Rooftop Banquet at Hotel Pradeep, Varanasi.",
+    "Discover Poonam Restaurant, Mehfil Bar and Blessings Rooftop Banquet at Hotel Pradeep, Varanasi.",
   alternates: { canonical: "/dining" },
 };
 export default function DiningPage() {
@@ -19,7 +19,7 @@ export default function DiningPage() {
       <PageIntro
         eyebrow="Dining"
         title="A taste of Banaras. A table to remember."
-        description="Discover Poonam Restaurant, Eden Rooftop Restaurant, Mehfil Bar and Blessings Rooftop Banquet at Hotel Pradeep."
+        description="Discover Poonam Restaurant, Mehfil Bar and Blessings Rooftop Banquet at Hotel Pradeep."
         image={photos.diningRoom}
         imageAlt="Dining at Poonam Restaurant"
       />
@@ -49,28 +49,9 @@ export default function DiningPage() {
           alt="The interiors of Poonam Restaurant"
         />
       </section>
-      <section className="section section-navy" id="eden">
-        <div className="shell eden-detail">
-          <Photo
-            src={photos.terraceGarden}
-            alt="The open-air garden setting at Hotel Pradeep"
-          />
-          <div>
-            <Eyebrow light>02 / Eden Rooftop Restaurant</Eyebrow>
-            <h2>
-              Under the stars.
-              <br />
-              <em>Above the everyday.</em>
-            </h2>
-            {diningParagraphs.slice(5).map((paragraph) => (
-              <p key={paragraph}>{paragraph}</p>
-            ))}
-          </div>
-        </div>
-      </section>
       <section className="section shell" aria-label="Bar and rooftop banquet">
         <div className="section-heading">
-          <div><Eyebrow>Gather at Pradeep</Eyebrow><h2>Good company.<br /><em>Special occasions.</em></h2></div>
+          <div><Eyebrow>Visit Pradeep</Eyebrow><h2>Good company.<br /><em>Special occasions.</em></h2></div>
         </div>
         <div className="venue-details-grid">
           {gatheringVenues.map((venue) => (
@@ -99,7 +80,7 @@ export default function DiningPage() {
           images={photoAlbums.dining}
         />
       </section>
-      <ShortsSection path="/dining" title="A taste of the atmosphere." description="Explore our rooftop dining setting and two perspectives on Mehfil Bar." />
+      <ShortsSection path="/dining" title="A taste of the atmosphere." description="Explore our rooftop setting and two perspectives on Mehfil Bar." />
     </>
   );
 }

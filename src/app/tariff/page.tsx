@@ -81,17 +81,17 @@ export default function TariffPage() {
           <div>
             <Icon name="people" />
             <h3>Children</h3>
-            <p>Kids below 12 years can share the room free!</p>
+            <p>Children aged 8 years and above are fully chargeable. Children below 8 years stay complimentary without an extra bed.</p>
           </div>
           <div>
             <Icon name="check" />
             <h3>GST</h3>
-            <p>12% applies.</p>
+            <p>As applicable.</p>
           </div>
           <div>
             <Icon name="clock" />
             <h3>Check-out</h3>
-            <p>12 noon. Enjoy your stay!</p>
+            <p>2 pm. Enjoy your stay!</p>
           </div>
         </div>
         <div className="tariff-policies">
@@ -111,8 +111,7 @@ export default function TariffPage() {
             <p>
               We are dedicated to ensuring your experience is smooth and fair.
               If any issue occurs with your booking or if we are unable to
-              provide the reserved room, we will refund your deposit along with
-              additional compensation as a gesture of goodwill. Your
+              provide the reserved room, we will refund your deposit. Your
               satisfaction is our priority.
             </p>
           </article>

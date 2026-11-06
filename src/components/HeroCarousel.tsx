@@ -7,8 +7,8 @@ import Icon from "./Icon";
 
 const slides = [
   { image: "/images/hotel/facade-banner.webp", mobileSrc: "/images/hotel/facade-banner-mobile.webp", alt: "The illuminated facade of Hotel Pradeep at dusk", label: "Hotel Pradeep", caption: "Your address in the heart of Varanasi", position: "center" },
-  { image: photos.gangesPanorama, alt: "An aerial panorama of the Varanasi ghats along the Ganges", label: "Varanasi ghats", caption: "A city of timeless riverfront stories", position: "center 65%" },
-  { image: photos.facadeAerial, alt: "Drone view of Hotel Pradeep and the surrounding streets of Varanasi", label: "A view from above", caption: "Discover Hotel Pradeep from a new perspective", position: "76% center" },
+  { image: photos.roomKingWide, alt: "A neatly prepared guest room at Hotel Pradeep", label: "Guest rooms", caption: "A room for your kind of stay & comfort", position: "center" },
+  { image: photos.barLounge, alt: "The bar counter and lounge seating at Mehfil Bar", label: "Mehfil Bar", caption: "Unwind at Mehfil, our in-house bar", position: "center" },
 ];
 
 export default function HeroCarousel() {
@@ -48,7 +48,7 @@ export default function HeroCarousel() {
       className="hero-visual hero-carousel"
       role="region"
       aria-roledescription="carousel"
-      aria-label="Hotel Pradeep and Varanasi photographs"
+      aria-label="Hotel Pradeep photographs"
       onPointerEnter={(event) => { if (event.pointerType === "mouse") setHovered(true); }}
       onPointerLeave={() => setHovered(false)}
       onFocusCapture={() => setFocused(true)}
@@ -62,6 +62,7 @@ export default function HeroCarousel() {
         }
       }}
     >
+      <div className="hero-carousel-stage">
       {slides.map((slide, index) => (
         <div
           className={`hero-slide ${index === active ? "is-active" : ""}`}
@@ -75,6 +76,7 @@ export default function HeroCarousel() {
           <Photo src={slide.image} mobileSrc={slide.mobileSrc} alt={slide.alt} priority={index === 0} sizes="(max-width: 650px) 100vw, (max-width: 800px) 50vw, 55vw" />
         </div>
       ))}
+      </div>
       <div className="hero-carousel-caption" aria-live={playing ? "off" : "polite"} aria-atomic="true">
         <span>{String(active + 1).padStart(2, "0")} / {slides[active].label}</span>
         <p>{slides[active].caption}</p>
