@@ -91,7 +91,7 @@ export default function TariffPage() {
           <div>
             <Icon name="clock" />
             <h3>Check-out</h3>
-            <p>2 pm. Enjoy your stay!</p>
+            <p>12 noon. Enjoy your stay!</p>
           </div>
         </div>
         <div className="tariff-policies">

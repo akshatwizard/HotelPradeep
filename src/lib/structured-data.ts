@@ -34,7 +34,7 @@ export function getSiteSchema() {
         { "@type": "ContactPoint", contactType: "Hotel reception", telephone: "+915422204963" },
         { "@type": "ContactPoint", contactType: "Hotel reception", telephone: "+915422207231" },
       ],
-      numberOfRooms: 36, currenciesAccepted: "INR", checkoutTime: "14:00:00+05:30",
+      numberOfRooms: 36, currenciesAccepted: "INR", checkinTime: "14:00:00+05:30", checkoutTime: "12:00:00+05:30",
       amenityFeature: facilities.filter((item) => !["36 Elegantly Appointed Rooms", "Prime Location", "Easy Access"].includes(item.title)).map((item) => amenity(item.title, item.description)),
       subjectOf: [ref(pageId("/about")), ref(pageId("/contact"))],
     },

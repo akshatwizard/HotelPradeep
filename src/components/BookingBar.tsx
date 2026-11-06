@@ -29,7 +29,7 @@ export default function BookingBar() {
           </span>
         </div>
         <label>
-          Check-in 2.00pm
+          Check-in 2 pm
           <input
             aria-label="Check-in date"
             type="date"
@@ -44,7 +44,7 @@ export default function BookingBar() {
           />
         </label>
         <label>
-          Check-out 2 pm
+          Check-out 12 noon
           <input
             aria-label="Check-out date"
             type="date"
